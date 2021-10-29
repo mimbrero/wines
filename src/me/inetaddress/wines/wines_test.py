@@ -6,7 +6,7 @@ Created on 29 oct 2021
 from me.inetaddress.wines import wines
 
 def main():
-    test_parse_file("../../../../data/wine_ratings.csv")
+    test_parse_file("../../../../data/wine_data.csv")
     
 def print_test_header(test_name):
     print("\n\n--------------------------------------")

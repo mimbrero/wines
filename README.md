@@ -1,36 +1,41 @@
-# Proyecto del Primer Cuatrimestre Fundamentos de Programación (Curso  \<XX\>/\<YY\>)
-Autor/a: \<nombre del autor\>   uvus:\<uvus del autor\>
+# Proyecto del Primer Cuatrimestre Fundamentos de Programación (Curso 2021/2022)
+Autor/a: Alberto Mimbrero   uvus: albsanmim
 
-Aquí debes añadir la descripción del dataset y un enunciado del dominio del proyecto.
+Este proyecto trata y manipula información sobre vinos, como la adjuntada en la carpeta del proyecto <code>data/</code>, <code>wine_data.csv</code>.
 
 
 ## Estructura de las carpetas del proyecto
 
-* **/src**: Contiene los diferentes módulos de Python que conforman el proyecto.
-  * **\<modulo1.py\>**: Describe aquí el módulo principal.
-  * **\<modulo1_test.py\>**: Describe aquí el módulo de pruebas.
-  * **\<modulo2.py\>**: Añade descripciones para el resto de módulos que pueda tener tu proyecto. Por ejemplo, sería conveniente tener un módulo separado con funciones genéricas para dibujar gráficas y/o otro con funciones genéricas de conversión de tipos. 
-* **/data**: Contiene el dataset o datasets del proyecto
-    * **\<dataset1.csv\>**: Añade una descripción genérica del dataset.
-    * **\<dataset2.csv\>**: Añade una descripción del resto de datasets que puedas tener.
-    
+* **src/me/inetaddress/wines/**: Contiene los diferentes módulos de Python que conforman el proyecto.
+  * **wines.py**: Módulo principal donde están las funciones para tratar los datos de vinos.
+  * **wines_test.py**: Test de cada una de las funciones del módulo wines, explicado arriba.
+
+  * **util/**: Paquete con módulos útiles:
+    * **parsing_utils-py**: Módulo con funciones para parsear tipos que no se incluyen en builtins.
+
+* **data/**: Contiene el dataset o datasets del proyecto
+    * **wine_data.csv**: Datos de 999 vinos distintos, desde su nombre, país o bodega hasta su precio, fecha o si tiene denominación de origen.
+
 ## Estructura del *dataset*
 
-Aquí debes describir la estructura del dataset explicando qué representan los datos que contiene y la descripción de cada una de las columnas.
+El dataset está compuesto por 9 columnas, con la siguiente descripción:
 
-El dataset está compuesto por \<N\> columnas, con la siguiente descripción:
-
-* **\<columna 1>**: de tipo \<tipo\>, representa....
-* **\<columna 2>**: de tipo \<tipo\>, representa....
+* **name**: de tipo <code>str</code>, representa el nombre del vino.
+* **country**: de tipo <code>str</code>, representa el país de origen del vino.
+* **region**: de tipo <code>str</code>, representa la región del país del vino.
+* **winery**: de tipo <code>str</code>, representa la bodega de donde procede el vino.
+* **rating**: de tipo <code>float</code>, representa la valoración media que los usuarios han dado al vino.
+* **number_of_ratings**: de tipo <code>int</code>, representa el total de valoraciones dadas.
+* **price**: de tipo <code>float</code>, representa el precio de una botella.
+* **since**: de tipo <code>date</code>, representa desde cuándo existe el vino.
+* **origin_appellation**: de tipo <code>bool</code>, representa si ha obtenido el certificado de denominación de origen.
 ....
 
 ## Tipos implementados
 
-Descrbe aquí la o las namedtuple que defines en tu proyecto.
+* **Wine**: tipo básico de un vino. Contiene toda la información explicada arriba (name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation)
 
 ## Funciones implementadas
-Añade aquí descripciones genéricas de las funciones, que luego debes acompañar con comentarios de tipo documentación en el código
-
 ### \<modulo 1\>
 
 * **<funcion 1>**: Descripción de la función 1.

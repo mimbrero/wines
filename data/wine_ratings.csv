@@ -1,0 +1,1000 @@
+name,country,region,winery,rating,number_of_ratings,price,since,origin_appellation
+Pomerol 2011,France,Pomerol,Château La Providence,4.2,100,95.00,12/02/2017,true
+Lirac 2017,France,Lirac,Château Mont-Redon,4.3,100,15.50,31/10/2017,true
+Erta e China Rosso di Toscana 2015,Italy,Toscana,Renzo Masi,3.9,100,7.45,04/05/2001,false
+Bardolino 2019,Italy,Bardolino,Cavalchina,3.5,100,8.72,12/09/1999,true
+Ried Scheibner Pinot Noir 2016,Austria,Carnuntum,Markowitsch,3.9,100,29.15,23/11/2008,false
+Gigondas (Nobles Terrasses) 2017,France,Gigondas,Vieux Clocher,3.7,100,19.90,15/09/2017,false
+Marion's Vineyard Pinot Noir 2016,New Zealand,Wairarapa,Schubert,4.0,100,43.87,10/12/2010,false
+Red Blend 2014,Chile,Itata Valley,Viña La Causa,3.9,100,17.52,22/08/2013,false
+Chianti 2015,Italy,Chianti,Castello Montaùto,3.6,100,10.75,31/12/2006,true
+Tradition 2014,France,Minervois,Domaine des Aires Hautes,3.5,100,6.90,13/11/2001,true
+Chianti Riserva 2013,Italy,Chianti,Poggiotondo,3.9,100,20.95,12/01/2008,false
+Descendant 2016,Australia,Barossa,Torbreck,4.3,100,140.64,08/09/2000,true
+Les Obriers de la Peira Terrasses du Larzac 2017,France,Terrasses du Larzac,La Pèira en Damaisèla,4.1,100,14.52,27/10/1999,false
+Zenas Primitivo 2018,Italy,Puglia,La Bollina,3.6,100,9.26,16/08/2000,false
+Cuvée Confidence Côtes du Rhône Rouge 2017,France,Côtes-du-Rhône,Domaine Fond Croze,3.7,100,8.49,22/12/2007,true
+Shiraz 2018,Australia,South Eastern Australia,Barramundi,3.2,100,6.50,22/06/2012,false
+Proprietor's Blend 2016,South Africa,Stellenbosch,Ernie Els,4.2,100,29.09,13/04/2018,false
+La Bienquerida 2016,Spain,Bierzo,Losada,4.3,100,41.58,12/07/2014,true
+Cabernet Sauvignon 2015,United States,California,Hacienda,3.8,100,7.95,03/02/2006,true
+Fulgeo Negroamaro Salento 2016,Italy,Salento,San Donaci,4.0,100,12.90,06/03/2001,true
+Contraste Tinto 2015,Portugal,Douro,Conceito,3.4,100,9.90,18/08/2011,false
+Steiner 2013,Hungary,Sopron,Weninger,3.7,100,24.50,16/07/2001,false
+Old Vines Primitivo 2015,Italy,Puglia,Azienda Agricola Morella,4.2,100,38.70,24/03/2010,true
+Virtus Tannat 2013,Brazil,Serra Gaúcha,Monte Paschoal,2.9,100,6.77,11/06/2012,false
+Kallista 2015,South Africa,Stellenbosch,Vriesenhof,4.3,100,26.25,25/03/2002,false
+Badia a Passignano Gran Selezione Chianti Classico 2016,Italy,Chianti Classico,Antinori,4.2,1000,39.90,04/07/2001,true
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2012,France,Saint-Émilion Grand Cru,Château Figeac,4.4,1000,174.49,08/09/2012,false
+Carlo V Il Rosso dell'Imperatore 2013,Italy,Veneto,Colli Vicentini,3.7,1000,15.90,02/04/1999,true
+Pinot Noir 2016,United States,Monterey,District 7,3.6,1001,15.98,09/10/2002,false
+Marquis de Calon Saint-Estèphe 2015,France,Saint-Estèphe,Château Calon-Ségur,3.9,1001,43.28,05/05/2006,false
+Hécula Monastrell 2017,Spain,Yecla,Castaño,3.3,1004,8.83,03/02/2010,false
+Berola 2015,Spain,Campo de Borja,Borsao,3.9,1006,14.52,14/05/2013,false
+Saint-Julien (Grand Cru Classé) 2010,France,Saint-Julien,Château Léoville Poyferré,4.4,1008,189.00,10/05/2007,false
+Pinot Noir Bourgogne 2017,France,Bourgogne,Faiveley,3.7,1009,15.90,19/06/2010,true
+Vigna del Noce Barbera d'Asti 2007,Italy,Barbera d'Asti,Trinchero,4.1,101,76.90,14/11/2000,false
+I Tratturi Rosso 2017,Italy,Salento,San Marzano,3.8,101,7.04,13/01/2001,true
+Château Pilet Bordeaux 2017,France,Bordeaux,J.Queyrens & Fils,3.6,101,6.50,23/03/2001,false
+Sancerre Rouge 2015,France,Sancerre,Comte Lafond,4.2,101,37.34,13/01/2000,true
+Shiraz 2016,Australia,McLaren Vale,Food Truck,3.5,101,8.67,14/11/2003,true
+Ro-Rée Saint-Joseph 2018,France,Saint-Joseph,Louis Chèze,4.2,101,24.37,28/09/2011,true
+Cabernet Sauvignon 2015,South Africa,Stellenbosch,Big Flower,4.0,101,16.50,12/07/2015,false
+Cuvée Alienor Fronsac 2015,France,Fronsac,Château Mayne-Vieil,3.7,101,16.47,07/08/2000,true
+Sabbie di Sopra al Bosco 2014,Italy,Terre del Volturno,Nanni Copé,3.8,101,31.96,23/06/2019,false
+Roma Rosso 2018,Italy,Lazio,Poggio le Volpi,4.0,101,9.95,03/10/2013,true
+Garnacha de Arrayán 2014,Spain,Castilla y León,Arrayán,3.7,101,21.90,07/06/2000,false
+Cabernet Sauvignon 2018,Chile,Central Valley,Valdivieso,3.3,101,7.60,13/08/1999,false
+Terrenus Vinhas Velhas Reserva 2013,Portugal,Alentejano,Rui Reguinga,4.1,101,27.95,21/04/2000,false
+Fronsac 2005,France,Fronsac,Château Villars,3.8,101,25.95,02/10/2018,true
+Cuvée Charles de Batz Madiran 2014,France,Madiran,Domaine Berthoumieu,3.7,101,14.09,18/12/1998,true
+Stony Terrace Cabernet Sauvignon 2016,United States,Napa Valley,Rutherford Wine Company,3.8,101,18.03,23/05/2019,true
+12 e Mezzo Puglia Primitivo Organic Wine 2016,Italy,Puglia,Varvaglione,3.9,101,9.40,13/06/2002,true
+El Abuelo Selección Edición Limitada 2013,Spain,Almansa,Bodegas Piqueras,4.2,101,10.95,07/03/2016,true
+Sangre de Toro Special Selection 2017,Spain,Catalunya,Torres,3.6,101,8.90,21/11/2000,true
+Château Paul Mas Coteaux du Languedoc Clos des Mures 2018,France,Languedoc,Paul Mas,3.8,101,11.05,08/09/2019,false
+Merlot 2018,France,Pays d'Oc,Les Jamelles,3.6,101,5.36,27/08/2016,false
+Roscaleto Barbera d'Alba 2015,Italy,Barbera d'Alba,Enzo Boglietti,3.9,101,31.18,01/02/2009,true
+Barolo Cannubi 2014,Italy,Barolo,Giacomo Fenocchio,4.0,101,39.90,23/06/2011,false
+Pauillac (Premier Grand Cru Classé) 2017,France,Pauillac,Château Mouton Rothschild,4.6,101,633.62,20/03/2003,true
+Cabernet Sauvignon 2014,United States,Washington,Stimson Estate Cellars,3.3,101,8.29,25/07/2013,false
+Côte-Rôtie Le Gallet Blanc 2017,France,Côte-Rôtie,Francois Villard,4.4,101,48.00,09/10/2000,false
+Capatosta 2015,Italy,Toscana,Poggio Argentiera,3.8,101,19.90,05/08/2008,false
+Constance Madiran 2015,France,Madiran,Domaine Berthoumieu,3.8,101,9.50,15/03/2013,false
+Oak Cask Malbec 2019,Argentina,Mendoza,Trapiche,3.7,1010,7.36,04/02/2018,true
+Amancaya Malbec - Cabernet Sauvignon 2017,Argentina,Mendoza,Caro (Catena and Rothschild),4.0,1010,16.80,12/12/2007,false
+Laccento Ruché di Castagnole Monferrato 2017,Italy,Ruchè,Montalbera,4.0,1012,19.90,08/10/2018,true
+San Leonardo 2011,Italy,Vigneti delle Dolomiti,San Leonardo,4.3,1012,48.64,12/11/2013,true
+Fausto Tannat 2015,Brazil,Serra Gaúcha,Pizzato,3.6,1012,11.35,09/06/2010,false
+Pauillac (Grand Cru Classé) 2007,France,Pauillac,Château Pichon Baron,4.4,1014,119.00,06/06/1999,false
+Disciples 2016,United States,Napa Valley,The Crane Assembly,4.3,1014,53.61,03/08/2010,false
+Zinfandel 2015,United States,Mendocino County,Bonterra,3.6,1015,16.75,15/12/2004,false
+Margaux 2010,France,Margaux,Château Labégorce,4.0,1016,40.95,23/06/2017,false
+La Luna e i Falò Barbera d'Asti Superiore 2015,Italy,Barbera d'Asti,Vite Colte,3.8,1016,11.49,03/03/2007,false
+Ribera del Duero 2015,Spain,Ribera del Duero,Garmón,4.2,1017,38.80,17/07/2014,false
+Les Jardins Rouge 2018,France,Faugères,Saint Antonin,3.8,102,7.95,03/06/2016,false
+Nero d'Avola - Syrah 2018,Italy,Terre Siciliane,Roccaperciata,3.7,102,4.75,20/02/2005,true
+La Bienquerida 2013,Spain,Bierzo,Losada,4.1,102,35.97,18/08/2014,false
+Bonera 2018,Italy,Terre Siciliane,Mandrarossa,3.7,102,9.50,21/02/2015,false
+Noi 4 Bolgheri 2016,Italy,Bolgheri,Tenuta dei Sette Cieli,4.0,102,23.50,11/03/2012,true
+Pinot Noir 2016,New Zealand,Marlborough,Clos Henri Vineyard,3.9,102,27.78,03/11/2016,true
+Saint-Émilion Grand Cru 2005,France,Saint-Émilion Grand Cru,Château Grand Barrail Lamarzelle Figeac,3.9,102,39.95,27/05/2001,true
+Gran Selección Tempranillo 2017,Spain,Castilla,Viña San Juan,3.4,102,6.75,27/01/2016,false
+Syrah 2017,South Africa,Paarl,Glen Carlou,3.9,102,18.25,26/08/2018,false
+Zweigelt 2017,Austria,Burgenland,Judith Beck,3.9,102,10.60,16/01/2005,false
+Saint-Émilion Grand Cru 2015,France,Saint-Émilion Grand Cru,Château Vieux Clos St. Emilion,4.1,102,23.09,17/06/2018,true
+Listán Negro 2017,Spain,Lanzarote,Bermejo,3.6,102,17.95,30/05/2018,false
+Viile Metamorfosis Merlot 2015,Romania,Dealu Mare,Vitis Metamorfosis,3.5,102,7.50,26/06/2015,false
+Merlot - Cabernet Sauvignon - Petit Verdot 2014,South Africa,Walker Bay,Creation,3.9,102,12.48,19/07/2009,true
+RWT Shiraz 2017,Australia,Barossa Valley,Penfolds,4.4,102,229.00,20/12/2006,false
+Fronton 2018,France,Fronton,Château Bellevue La Forét,3.5,102,6.95,12/11/2018,true
+Costers Del Gravet Montsant 2013,Spain,Montsant,Capçanes,3.7,102,13.95,21/06/2001,true
+Merlot 2018,Italy,Terre Siciliane,Cusumano,3.4,102,7.90,13/06/2012,true
+Pinot Noir 2015,Austria,Burgenland,Paul Achs,3.7,102,33.05,12/05/2005,false
+Coume de l'Olla Rouge 2019,France,Vin de France,Matassa,4.1,102,16.96,09/07/2004,true
+Schwarzer 2017,Germany,Pfalz,Weingut Metzger,3.6,102,13.15,02/12/2001,false
+Haut-Médoc 2015,France,Haut-Médoc,Château Beaumont,3.8,1020,17.36,28/11/2002,true
+Bourgogne Pinot Noir (La Vignée) 2015,France,Bourgogne,Bouchard Père & Fils,3.6,1020,17.59,16/10/2006,true
+Pinot Noir 2017,South Africa,Hemel-en-Aarde Valley,Hamilton Russell Vineyards,4.2,1022,49.09,05/03/2015,false
+Zinfandel 2016,United States,California,Geyser Peak,3.7,1023,10.90,25/11/1999,false
+Valpolicella Ripasso Classico Superiore 2017,Italy,Valpolicella Ripasso Classico,Bolla,3.7,1024,15.50,14/08/2003,false
+Rosso di Montalcino 2015,Italy,Rosso di Montalcino,Castiglion del Bosco,3.9,1025,26.50,19/10/2010,true
+Ripanço Private Selection Alentejano 2016,Portugal,Alentejano,José Maria da Fonseca,3.7,1026,8.60,07/07/2009,false
+Riserva Cannonau di Sardegna 2017,Italy,Cannonau di Sardegna,Sella & Mosca,3.8,1027,10.66,10/10/2014,true
+60 Sessantanni Old Vines Primitivo di Manduria 2016,Italy,Primitivo di Manduria,San Marzano,4.4,1028,17.24,30/01/2017,false
+Kith & Kin Cabernet Sauvignon 2017,United States,Napa Valley,Round Pond Estate,4.2,1028,38.50,21/07/2017,false
+Zinfandel 2017,United States,California,Rombauer Vineyards,4.3,1029,34.12,18/01/2018,true
+Cerro Añon Rioja Gran Reserva 2011,Spain,Rioja,Bodegas Olarra,4.1,103,14.65,17/09/2018,false
+Bush Vine GSM (Shiraz - Grenache - Mourvedre) 2013,Australia,McLaren Vale,Geoff Merrill,4.0,103,14.57,25/05/2009,true
+Plaer Vinyes Velles 2016,Spain,Priorat,Acustic Celler,4.1,103,26.18,15/12/2011,true
+Cabernet - Shiraz 2016,Spain,La Mancha,Añoranza,3.4,103,3.95,26/04/2006,false
+Saint-Émilion Grand Cru 2014,France,Saint-Émilion Grand Cru,Château La Confession,3.9,103,26.90,11/02/2018,false
+Comte de Sénéjac Haut-Médoc 2011,France,Haut-Médoc,Château Sénéjac,3.7,103,16.83,02/04/2005,false
+Gran Masetto Teroldego 2014,Italy,Trentino,Endrizzi,4.4,103,39.90,24/04/2010,true
+Barolo Mariondino 2015,Italy,Barolo,Parusso,4.1,103,39.90,13/03/2013,true
+Crianza 2016,Spain,Rioja,Berceo,3.6,103,9.90,02/09/2001,false
+Apogee Pepper Bridge Vineyard 2013,United States,Walla Walla Valley,L'Ecole No 41,4.1,103,46.90,09/12/2006,true
+Gamma Red Blend 2018,Spain,Navarra,Bodegas Piedemonte,3.4,103,6.15,14/09/2007,true
+Peyres Nobles Rouge 2018,France,Corbières,Château Camplong,4.0,103,6.50,09/06/2001,false
+Lemartine Toscana 2015,Italy,Toscana,Poggio Antico,4.1,103,29.67,05/06/2013,false
+Organic Cabernet 2018,Australia,South Australia,Farm Hand,3.7,103,7.79,26/07/2017,false
+Pomerol 1999,France,Pomerol,Château Nénin,4.1,103,240.00,25/03/2012,false
+Malterdinger Alte Reben Spätburgunder 2016,Germany,Baden,Bernhard Huber,4.1,103,38.69,25/05/2010,true
+Cabernet Franc 2012,South Africa,Franschhoek,Anthonij Rupert,4.2,103,59.95,01/11/2005,false
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2002,France,Saint-Émilion Grand Cru,Château Valandraud,4.4,103,193.02,22/11/1999,true
+Bramare Rebon Vineyard Malbec 2017,Argentina,Mendoza,Viña Cobos,4.6,103,75.07,24/01/2016,true
+Merlot Reserva 2008,Brazil,Vale dos Vinhedos,Pizzato,3.2,103,15.90,05/08/2009,true
+Brunello di Montalcino Pianrosso 2015,Italy,Brunello di Montalcino,Ciacci Piccolomini d'Aragona,4.4,103,66.29,28/06/2001,true
+François de Tournon Saint-Joseph 2016,France,Saint-Joseph,Delas,3.9,103,29.15,05/10/2011,true
+Estibals Minervois 2018,France,Minervois,L'Ostal Cazes,3.6,103,10.99,17/09/2010,false
+Barbera - Garnacha 2017,Chile,Maule Valley,Erasmo,3.5,103,12.62,23/07/2001,false
+Roi des Lézards 2014,France,Côtes Catalanes,Domaine Les Enfants Sauvages,3.9,103,19.40,16/03/2009,true
+One Point Five Cabernet Sauvignon 2016,United States,Stags Leap District,Shafer,4.5,1030,120.01,16/10/2006,true
+Barbaresco 2013,Italy,Barbaresco,Gaja,4.4,1030,199.90,11/07/2004,true
+Saint-Julien (Grand Cru Classé) 2006,France,Saint-Julien,Château Branaire-Ducru,3.9,1030,59.54,24/11/2004,false
+Médoc 2012,France,Médoc,Château Potensac,3.8,1033,39.69,06/06/2013,true
+Pieve Santa Restituta Brunello di Montalcino 2014,Italy,Brunello di Montalcino,Gaja,4.3,1035,59.90,06/09/2011,false
+Gran Maestro Primitivo di Manduria 2017,Italy,Primitivo di Manduria,Maestro Italiano,4.1,1036,9.75,16/07/2003,true
+Saint-Julien (Grand Cru Classé) 2011,France,Saint-Julien,Château Léoville Barton,4.2,1037,87.24,23/10/2004,false
+Inferno (Aged in Whiskey Barrels - Limited Release) 2017,United States,California,Apothic,3.8,1037,14.56,10/10/1999,true
+Pessac-Léognan (Grand Cru Classé de Graves) 2007,France,Pessac-Léognan,Château Pape Clément,4.3,1037,161.10,09/11/2012,false
+Faithful Hound Red 2015,South Africa,Stellenbosch,Mulderbosch,4.0,1038,14.90,13/11/2011,true
+Serego Alighieri Vaio Armaron Amarone della Valpolicella Classico 2012,Italy,Amarone della Valpolicella,Masi,4.3,1039,69.00,06/02/2016,true
+Rosso di Montalcino 2018,Italy,Rosso di Montalcino,Talenti,3.7,104,14.43,04/01/2001,true
+Chianti 2017,Italy,Chianti,Sammontana,3.7,104,8.90,02/07/2007,true
+Azul 2015,Spain,Ribera del Queiles,Guelbenzu,3.8,104,6.99,17/08/2019,true
+Sanct Valentin Riserva Pinot Noir 2017,Italy,Südtirol - Alto Adige,St. Michael-Eppan,4.1,104,33.20,19/08/2000,false
+Mas Collet Barrica 2009,Spain,Montsant,Capçanes,3.5,104,21.91,23/05/2005,false
+Valpolicella Ripasso Classico Superiore 2016,Italy,Valpolicella Ripasso Classico,Paolo Cottini,4.0,104,16.90,11/05/2007,false
+Toscana Poggio Ai Merli 2016,Italy,Toscana,Castellare,4.3,104,69.00,11/04/2014,false
+Viña Aljibes Red Blend 2016,Spain,Castilla,Finca Los Aljibes,3.4,104,8.20,14/11/2008,true
+Châteauneuf-du-Pape (La Crau) 2017,France,Châteauneuf-du-Pape,Domaine du Vieux Télégraphe,4.4,104,79.95,10/08/2004,true
+Châteauneuf-Du-Pape La Paillousse Terroir D'Exception Rouge 2015,France,Châteauneuf-du-Pape,Pierre Amadieu,4.0,104,26.23,03/12/2006,false
+Mencia 2015,Spain,Valdeorras,Viña Costeira,3.2,104,8.28,08/03/2013,false
+Santenay Clos de Malte 2016,France,Santenay,Louis Jadot,4.1,104,32.00,14/09/2018,false
+Sudisfà Roero Riserva 2015,Italy,Roero,Negro Angelo,4.1,104,29.90,27/04/2011,true
+Léa Les Aspres Côtes du Roussillon Rouge 2012,France,Côtes du Roussillon,Domaine Lafage,4.0,104,19.95,24/03/2012,true
+Alleanza 2012,Italy,Toscana,Castello di Gabbiano,4.1,104,26.95,31/07/2000,true
+Valpolicella Ripasso Classico Superiore Solane 2015,Italy,Valpolicella Ripasso,Santi,3.7,1040,14.75,16/07/2011,true
+Crianza 2015,Spain,Binissalem-Mallorca,Bodegas José L. Ferrer,3.8,1040,11.95,15/03/2018,true
+Courela Tinto 2016,Portugal,Alentejano,Cortes de Cima,3.6,1040,5.65,28/09/2006,false
+Barbera d'Alba Tre Vigne 2015,Italy,Barbera d'Alba,Vietti,3.8,1040,19.50,10/02/2008,true
+No Name 2014,Italy,Piemonte,Borgogno,4.0,1041,34.32,13/07/2006,true
+Rioja Bordón Reserva 2011,Spain,Rioja,Franco-Espanolas,3.8,1045,10.85,26/06/2017,true
+Pian delle Vigne Brunello di Montalcino 2014,Italy,Brunello di Montalcino,Antinori,4.3,1046,45.60,02/11/2007,false
+Almiréz 2016,Spain,Toro,Teso La Monja,4.0,1046,14.95,13/12/2008,true
+Colheita Seleccionada Rouge 2010,Portugal,Alentejano,Rapariga da Quinta,3.2,1046,11.70,22/08/2019,true
+Ammasso Rosso Sicilia 2016,Italy,Sicilia,Barone Montalto,4.2,1047,16.34,23/09/2008,false
+Côtes du Rhône Nature Rouge 2016,France,Côtes-du-Rhône,Famille Perrin,3.6,1049,10.45,09/01/2006,true
+Russian River Valley Zinfandel 2015,United States,Russian River Valley,DeLoach,3.5,105,18.49,25/09/2019,true
+Saint-Julien (Grand Cru Classé) 2016,France,Saint-Julien,Château Léoville Las Cases,4.6,105,330.45,16/11/2011,false
+Halkidiki Limnio - Merlot 2013,Greece,Chalkidiki,Tsantali,3.2,105,12.49,09/05/2018,false
+Pomerol 2015,France,Pomerol,Château l'Ecuyer,4.2,105,43.16,25/01/2008,true
+Toar Valpolicella Classico Superiore 2016,Italy,Valpolicella Classico,Masi,3.7,105,15.60,29/08/2009,true
+Arbòre Cannonau di Sardegna 2012,Italy,Cannonau di Sardegna,Gabbas,4.0,105,21.90,19/01/2011,true
+Ángeles de Amaren Tempranillo - Graciano 2015,Spain,Rioja,Bodegas Amaren,4.2,105,15.95,19/02/2015,true
+Barbera 2018,Italy,Piemonte,Serre dei Roveri,3.3,105,6.15,03/03/2009,true
+Amarone della Valpolicella 2006,Italy,Amarone della Valpolicella,Zýmē,4.5,105,96.90,23/08/2006,true
+Castillo de Jumilla Monastrell - Tempranillo 2018,Spain,Jumilla,Bleda,3.5,105,5.33,24/08/2019,false
+Hommage Lirac 2016,France,Lirac,Domaine Coudoulis,3.9,105,19.01,29/09/2007,true
+Poggio d'Arna Toscana 2014,Italy,Toscana,Tenuta di Sesta,3.6,105,12.90,16/07/2018,true
+Vinya Le Havre Reserva Cabernet Sauvignon 2013,Spain,Penedès,Jean Leon,4.0,105,25.75,31/08/2000,true
+Brunello di Montalcino 2014,Italy,Brunello di Montalcino,Tenute Silvio Nardi,3.8,105,32.75,20/02/2019,false
+Sor Ugo Bolgheri Superiore 2017,Italy,Bolgheri Superiore,Aia Vecchia,4.3,105,23.94,06/08/2000,false
+Ses Nines Negre 2018,Spain,Binissalem-Mallorca,Tianna Negre,3.8,105,11.25,01/03/2018,true
+Terrassen Zweigelt Blauer 2018,Austria,Wachau,Domäne Wachau,3.7,105,9.95,21/02/2005,true
+Rosso di Montalcino 2018,Italy,Rosso di Montalcino,Ciacci Piccolomini d'Aragona,4.1,105,16.47,10/01/2001,false
+Riva Ranch Pinot Noir (Reliz Creek) 2017,United States,Arroyo Seco,Wente,3.9,105,24.15,16/08/1999,false
+Altos R Tempranillo 2017,Spain,Rioja,Altos de Rioja,3.4,105,6.90,09/09/2013,true
+Amarone della Valpolicella Classico 2016,Italy,Amarone della Valpolicella Classico,Zenato,4.2,105,43.61,02/09/2017,false
+Potenti Toscana (Suvereto) 2015,Italy,Toscana,Petra,3.9,105,39.58,23/05/2003,false
+Trentatre 33 Rosso 2017,Italy,Salento,Rocca,3.6,105,6.95,18/11/2008,true
+Pievasciata Rosso 2016,Italy,Toscana,Vallepicciola,4.1,105,14.90,20/04/2006,true
+Brunello di Montalcino 2013,Italy,Brunello di Montalcino,Tenute Silvio Nardi,3.9,1050,35.50,04/09/2000,false
+The Barossan Shiraz 2017,Australia,Barossa Valley,Peter Lehmann,3.8,1051,16.48,05/08/2015,true
+Nero d'Avola 2017,Italy,Terre Siciliane,Colosi,3.8,1055,8.68,06/11/1999,true
+Bordeaux 2015,France,Bordeaux,Jean-Pierre Moueix,3.5,1056,10.21,19/07/2010,false
+Cabernet Sauvignon 2018,United States,California,Woodbridge by Robert Mondavi,3.4,1056,8.95,07/10/2019,false
+Tinto 2018,Portugal,Lisboa,Porta 6,3.7,1056,9.12,10/03/2019,true
+Délicate N.V.,South Africa,Stellenbosch,De Toren,4.1,1056,14.38,09/08/2012,false
+Aglianico Rubrato 2014,Italy,Irpinia,Feudi di San Gregorio,3.5,1057,10.95,20/06/2017,false
+Gran Verano Cabernet Sauvignon 2018,Chile,Central Valley,Apaltagua,3.4,1059,6.95,03/09/2003,false
+Grand Estates Merlot 2015,United States,Columbia Valley,Columbia Crest,3.7,1059,12.40,31/08/2007,false
+Saint-Julien (Grand Cru Classé) 2017,France,Saint-Julien,Château Beychevelle,4.0,106,86.76,08/05/2018,true
+Copa Santa La Méjanelle 2015,France,Languedoc,Clavel,4.0,106,17.90,24/04/2005,false
+Cantodoro 2016,Italy,Sicilia,Feudo Arancio,3.6,106,8.50,24/08/2001,true
+Vitiano San Lorenzo 2014,Italy,Castel San Lorenzo,Falesco,3.9,106,11.95,18/11/2005,true
+Disueri Nero d'Avola 2018,Italy,Sicilia,Cusumano,3.6,106,7.70,30/12/2015,true
+Kirschgarten Spatburgunder GG 2013,Germany,Pfalz,Knipser,4.2,106,39.95,27/09/2000,false
+B 2017,Spain,Ribera del Duero,Baden Numen,3.8,106,11.21,17/03/2009,false
+Pinot Noir 2017,Italy,Valle d'Aosta,Ottin - Viticulteur Encaveur,4.0,106,22.50,14/11/2016,true
+Protocolo Tinto 2018,Spain,Castilla,Dominio de Eguren,3.7,106,5.95,16/10/2001,false
+Rouge 2016,France,Bordeaux,Bad Boy (Mauvais Garçon),3.9,106,16.90,09/10/2009,true
+Côte de Nuits Villages Le Vaucrain 2016,France,Côte de Nuits Villages,Louis Jadot,4.0,106,32.00,11/12/2012,true
+Vino Nobile di Montepulciano 2016,Italy,Vino Nobile di Montepulciano,Talosa,3.9,106,17.79,11/06/2004,false
+Yotuel Selección 2014,Spain,Ribera del Duero,Gallego Zapatero,3.6,106,15.75,08/05/2018,false
+Lanzaga Rioja 2014,Spain,Rioja,Telmo Rodriguez,3.8,106,19.95,04/09/2006,false
+Elysian Collection Merlot 2016,United States,California,Bonterra,3.8,106,26.70,12/07/2007,true
+La Tiare du Pape Châteauneuf-du-Pape Rouge 2015,France,Châteauneuf-du-Pape,Maison Bouachon,3.9,106,45.00,05/05/2011,true
+Spätburgunder Trocken 2015,Germany,Pfalz,Ökonomierat Rebholz,3.9,106,21.40,04/10/2019,false
+El Chocolatero Cariñena 2014,Spain,Cariñena,San Valero,3.2,106,7.75,17/08/2015,true
+Hermitage La Chapelle Rouge 2016,France,Hermitage,Paul Jaboulet Aîné,4.3,106,249.95,25/02/2008,true
+Mas Oliveras Tempranillo 2018,Spain,Catalunya,Ramón Roqueta,3.2,106,6.50,26/11/2018,true
+Pannobile 2015,Austria,Burgenland,Pittnauer,3.9,106,22.13,20/04/1999,false
+Tempus 2018,Italy,Veneto,Stefano Accordini,3.8,106,10.42,07/02/2003,true
+Le Clos des Fées (Hervé Bizeul) 2013,France,Côtes du Roussillon,Domaine du Clos des Fées,4.1,106,52.53,03/04/2017,true
+Tío Martín Crianza 2016,Spain,Rioja,D. Mateos,3.8,106,15.69,16/08/2012,false
+Vigna Del Mandorlo Dolcetto d'Alba 2017,Italy,Dolcetto d'Alba,Elvio Cogno,3.4,106,11.50,23/11/2000,false
+Barolo Bussia 2015,Italy,Barolo,Prunotto,4.1,106,69.00,11/04/2001,true
+Tinto 2015,Spain,Rioja,Gran Familia,3.5,106,5.80,17/07/2013,true
+Finca Cuesta Clara Raro Reserva 2015,Spain,Rioja,Campillo,4.2,106,39.99,16/04/2008,true
+Fronsac 2005,France,Fronsac,Château la Vieille Cure,4.0,106,39.95,12/11/2004,false
+Ventoux 2016,France,Ventoux,Xavier Vignon,3.6,106,8.20,17/04/2002,true
+Hussonet Cabernet Sauvignon Gran Reserva 2015,Chile,Maipo Valley,Haras de Pirque,3.7,1060,15.95,02/07/2012,true
+Salice Salentino Riserva 2016,Italy,Salice Salentino,Marchese di Borgosole,3.9,1061,8.49,19/04/1999,true
+Chianti Classico 2016,Italy,Chianti Classico,Isole e Olena,3.9,1063,20.86,25/11/2009,false
+Joseph Meczan Pinot Nero - Blauburgunder Alto Adige 2016,Italy,Südtirol - Alto Adige,J. Hofstätter,3.6,1064,13.48,25/07/2001,false
+Brunello di Montalcino 2014,Italy,Brunello di Montalcino,Tenuta Il Poggione,4.2,1065,36.63,20/09/1999,false
+Cabernet Sauvignon 2015,United States,Columbia Valley,Columbia Winery,3.8,1065,17.75,18/03/2002,true
+Saint-Julien (Grand Cru Classé) 2009,France,Saint-Julien,Château Léoville Barton,4.4,1066,133.06,30/06/2001,true
+Pessac-Léognan (Grand Cru Classé de Graves) 2005,France,Pessac-Léognan,Château Smith Haut-Lafitte,4.4,1066,169.95,25/08/2011,true
+Cabernet Sauvignon 2013,Mexico,Valle de Guadalupe,L. A. Cetto,3.4,1066,8.65,02/06/2002,false
+Malbec 2017,Argentina,Mendoza,Catena,4.1,10676,13.50,21/09/2010,true
+Saint-Estèphe (Grand Cru Classé) 2009,France,Saint-Estèphe,Château Lafon-Rochet,4.2,1069,75.98,03/07/2019,false
+Amarone della Valpolicella Classico 2014,Italy,Amarone della Valpolicella Classico,Bolla,4.1,1069,28.99,25/06/1999,false
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2014,France,Saint-Émilion Grand Cru,Château Belair-Monange,4.0,107,130.97,12/12/2011,true
+Margaux (Grand Cru Classé) 2017,France,Margaux,Château Lascombes,4.0,107,86.76,22/06/2003,false
+Pauillac (Grand Cru Classé) 2017,France,Pauillac,Château d'Armailhac,3.9,107,52.64,06/04/2007,false
+Figure Libre Freestyle Rouge 2018,France,Pays d'Oc,Gayda,3.7,107,11.45,03/06/2004,false
+Pinot Noir 2018,France,Pays d'Oc,La Forge Estate,3.6,107,7.27,20/08/2004,false
+Tinto 2018,Spain,Alicante,Vergel,3.6,107,7.35,16/02/2010,true
+Les Coteaux Cabernet Sauvignon 2015,South Africa,Wellington,Mont du Toit,3.8,107,11.50,01/07/2011,false
+Mayro Montepulciano d'Abruzzo 2015,Italy,Montepulciano d'Abruzzo,Fosso Corno,3.7,107,7.75,27/10/2007,true
+Barbera d'Alba 2018,Italy,Barbera d'Alba,Comm. G.B. Burlotto,3.9,107,17.00,02/10/2008,true
+Blauer Spätburgunder 2015,Germany,Baden,Ziereisen,3.7,107,11.31,02/11/2006,true
+Promontory 2013,United States,Napa Valley,Promontory,4.7,107,721.34,18/10/2014,false
+Tempranillo - Merlot 2015,Spain,Ribera del Duero,Rolland & Galarreta 'R&G',3.7,107,13.95,27/01/2018,false
+Sankt Laurent 2017,Austria,Burgenland,Umathum,3.6,107,13.20,26/09/1999,true
+Gigondas 2017,France,Gigondas,M. Chapoutier,3.9,107,24.80,10/07/2019,true
+Driopi Classic Agiorgitiko Nemea 2017,Greece,Nemea,Κτημα Τσελεπου (Ktima Tselepos),3.7,107,11.50,10/01/2014,true
+Magna Malbec 2018,Argentina,San Juan,Callia,3.5,107,8.95,07/10/2015,true
+Nero 2010,Italy,Salento,Conti Zecca,4.0,107,25.12,02/07/2007,true
+Salice Salentino 2017,Italy,Salice Salentino,Epicuro,3.6,107,6.25,27/11/2016,false
+Valpolicella Superiore 2014,Italy,Valpolicella,Rocca Sveva,3.7,107,15.84,04/06/2018,true
+Gevrey-Chambertin 2015,France,Gevrey-Chambertin,Chanson,4.1,107,50.90,23/11/1998,false
+Pago de los Balagueses Garnacha Tintorera - Merlot 2014,Spain,Valencia,Vegalfaro,3.8,107,16.90,16/01/2017,true
+Barolo Liste 2013,Italy,Barolo,Borgogno,4.2,107,80.01,03/01/2007,true
+Adrianna Vineyard Fortuna Terrae Malbec 2016,Argentina,Mendoza,Catena Zapata,4.6,107,89.90,23/10/2002,true
+Malbec de Purcari 2018,Moldova,South Eastern,Château Purcari,4.1,107,11.98,07/09/2019,false
+Esprit de Granit Saint-Joseph 2012,France,Saint-Joseph,Cave de Tain,4.0,107,27.93,04/07/2016,false
+Bachgart Blauburgunder 2016,Italy,Südtirol - Alto Adige,Klaus Lentsch,3.8,107,19.90,19/11/2005,true
+Crianza 2016,Spain,Rioja,Campo Viejo,3.5,1070,7.99,27/11/2018,false
+Margaux de Brane (Margaux de Henri Lurton) 2014,France,Margaux,Château Brane-Cantenac,3.8,1070,34.20,07/07/2007,false
+Shiraz 2017,South Africa,Swartland,Allesverloren,3.6,1070,10.90,05/02/2008,true
+Rubesco Rosso di Torgiano 2016,Italy,Torgiano,Lungarotti,3.7,1071,9.80,20/08/2018,true
+Yamhill Cuvée Pinot Noir 2014,United States,Willamette Valley,Domaine Serene,4.3,1071,59.00,19/06/2007,true
+Gran Enemigo 2015,Argentina,Mendoza,El Enemigo,4.5,1072,62.39,10/12/1999,true
+Macán Clásico 2015,Spain,Rioja,Benjamin de Rothschild - Vega Sicilia,4.3,1073,48.54,22/06/2011,false
+Zinfandel 2016,United States,North Coast,Ghost Pines,3.9,1075,17.29,23/04/2015,true
+Reserve Malbec 2016,Argentina,Tupungato,Sophenia,3.8,1076,13.09,11/08/2007,false
+Saint-Estèphe 2011,France,Saint-Estèphe,Château de Pez,3.9,1077,36.90,25/12/1998,true
+Rosso di Montalcino Leopoldo Franceschi 2014,Italy,Rosso di Montalcino,Tenuta Il Poggione,3.9,1077,21.34,21/10/2007,false
+Saint-Estèphe (Grand Cru Classé) 2005,France,Saint-Estèphe,Château Lafon-Rochet,4.1,1077,79.95,12/12/2017,true
+Diamond Collection Zinfandel (Red Label) 2016,United States,Napa Valley,Francis Ford Coppola,3.9,1078,21.39,19/08/2017,true
+Overture N.V.,United States,Napa Valley,Opus One,4.4,10799,154.99,06/03/2017,true
+Nèprica Cabernet Sauvignon 2018,Italy,Puglia,Tormaresca,3.5,108,8.33,02/08/2016,false
+Veneto Rosso del Bepi 2010,Italy,Veneto,Quintarelli Giuseppe,4.4,108,115.92,04/03/2019,false
+Taurasi 2015,Italy,Taurasi,Feudi di San Gregorio,4.1,108,17.45,01/08/2002,true
+Tributo Carmenère 2018,Chile,Colchagua Valley,Caliterra,3.7,108,9.64,05/05/1999,true
+Lalande-de-Pomerol 2014,France,Lalande-de-Pomerol,Château Les Hauts-Conseillants,4.0,108,20.37,26/09/2010,true
+Coteaux Du Languedoc La Clape L'Hospitalitas 2015,France,La Clape,Gérard Bertrand,4.4,108,71.39,20/09/2017,true
+Shiraz 2015,South Africa,Stellenbosch,Kaapzicht,4.0,108,15.55,01/09/2002,false
+Gigondas Valbelle 2015,France,Gigondas,Château de Saint Cosme,4.3,108,49.95,19/07/2015,true
+Primitivo di Manduria 2018,Italy,Primitivo di Manduria,Terre di Campo Sasso,4.1,108,8.28,24/07/2009,true
+Redhill Pinotage 2017,South Africa,Stellenbosch,Simonsig,4.2,108,19.40,15/03/2015,false
+Finca Dofí 2017,Spain,Priorat,Álvaro Palacios,4.4,108,69.95,17/07/2019,true
+Unique Selection 2015,Chile,Colchagua Valley,Siegel,4.2,108,28.90,13/03/2007,true
+Sud Malvasia Nera 2016,Italy,Salento,San Marzano,3.9,108,7.25,10/09/2005,false
+Alboreto Nobile di Montepulciano 2016,Italy,Vino Nobile di Montepulciano,Talosa,3.9,108,14.13,19/08/2007,true
+Tempranillo Reserva 2010,Spain,Rioja,Bodegas Amaren,4.2,108,34.90,20/04/2006,false
+Bordeaux Supérieur 2017,France,Bordeaux Supérieur,Château Picon,3.5,108,7.35,27/12/2012,false
+Valpolicella Valpantena 2017,Italy,Valpolicella Valpantena,Costa Arente,3.8,108,15.67,17/11/2000,false
+Poggio Al Tufo Alicante 2015,Italy,Maremma Toscana,Tommasi,3.9,108,20.32,16/12/1998,false
+Conde de Valdemar Reserva 2012,Spain,Rioja,Bodegas Valdemar,4.0,108,13.26,10/07/2012,true
+Rondeur Appassimento 2018,France,Pays d'Oc,Domaine La Grange,4.2,108,9.37,08/06/2007,false
+Zarihs Syrah 2016,Spain,Campo de Borja,Borsao,4.1,108,15.69,05/11/2013,false
+Merlot Selección 2016,Spain,Extremadura,Coloma,4.0,108,11.95,16/03/2007,true
+Tinto 2000,Spain,Castilla y León,Dehesa La Granja,4.1,108,35.00,09/01/2000,false
+Siebeneich Merlot Riserva 2016,Italy,Südtirol - Alto Adige,Colterenzio (Schreckbichl),3.8,108,19.01,29/10/2015,true
+Cabernet Sauvignon 2017,South Africa,Stellenbosch,Stark-Condé,3.8,108,11.99,29/11/2002,false
+Amarone 2012,Italy,Amarone della Valpolicella,Musella,4.2,108,29.12,27/04/2012,true
+Reserva 2012,Spain,Rioja,Ortega Ezquerro,3.9,108,13.95,21/05/2001,true
+Palha Canas Tinto 2016,Portugal,Lisboa,Casa Santos Lima,3.6,108,8.90,26/02/2000,false
+12 e Mezzo Primitivo del Salento 2017,Italy,Salento,Varvaglione,3.9,1080,7.25,13/06/2000,true
+50 & 50 2013,Italy,Toscana,Capannelle,4.4,1081,112.00,16/06/2010,false
+Cabernet Sauvignon de Purcari 2017,Moldova,South Eastern,Château Purcari,4.1,1082,12.98,18/03/2018,true
+Ca'Marcanda Promis Toscana 2017,Italy,Toscana,Gaja,4.0,1083,30.90,23/03/2019,true
+Cabernet Sauvignon - Merlot 2015,Spain,Somontano,Enate,3.6,1084,9.50,06/10/2012,true
+Conde de Valdemar Gran Reserva 2008,Spain,Rioja,Bodegas Valdemar,4.0,1084,19.99,30/03/2019,true
+Whole Berry Cabernet Sauvignon 2017,South Africa,Robertson,Springfield Estate,4.1,1084,16.75,28/09/2013,true
+Clásico Garnacha 2018,Spain,Campo de Borja,Borsao,3.6,1085,5.99,06/01/2001,true
+Sideral 2017,Chile,Cachapoal Valley,Altaïr,4.2,1085,21.45,25/10/2001,true
+Charles Wetmore Cabernet Sauvignon 2014,United States,Livermore Valley,Wente,4.0,1086,21.10,24/01/2008,true
+Saint-Estèphe 2012,France,Saint-Estèphe,Château de Pez,4.0,1089,33.90,22/03/2010,false
+Gran Reserva Cabernet Sauvignon 2017,Chile,Maipo Valley,Carmen,3.8,1089,11.65,25/05/2005,false
+Mentor Cabernet 2013,Australia,Barossa,Peter Lehmann,3.9,109,32.69,22/12/2000,false
+Montagne-Saint-Émilion 2016,France,Montagne-Saint-Émilion,Clos de Bouard,4.0,109,27.20,31/07/2002,true
+Les Cépages Cabernet Sauvignon 2018,France,Pays d'Oc,Baron Philippe de Rothschild,3.4,109,7.27,10/07/2005,true
+L'Esprit Terroir La Clape 2015,France,La Clape,Château Rouquette Sur Mer,3.8,109,14.95,28/05/2017,true
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2015,France,Saint-Émilion Grand Cru,Château Belair-Monange,4.3,109,224.95,20/04/2009,true
+Pinot Noir 2017,United States,Central Coast,Ryder Estate,3.7,109,16.72,11/03/2018,false
+Malbec 2018,France,Comté Tolosan,Carmelle,3.7,109,6.45,12/03/2012,false
+Merlot 2015,United States,Washington,Stimson Estate Cellars,3.6,109,8.29,18/07/2007,false
+Blaufränkisch 2017,Austria,Burgenland,Krutzler,3.5,109,8.98,16/06/2007,true
+I Sodi del Paretaio 2018,Italy,Chianti,Badia di Morrona,3.5,109,7.99,07/03/2017,true
+Villa Blanche Syrah 2017,France,Pays d'Oc,Calmel & Joseph,3.8,109,7.40,18/06/2006,true
+Arbossar 2016,Spain,Priorat,Terroir Al Límit Soc. Lda,4.0,109,60.00,30/04/2006,false
+Amarone Della Valpolicella Marta Galli 2007,Italy,Amarone della Valpolicella,Le Ragose,4.3,109,59.90,24/05/2002,false
+Vera Cruz Shiraz 2014,South Africa,Stellenbosch,Delheim,4.3,109,35.50,12/02/2012,false
+Poggio d'Arna Toscana 2016,Italy,Toscana,Tenuta di Sesta,4.0,109,12.58,20/09/2000,true
+Contador Rioja 2014,Spain,Rioja,Bodega Contador (Benjamín Romeo),4.6,109,328.95,01/02/2011,true
+Fronsac 2015,France,Fronsac,Château Moulin Haut-Laroque,4.0,109,22.37,08/03/2019,true
+Pinot Noir *** 2014,Germany,Baden,Weingut Holger Koch,3.6,109,29.95,07/03/2019,false
+Lemberger Trocken 2014,Germany,Württemberg,Grafen Neipperg,3.2,109,9.60,25/05/2010,true
+Sestal 2014,Spain,Mallorca,Ses Talaioles,4.2,109,31.68,07/02/2002,true
+Pomerol 2012,France,Pomerol,Château Gombaude-Guillot,4.1,109,68.81,15/08/2008,false
+Priorat Cruor 2016,Spain,Priorat,Casa Gran del Siurana,4.1,109,20.99,12/04/1999,true
+Domaine de la Madone Beaujolais Le Perréon 2018,France,Beaujolais,Jean-Marc Despres,3.7,109,8.67,18/05/2012,false
+Saint-Estèphe 2016,France,Saint-Estèphe,Château Clauzet,3.8,109,24.75,23/06/2005,true
+Valpolicella Superiore 2014,Italy,Valpolicella,Allegrini,3.7,1092,13.16,14/06/2010,true
+The Scribbler Cabernet - Shiraz 2013,Australia,Barossa Valley,Yalumba,3.6,1093,20.76,11/12/2002,false
+Boom Boom! Syrah 2016,United States,Columbia Valley,Charles Smith,3.5,1093,18.42,04/11/2016,false
+Margaux (Grand Cru Classé) 2010,France,Margaux,Château Prieuré-Lichine,4.2,1094,79.00,18/06/2015,false
+Crianza Tempranillo 2016,Spain,Rioja,Baigorri,3.8,1097,12.60,15/07/2014,true
+Berola 2014,Spain,Campo de Borja,Borsao,3.9,1098,14.50,24/01/1999,false
+Blaufränkisch 2017,Austria,Burgenland,Rosi Schuster,3.7,110,14.90,27/02/2008,true
+Spätburgunder 2017,Germany,Ahr,Jean Stodden,3.5,110,12.40,30/04/2015,false
+Brunello di Montalcino Riserva 2011,Italy,Brunello di Montalcino,Biondi-Santi,4.5,110,447.43,21/01/2010,true
+Cabernet Sauvignon 2015,Argentina,Uco Valley,DiamAndes,3.8,110,16.99,01/12/2006,false
+Italian Collection Tosca 2011,South Africa,Stellenbosch,Morgenster Estate,4.0,110,24.32,11/03/2000,true
+Cabernet Sauvignon 2016,South Africa,Stellenbosch,Meerlust,4.1,110,21.34,19/07/2010,false
+Saint-Émilion Grand Cru (Grand Cru Classé) 2005,France,Saint-Émilion Grand Cru,Clos des Jacobins,4.2,110,58.95,04/02/2006,false
+Nero d'Avola 2018,Italy,Terre Siciliane,Fatascia,3.6,110,7.53,22/05/2016,true
+Givry 2017,France,Givry,Joseph Drouhin,3.9,110,19.40,07/06/2019,true
+Bordeaux Réserve Rouge 2015,France,Bordeaux,Château Rauzan Despagne,3.4,110,18.90,16/07/2011,false
+Bricco Dei Merli Barbera d'Alba 2014,Italy,Barbera d'Alba,Elvio Cogno,3.6,110,19.95,23/02/2003,true
+Bandol Rouge 2007,France,Bandol,Gros' Noré,3.9,110,59.00,02/07/2014,true
+Teldeschi Vineyard Zinfandel 2016,United States,Dry Creek Valley,Ravenswood,4.0,110,33.95,31/05/2012,true
+Ornato Barolo 2015,Italy,Barolo,Pio Cesare,4.2,110,81.97,18/09/2017,false
+Colledilà Chianti Classico Gran Selezione 2016,Italy,Chianti Classico,Ricasoli,4.2,110,45.00,21/03/2008,false
+Pomerol 2013,France,Pomerol,Château La Grave (Trigant de Boisset),3.8,110,31.20,29/03/2012,false
+1921 Primitivo di Manduria Riserva 2012,Italy,Primitivo di Manduria,Varvaglione,4.1,110,39.90,13/05/2000,true
+Martelo Reserva 2012,Spain,Rioja,Torre de Oña,4.0,110,28.41,02/07/2016,false
+Rosso di Montepulciano Prugnolo 2017,Italy,Rosso di Montepulciano,Boscarelli,3.7,110,12.90,15/01/2001,true
+Valley Oaks Cabernet Sauvignon 2016,United States,California,Fetzer,3.6,1102,11.19,15/05/2012,false
+Saint-Julien (Grand Cru Classé) 2005,France,Saint-Julien,Château Branaire-Ducru,4.2,1103,88.95,10/05/2008,false
+The Pundit 2016,United States,Columbia Valley,Tenet Wines,3.9,1104,27.99,17/05/2014,false
+Pinot Noir 2016,United States,Los Carneros,Black Stallion,3.9,1105,34.32,28/04/2006,false
+Don Maximiano Founder's Reserve 2015,Chile,Aconcagua Valley,Errazuriz,4.4,1106,83.60,02/10/2009,true
+Marne 180 Amarone della Valpolicella 2015,Italy,Amarone della Valpolicella,Tedeschi,4.3,1106,31.90,26/01/2019,false
+Chronicon Montepulciano d'Abruzzo 2013,Italy,Montepulciano d'Abruzzo,Cantina Zaccagnini,3.9,1106,11.95,16/09/2013,false
+Emilien 2015,France,Côtes de Bordeaux,Château le Puy,4.0,1106,39.90,30/03/2015,false
+Pinot Nero 2016,Italy,Südtirol - Alto Adige,Castel Sallegg,3.6,111,11.50,16/08/2014,true
+Single Estate Red 2015,Portugal,Alentejano,Azamor,3.9,111,9.65,05/05/2004,true
+Pinot Noir 2018,Austria,Neusiedlersee,Pittnauer,3.8,111,11.95,04/09/2010,false
+Fronsac 2013,France,Fronsac,Château Moulin Haut-Laroque,3.8,111,17.50,17/08/2016,true
+Pinot Noir 2018,Germany,Pfalz,Matthias Gaul,3.7,111,9.90,16/11/2018,true
+Vürsù Barbaresco Gallina 2014,Italy,Barbaresco,La Spinetta,4.3,111,115.70,07/03/2004,false
+Montesodi Toscana 2016,Italy,Toscana,Castello Nipozzano,4.2,111,44.57,22/06/2015,false
+Colle Ambro Rosso Piceno 2017,Italy,Rosso Piceno,Garofoli,3.5,111,7.90,12/12/2009,false
+AN/2 2018,Spain,Mallorca,Ànima Negra,4.1,111,19.99,20/01/2006,false
+Oraison Côtes du Rhône 2016,France,Côtes-du-Rhône,Badet Clement,3.4,111,8.50,03/10/2017,true
+Etna San Lorenzo Rosso 2017,Italy,Etna,Tenuta delle Terre Nere,4.2,111,39.90,30/03/2017,false
+Negroamaro 2017,Italy,Puglia,A Mano,3.5,111,6.75,31/10/1999,false
+Breg Rosso 2004,Italy,Venezia Giulia,Gravner,4.2,111,95.55,27/10/1999,true
+Gigondas Le Claux 2011,France,Gigondas,Château de Saint Cosme,4.3,111,59.95,17/03/2018,false
+Côtes du Rhône Villages Sablet 2012,France,Côtes-du-Rhône-Villages 'Sablet',Château du Trignon,3.8,111,10.67,05/02/2017,true
+Paleo 2016,Italy,Toscana,Le Macchiole,4.5,111,92.05,06/02/2011,false
+Dominio de Fontana Garnacha - Syrah 2017,Spain,Uclés,Bodegas Fontana,3.6,111,7.36,14/06/2008,false
+Rosso di Montalcino 2017,Italy,Rosso di Montalcino,Casanova di Neri,4.0,111,20.90,07/07/2003,true
+Carchelo (C) 2017,Spain,Jumilla,Carchelo,3.6,111,8.92,06/10/2010,false
+Reserva Rioja (Finca Ygay) 2016,Spain,Rioja,Marqués de Murrieta,4.0,111,18.00,24/11/2009,false
+Barrel Selection Cabernet Sauvignon 2018,Argentina,Uco Valley,Salentein,3.6,111,12.90,18/02/2003,false
+Syrah 2016,South Africa,Stellenbosch,Zevenwacht,4.1,111,13.99,01/05/2005,false
+Don Antonio Nero d'Avola (Riserva) 2016,Italy,Sicilia,Morgante,4.2,111,25.90,14/01/2017,true
+Wunderwerk Spätburgunder 2014,Germany,Rheinhessen,Dreissigacker,3.8,111,27.00,21/06/2010,true
+Clos d'Ora 2015,France,Minervois La Livinière,Gérard Bertrand,4.5,111,229.00,27/07/2013,false
+Hommage à Jacques Perrin Châteauneuf-du-Pape 2016,France,Châteauneuf-du-Pape,Château de Beaucastel,4.6,111,515.00,12/02/2014,false
+Director's Cut Zinfandel 2015,United States,Dry Creek Valley,Francis Ford Coppola,4.1,1110,32.50,20/02/2014,true
+Reserva Ribera del Duero 2014,Spain,Ribera del Duero,Condado de Oriza,3.7,1111,14.52,29/01/2009,true
+Amarone della Valpolicella Classico 2015,Italy,Amarone della Valpolicella Classico,Allegrini,4.3,1111,50.69,11/07/2012,true
+Châteauneuf-du-Pape 2015,France,Châteauneuf-du-Pape,E. Guigal,4.1,1112,32.54,29/04/2009,true
+Reserve Pinot Noir 2014,Argentina,Uco Valley,Salentein,3.8,1114,15.69,22/02/2006,true
+Malbec 2018,Argentina,Mendoza,Argento,3.6,1117,9.99,01/12/2006,false
+Rioja Reserva 2015,Spain,Rioja,Marqués de Riscal,4.1,11170,15.50,16/03/2002,true
+Moulis-en-Médoc 2014,France,Moulis-en-Médoc,Château Chasse-Spleen,3.9,1118,43.77,10/10/2003,true
+Plumbago Nero d'Avola Sicilia 2016,Italy,Sicilia,Planeta,3.6,1118,13.93,17/09/2013,false
+Vigna Corvino Montepulciano d'Abruzzo 2018,Italy,Montepulciano d'Abruzzo,Contesa,3.8,112,6.32,10/07/2016,true
+Cabernet Sauvignon 2016,Romania,Samburesti,Castel Bolovanu,3.3,112,7.90,03/03/2017,true
+Códice 2017,Spain,Castilla y León,Dominio de Eguren,3.5,112,5.75,14/07/2007,true
+Pinot Noir 2018,South Africa,Walker Bay,Creation,3.9,112,18.99,13/08/2014,true
+Aigle Les Murailles Rouge 2015,Switzerland,Aigle,Henri Badoux,3.7,112,23.17,27/09/2017,false
+Big G 2015,South Africa,Franschhoek,Holden Manz,4.2,112,23.90,06/04/2018,false
+Barbera d'Alba Aves 2018,Italy,Barbera d'Alba,Comm. G.B. Burlotto,4.0,112,24.00,29/11/2005,false
+Chinon Rouge 2015,France,Chinon,Domaine Gouron,3.5,112,8.75,31/07/2005,true
+Bardolino 2016,Italy,Bardolino,Corte Giara,3.5,112,5.90,18/02/2002,false
+Provident Shiraz 2016,Australia,Barossa Valley,Soul Growers,3.6,112,24.37,24/12/2014,false
+Perdixi 2013,Italy,Isola dei Nuraghi,Olianas,3.7,112,19.50,13/03/2008,false
+Puisseguin Saint-Émilion 2013,France,Puisseguin-Saint-Émilion,Château Moulin de Curat,3.4,112,10.75,09/01/2007,true
+Pissarres 2017,Spain,Priorat,Costers del Priorat,4.0,112,12.85,08/04/2014,false
+Arcidiavolo 2008,Italy,Toscana,Teruzzi & Puthod,4.2,112,17.45,23/02/2006,true
+Colheita Alentejano Tinto 2015,Portugal,Alentejano,Monte Cascas,3.6,112,9.65,16/09/2000,true
+Malbec 2013,Argentina,Uco Valley,DiamAndes,3.6,1122,16.56,30/10/2017,true
+Bordeaux Rouge 2014,France,Bordeaux,Baron Philippe de Rothschild,3.2,1123,7.95,15/05/2001,true
+Pauillac (Grand Cru Classé) 2011,France,Pauillac,Château Pichon Baron,4.4,1125,139.00,10/04/2000,false
+Pauillac (Grand Cru Classé) 2011,France,Pauillac,Château Grand-Puy-Lacoste,4.2,1125,76.95,27/05/2009,true
+Selvarossa Riserva 2014,Italy,Salice Salentino,Cantine due Palme,4.0,1125,14.95,29/07/2019,false
+Rocca Guicciarda Chianti Classico Riserva 2016,Italy,Chianti Classico,Ricasoli,3.7,1129,13.79,03/04/2019,true
+Diamond Collection Malbec (Celestial Blue Label) 2017,United States,Napa Valley,Francis Ford Coppola,3.6,113,26.31,07/04/2004,true
+Rioja Tempranillo Elaboración Especial 2017,Spain,Rioja,Beronia,3.7,113,11.99,21/12/2006,true
+Pomerol 2015,France,Pomerol,Château Moulinet-Lasserre,4.1,113,46.79,09/09/2007,true
+1300 Merlot 2016,Argentina,Tupungato,Andeluna,3.3,113,7.70,11/02/2011,false
+Tradition Spätburgunder 2017,Germany,Franken,Rudolf Fürst,3.8,113,16.90,03/11/2015,false
+Nebbiolo Langhe 2018,Italy,Langhe,Giacomo Fenocchio,3.7,113,16.90,15/09/2011,false
+Pinot Noir 2016,United States,California,Spellbound,3.6,113,14.49,03/02/2017,false
+Tenuta Belguardo 2015,Italy,Maremma Toscana,Mazzei,3.8,113,49.00,10/11/2000,false
+Kalkmergel Spätburgunder 2014,Germany,Pfalz,Knipser,3.8,113,23.38,28/08/2001,true
+Merlot 2015,Italy,Südtirol - Alto Adige,Alois Lageder,3.7,113,17.79,22/12/2011,true
+Châteauneuf-du-Pape 2017,France,Châteauneuf-du-Pape,Clos des Papes (Paul Avril),4.2,113,86.76,30/01/2009,true
+Chianti Classico 2016,Italy,Chianti Classico,Monte Guelfo,3.4,113,8.29,22/05/2000,false
+Valdehermoso Crianza 2016,Spain,Ribera del Duero,Valderiz,3.7,113,13.50,10/04/2012,false
+Bel Noce Primitivo 2017,Italy,Salento,Cantina Rosa del Golfo,4.2,113,9.78,19/01/2008,false
+Moulin des Costes Bandol Rouge 2011,France,Bandol,Domaines Bunan,3.7,113,115.00,01/01/2005,true
+Sapaio Bolgheri Superiore 2016,Italy,Bolgheri Superiore,Podere Sapaio,4.2,113,54.81,25/12/2012,false
+Rosso di Montalcino 2015,Italy,Rosso di Montalcino,Poggio Landi,3.7,113,13.50,16/12/2002,false
+Côtes du Rhône 2016,France,Côtes-du-Rhône,Rocca Maura,3.4,113,7.50,01/03/2019,false
+Filo di Seta Brunello di Montalcino 2012,Italy,Brunello di Montalcino,Castello Romitorio,4.3,113,52.87,27/08/2011,true
+Saint-Émilion Grand Cru 2011,France,Saint-Émilion Grand Cru,Clos Dubreuil,4.1,113,63.20,13/08/2017,false
+Quinta Generation (5th) 2016,Chile,Colchagua Valley,Casa Silva,4.2,113,20.42,10/02/2002,false
+Cuvée X 2015,Germany,Pfalz,Knipser,4.1,113,40.65,03/04/2015,false
+Pauillac (Grand Cru Classé) 2017,France,Pauillac,Château Pichon Longueville Comtesse de Lalande,4.4,113,154.99,21/03/2011,false
+Bachgart Blauburgunder 2015,Italy,Südtirol - Alto Adige,Klaus Lentsch,3.8,113,42.90,04/12/2001,false
+Priorat 2017,Spain,Priorat,Clos Mogador,4.5,113,77.01,31/05/2004,true
+Hillside Select Cabernet Sauvignon 2015,United States,Stags Leap District,Shafer,4.6,113,378.98,05/03/2005,true
+Bernoota Shiraz - Cabernet 2016,Australia,Langhorne Creek,Lake Breeze Wines,3.9,113,20.75,01/08/2016,true
+Reserva Carmenère 2018,Chile,Colchagua Valley,Caliterra,3.6,113,6.33,30/08/1999,true
+Small Hill Red 2017,Austria,Burgenland,Leo Hillinger,3.6,113,9.17,21/10/2004,false
+Margaux (Grand Cru Classé) 2011,France,Margaux,Château Lascombes,4.2,1131,89.00,02/10/2000,true
+Merlot 2016,United States,Columbia Valley,Columbia Winery,3.7,1132,14.84,07/04/2002,true
+Pessac-Léognan (Grand Cru Classé de Graves) 2006,France,Pessac-Léognan,Château Pape Clément,4.4,1132,129.00,19/05/2011,false
+Conde de Valdemar Gran Reserva 2010,Spain,Rioja,Bodegas Valdemar,4.0,1134,18.79,09/03/2009,false
+Syrah 2017,Italy,Terre Siciliane,Cusumano,3.8,1134,7.90,10/11/2018,false
+Brunello di Montalcino 2012,Italy,Brunello di Montalcino,Tenute Silvio Nardi,4.1,1136,38.30,13/08/2015,false
+Ganadero 2017,Spain,Méntrida,Canopy,3.6,114,7.45,08/11/2010,true
+AS Ladieras 2015,Spain,Campo de Borja,Cuevas de Arom,3.8,114,19.24,25/10/2014,false
+Bin 3 Merlot - Cabernet Sauvignon 2016,South Africa,Stellenbosch,Kaapzicht,3.8,114,13.80,30/03/2004,false
+Gimblett Gravels Le Sol 2015,New Zealand,Gimblett Gravels,Craggy Range,4.3,114,85.27,12/08/2015,true
+Pomerol 2016,France,Pomerol,Château La Renaissance,4.1,114,24.27,12/05/2016,false
+Memorious Pinot Noir 2015,United States,Sta. Rita Hills,Domaine de la Côte,4.2,114,54.00,18/11/2016,false
+Baron Nathaniel Pauillac 2016,France,Pauillac,Baron Philippe de Rothschild,4.2,114,28.08,30/10/2003,true
+Saga Médoc 2016,France,Médoc,Barons de Rothschild (Lafite),3.5,114,10.65,24/12/1998,true
+Haut-Médoc 2014,France,Haut-Médoc,Château Haut-Bellevue,3.8,114,13.15,06/01/2013,false
+Cenit 2012,Chile,Colchagua Valley,Caliterra,4.3,114,38.94,15/04/2013,true
+Maldoror 2005,France,Côtes de Bourg,Château Fougas,3.7,114,43.95,08/09/2001,true
+Cuvée Juveniles 2017,Australia,Barossa,Torbreck,3.9,114,24.75,22/12/2000,false
+Cabernet Veneto 2016,Italy,Veneto,Torresella,3.3,114,6.77,07/03/2003,false
+Pessac-Léognan (Grand Cru Classé de Graves) 2017,France,Pessac-Léognan,Domaine de Chevalier,4.1,114,77.01,21/12/2011,true
+Purosangue Morellino di Scansano Sangiovese Riserva 2016,Italy,Morellino di Scansano,Terenzi,3.8,114,25.26,18/10/2017,true
+Colline Côtes du Rhône Rouge 2018,France,Côtes-du-Rhône,La Cabotte,3.7,114,8.98,15/01/2016,false
+Estate Perigee (Seven Hills Vineyard) 2013,United States,Walla Walla Valley,L'Ecole No 41,4.3,114,49.50,28/12/2005,true
+Pinot Noir Bourgogne 2018,France,Bourgogne,Terres Dorées,3.9,114,16.90,31/10/2005,false
+Frauenfeld St. Laurent 2015,Austria,Thermenregion,Johanneshof Reinisch,4.1,114,19.35,21/04/2005,true
+Signature Malbec 2017,Argentina,Lujan de Cuyo,Susana Balbo,3.9,1143,24.75,30/03/2005,false
+Crozes-Hermitage Les Jalets 2016,France,Crozes-Hermitage,Paul Jaboulet Aîné,3.7,1143,19.39,01/08/2005,false
+Ripassa Valpolicella Ripasso Superiore 2015,Italy,Valpolicella Ripasso,Zenato,4.2,11433,19.99,13/04/2017,false
+La Segreta Il Rosso 2017,Italy,Sicilia,Planeta,3.6,1145,8.36,19/12/2016,false
+Zinfandel 2017,United States,California,Woodbridge by Robert Mondavi,3.8,1147,8.39,08/04/2005,false
+Margaux (Grand Cru Classé) 2009,France,Margaux,Château Brane-Cantenac,4.2,1149,96.99,21/04/2000,false
+Cabernet Sauvignon 2014,Chile,Maipo Valley,Primus,3.8,1149,14.40,01/04/2013,false
+La Luna e I Falo Nizza 2015,Italy,Barbera d'Asti,Vite Colte,3.7,115,17.95,21/07/2011,false
+Three Pines Cabernet Sauvignon 2016,South Africa,Stellenbosch,Stark-Condé,4.0,115,38.99,05/04/2018,true
+Γουμένισσα (Goumenissa) 2015,Greece,Goumenissa,Chatzivaritis Estate,3.7,115,20.00,24/05/2014,false
+Toscana Rosso 2018,Italy,Toscana,Tenuta Il Poggione,3.6,115,7.99,07/01/2000,false
+Le Benjamin de Beauregard Pomerol 2016,France,Pomerol,Château Beauregard,3.9,115,34.90,24/11/2016,true
+Vigna Del Mandorlo Dolcetto d'Alba 2016,Italy,Dolcetto d'Alba,Elvio Cogno,3.5,115,13.95,10/05/2000,false
+Estate Vineyards Syrah (Shiraz) 2017,South Africa,Stellenbosch,Rust En Vrede,4.3,115,23.75,28/04/2018,false
+Prima 2006,France,Cadillac - Côtes de Bordeaux,Château Carignan,3.7,115,15.15,15/07/2010,true
+Cabernet Riserva 2016,Italy,Südtirol - Alto Adige,Alois Lageder,3.7,115,20.19,24/03/2015,false
+Centine Rosso 2018,Italy,Toscana,Banfi,3.7,115,8.50,14/08/2010,false
+Sangiovese di Romagna Superiore Riserva 2016,Italy,Romagna,Poderi dal Nespoli,3.9,115,16.64,27/03/2009,true
+Powerline Syrah 2016,United States,Walla Walla Valley,K Vintners,4.3,115,60.84,21/02/1999,true
+Granja Gran Reserva Rioja 2011,Spain,Rioja,Remelluri,4.3,115,49.75,28/08/2006,true
+Carnevalè Riserva Cannonau di Sardegna 2015,Italy,Cannonau di Sardegna,Giuseppe Sedilesu,4.1,115,25.83,23/02/2010,false
+Eloy Escudero Crianza 2014,Spain,Ribera del Duero,Bodegas y Vinedos Escudero,3.7,115,12.43,03/04/2000,true
+Rouge 2011,France,Côtes Catalanes,Domaine de l'Horizon,3.9,115,77.01,03/02/2007,true
+Gran Reserva 2012,Spain,Rioja,Rioja Vega,3.9,115,18.50,06/08/2017,false
+Negroamaro Salento Maru 2018,Italy,Salento,Castello Monaci,3.5,115,7.40,30/01/2013,false
+1300 Malbec 2018,Argentina,Tupungato,Andeluna,3.7,1150,7.70,04/05/2002,false
+Gran Reserva Rioja 2008,Spain,Rioja,Lan,3.9,1152,17.25,16/10/2004,false
+Cabernet Sauvignon 2017,United States,California,Barefoot,3.3,1155,6.00,15/02/2017,true
+Cabernet Sauvignon - Merlot 2014,Spain,Somontano,Enate,3.6,1156,19.89,05/10/2014,false
+Haut-Médoc 2014,France,Haut-Médoc,Château Beaumont,3.6,1156,15.90,29/03/2009,true
+Castelgreve Chianti Classico Riserva 2015,Italy,Chianti Classico,Castelli del Grevepesa,3.6,1157,17.84,18/06/2007,true
+Beaujolais-Villages 2019,France,Beaujolais-Villages,Joseph Drouhin,3.9,116,12.14,19/01/2012,false
+Jester Cabernet Sauvignon 2017,Australia,McLaren Vale,Mitolo,3.6,116,18.92,26/12/2013,false
+Chianti 2018,Italy,Chianti,Monte Guelfo,3.3,116,7.75,24/08/2003,false
+Millenium Reserva 2009,Spain,Ribera del Duero,Tinto Pesquera,4.5,116,82.86,13/04/2008,false
+Il Messo Governo Toscana 2017,Italy,Toscana,Barbanera,3.7,116,7.79,19/08/2019,true
+Reserve Cabernet Sauvignon 2014,United States,Oakville,Robert Mondavi,4.2,116,178.96,06/06/2015,true
+La Gravette de Certan Pomerol 2013,France,Pomerol,Vieux Château Certan,4.2,116,48.50,03/08/2007,false
+Grenache Noir 2018,France,Pays d'Oc,Paul Mas,3.8,116,5.50,06/02/2010,true
+Cabernet Sauvignon 2015,South Africa,Western Cape,Laborie,3.4,116,7.18,01/03/2003,true
+Maestro Raro 2014,Italy,Toscana,Fèlsina,4.0,116,50.67,01/12/2000,false
+Buzzard Kloof Syrah 2014,South Africa,Stellenbosch,Rustenberg,3.6,116,19.80,12/05/2013,true
+Grand Reserve 2014,South Africa,Stellenbosch,Delheim,4.1,116,26.95,27/09/2014,true
+Aussières Rouge (Red Blend) 2017,France,Pays d'Oc,Château d’Aussières,3.5,116,8.32,12/07/2000,true
+Mount Edelstone Shiraz 2014,Australia,Eden Valley,Henschke,4.4,116,179.00,29/12/2018,true
+Amarone della Valpolicella Classico 2016,Italy,Amarone della Valpolicella Classico,Allegrini,4.1,116,50.60,30/09/2016,false
+Saint-Julien (Grand Cru Classé) 2017,France,Saint-Julien,Château Léoville Barton,4.2,116,95.53,26/03/2017,false
+Reserve 2015,South Africa,Western Cape,Roodeberg,3.5,116,9.95,15/05/2005,true
+Saint-Estèphe 2017,France,Saint-Estèphe,Château Phélan Ségur,3.7,116,44.84,10/07/2004,true
+Santa Rita Rosso di Valtelina 2014,Italy,Valtellina,Mamete Prevostini,3.5,116,11.50,19/09/2002,true
+Limited Release Cabernet Sauvignon 2014,Chile,Rapel Valley,Sutil,4.1,116,11.80,24/08/2008,true
+1851 Reserva Cabernet Sauvignon 2017,Chile,Colchagua Valley,Ochagavia,3.3,116,11.47,16/06/1999,false
+Château Romassan Rouge 2016,France,Bandol,Domaines Ott,3.9,116,33.90,04/10/2001,true
+Pauillac (Grand Cru Classé) 2014,France,Pauillac,Château d'Armailhac,4.0,1160,94.80,13/03/2004,false
+Pauillac (Grand Cru Classé) 2010,France,Pauillac,Château Pichon Baron,4.5,1163,249.00,03/05/2001,true
+Pinot Noir 2016,New Zealand,Marlborough,Cloudy Bay,3.9,1163,39.95,13/08/2010,true
+St. Henri Shiraz 2013,Australia,South Australia,Penfolds,4.4,1165,109.13,25/09/2006,true
+Pinot Noir 2016,United States,Dundee Hills,Domaine Drouhin,4.2,1166,54.59,10/04/2002,true
+Negru de Purcari 2015,Moldova,South Eastern,Château Purcari,4.4,1168,98.98,28/03/2000,true
+Oakville Cabernet Sauvignon 2014,United States,Oakville,Robert Mondavi,4.2,1168,55.79,22/03/2003,true
+Douro Reserva Red 2016,Portugal,Douro,Quinta do Portal,4.0,1169,21.05,12/01/2002,false
+Saint-Julien (Grand Cru Classé) 2010,France,Saint-Julien,Château Branaire-Ducru,4.2,1169,87.24,26/03/2013,true
+Saint-Julien (Grand Cru Classé) 2001,France,Saint-Julien,Château Léoville Barton,4.3,1169,108.95,29/06/2011,true
+Reserva de Familia Syrah 2014,Spain,Lanzarote,El Grifo,4.2,117,33.95,25/12/2009,false
+Oberbergener Bassgeige Spätburgunder 2017,Germany,Baden,Franz Keller,3.6,117,14.70,29/10/2016,false
+Brolo del Figaretto Amarone della Valpolicella Valpantena 2015,Italy,Amarone della Valpolicella Valpantena,Corte Figaretto,4.2,117,29.50,30/06/2009,true
+La Nieta 2007,Spain,Rioja,Viñedos de Páganos,4.6,117,83.95,02/05/2019,true
+Merlot 2014,United States,California,Woodhaven,3.7,117,8.41,18/05/2004,true
+Èrema 2016,Italy,Isola dei Nuraghi,Siddura,3.8,117,14.57,28/11/2018,true
+Saint-Julien (Grand Cru Classé) 2017,France,Saint-Julien,Château Léoville Poyferré,3.9,117,86.76,11/06/2016,true
+Vigna di Sessina Chianti Classico Gran Selezione 2015,Italy,Chianti Classico,Dievole,4.4,117,42.00,27/02/1999,false
+Bardolino Classico 2018,Italy,Bardolino Classico,Lenotti,3.5,117,4.70,02/11/2005,false
+Reserva Cabernet Sauvignon 2013,Brazil,Serra Gaúcha,Don Guerino,3.3,117,12.62,27/05/2018,false
+Brauneberger Klostergarten Pinot Noir*** 2014,Germany,Mosel,Markus Molitor,4.0,117,38.79,18/01/2004,false
+Valpolicella Ripasso Classico Superiore Il Vegro 2017,Italy,Valpolicella,Brigaldara,3.8,117,13.40,11/04/2012,true
+Barbera d'Alba 2016,Italy,Langhe,Franco Molino,4.1,117,11.90,29/08/2015,true
+Reserva Cabernet Sauvignon 2014,Spain,Valdepeñas,Viña Albali,3.4,117,5.99,11/10/2019,true
+Saint-Émilion Grand Cru (Grand Cru Classé) 2014,France,Saint-Émilion Grand Cru,Château La Serre,3.8,117,46.79,05/03/2007,false
+Spätburgunder 2017,Germany,Baden,Shelter Winery,3.6,117,10.95,07/02/1999,true
+Giorgio 2011,South Africa,Stellenbosch,Dalla Cia,4.2,117,59.00,25/05/2019,true
+Rioja Gran Reserva 2011,Spain,Rioja,Marqués de Riscal,4.1,1170,41.04,18/08/2006,false
+Margaux (Grand Cru Classé) 2005,France,Margaux,Château Brane-Cantenac,4.4,1171,119.95,06/09/2006,true
+Montefalco Rosso 2016,Italy,Montefalco,Arnaldo-Caprai,3.7,1171,14.54,09/11/2017,true
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2005,France,Saint-Émilion Grand Cru,Château Figeac,4.5,1172,239.95,07/02/2016,false
+Toscana 2015,Italy,Toscana,Tenuta Castiglioni,3.9,1174,38.50,21/06/2000,false
+The Stump Jump Grenache - Shiraz - Mourvedre 2016,Australia,McLaren Vale,d'Arenberg,3.6,1177,8.50,16/01/2016,false
+Finca Alejandro 2013,Spain,Castilla y León,Dehesa La Granja,3.8,1177,9.99,15/06/2002,false
+Chianti Classico Riserva 2013,Italy,Chianti Classico,Brancaia,3.9,1178,18.50,12/08/2000,true
+Puro Corte 2018,Argentina,Mendoza,Dieter Meier,3.9,118,14.89,19/08/2005,true
+Bardolino 2018,Italy,Bardolino,Cantina di Custoza,3.5,118,5.50,25/12/2012,true
+La Baronnie Madeleine Chinon 2015,France,Chinon,Couly-Dutheil,3.8,118,16.69,03/09/2006,true
+Lagrein Schweizer 2017,Italy,Südtirol - Alto Adige,Franz Haas,3.8,118,24.46,05/05/2001,false
+Vindoro Negroamaro 2016,Italy,Salento,San Marzano,4.3,118,18.90,14/03/2002,true
+Sasyr Sangiovese - Syrah Toscana 2016,Italy,Toscana,Rocca delle Macìe,3.9,118,9.26,08/06/2009,false
+Frans Malan Cape Blend 2016,South Africa,Stellenbosch,Simonsig,4.2,118,19.95,30/08/2012,true
+Barolo Brunate 2015,Italy,Barolo,Ceretto,4.2,118,128.91,02/03/2019,true
+Toscana Merlot 2013,Italy,Toscana,Danzante,3.5,118,10.69,01/02/2014,true
+Saint Hilaire Vineyard Pinot Noir Réserve 2017,France,Pays d'Oc,Paul Mas,3.5,118,7.79,13/04/2008,false
+Morellino di Scansano 2016,Italy,Morellino di Scansano,Aia Vecchia,3.6,118,8.72,31/08/2006,false
+Barbaresco Bernardot 2014,Italy,Barbaresco,Ceretto,4.1,118,89.00,09/10/2014,true
+Margaux 2005,France,Margaux,Château La Gurgue,4.0,118,39.95,10/03/2000,true
+Merlot 2018,South Africa,Swartland,Leopard’s Leap,3.3,118,7.75,13/07/2000,false
+Barolo Castiglione 2014,Italy,Barolo,Vietti,4.1,1180,43.87,06/09/2003,true
+Pinot Noir 2017,New Zealand,Marlborough,Brancott Estate,3.3,1180,10.21,24/03/2000,true
+Saint-Julien (Grand Cru Classé) 2005,France,Saint-Julien,Château Beychevelle,4.4,1182,129.95,02/03/2009,true
+Evenstad Reserve Pinot Noir 2013,United States,Willamette Valley,Domaine Serene,4.3,1182,108.46,30/05/1999,false
+Submission Cabernet Sauvignon 2017,United States,California,689 - Six Eight Nine,3.9,1186,15.40,20/11/2017,true
+Médoc 2009,France,Médoc,Château La Cardonne,3.8,1187,25.92,30/04/2009,false
+Signature Pinotage 2018,South Africa,Western Cape,Spier,3.6,1188,6.50,06/09/2007,false
+Bolgheri Superiore 2015,Italy,Bolgheri Superiore,Grattamacco,4.2,1188,55.19,26/01/2012,false
+Amarone della Valpolicella Classico 2015,Italy,Amarone della Valpolicella Classico,Biscardo,4.3,1189,26.06,20/03/2008,true
+Bosan Riserva Amarone della Valpolicella Classico 2008,Italy,Amarone della Valpolicella Classico,Cesari,4.2,119,56.00,30/01/2017,true
+Nebbiolo Coste Della Sesia 2017,Italy,Coste della Sesia,Travaglini,3.6,119,18.70,22/06/2019,true
+Sister Moon 2015,Italy,Toscana,Tenuta Il Palagio,4.2,119,42.95,27/08/2015,false
+Vat 9 Shiraz 2011,Australia,Hunter Valley,Tyrrell's,3.9,119,33.92,06/01/2010,true
+GSM 2017,France,Vin de France,Maison de La Villette,4.0,119,6.60,08/09/2017,true
+Pomerol 2005,France,Pomerol,Clos l'Eglise,4.4,119,139.95,04/12/2001,true
+Tribu Merlot 2016,Argentina,Maipu,Trivento,3.1,119,8.67,03/09/2007,true
+Aconcagua Valley 2017,Chile,Aconcagua Valley,Sena,4.3,119,106.15,22/04/2015,false
+Zweigelt 2018,Austria,Burgenland,Judith Beck,3.6,119,10.60,27/02/2008,true
+Macán Clásico 2016,Spain,Rioja,Benjamin de Rothschild - Vega Sicilia,4.2,119,38.50,05/12/2015,true
+Gevrey-Chambertin 2016,France,Gevrey-Chambertin,Joseph Drouhin,4.1,119,48.64,22/12/2010,true
+Pessac-Léognan (Grand Cru Classé de Graves) 2017,France,Pessac-Léognan,Château Pape Clément,4.0,119,102.35,20/10/2005,false
+Le Clos des Fées (Hervé Bizeul) 2015,France,Côtes du Roussillon,Domaine du Clos des Fées,4.2,119,38.89,18/12/2004,true
+Mont du Toit 2007,South Africa,Wellington,Mont du Toit,4.1,119,54.00,21/12/2006,false
+Saga Médoc 2015,France,Médoc,Barons de Rothschild (Lafite),3.9,119,10.25,30/12/2005,false
+Valpolicella Ripasso (Classico Superiore) 2017,Italy,Valpolicella Ripasso,Tommasi,4.1,119,16.90,03/09/2003,false
+Il Passo Nerello Mascalese 2018,Italy,Terre Siciliane,Zabu,3.7,119,7.50,15/07/2010,true
+Les Dentelles Côtes du Roussillon Villages 2015,France,Côtes du Roussillon Villages,Thunevin-Calvet,3.7,119,31.19,21/04/2015,false
+Maremma Toscana Le Sughere di Frassinello 2015,Italy,Maremma Toscana,Rocca di Frassinello,3.9,1190,19.90,24/04/2004,false
+Barrel Selection Malbec 2018,Argentina,Uco Valley,Salentein,4.1,1192,12.89,17/02/2008,true
+Rioja Reserva (Tempranillo) 2015,Spain,Rioja,Ramón Bilbao,4.0,1192,10.49,14/08/1999,true
+Malbec 2018,Argentina,Mendoza,Alamos,3.7,11920,8.40,15/04/2009,true
+Rubicon 2016,South Africa,Stellenbosch,Meerlust,4.3,1193,26.90,03/01/2000,true
+Paula Malbec 2018,Argentina,Lujan de Cuyo,Doña Paula,3.4,1194,6.73,10/09/2009,false
+Hermitage 'La Maison Bleue' 2017,France,Hermitage,Paul Jaboulet Aîné,4.1,120,77.35,27/01/2007,false
+Aviator Blaufränkisch 2017,Austria,Neusiedlersee,Keringer,4.0,120,11.60,06/01/2016,true
+Syrah Reserva 2017,Chile,Central Valley,Escudo Rojo,3.4,120,12.50,02/02/2015,false
+Poggio Valente 2014,Italy,Toscana,Fattoria le Pupille,3.8,120,26.90,19/12/1998,false
+Primitivo 2018,Italy,Salento,Feudo Croce,3.8,120,9.95,15/10/2018,false
+Prestige Saint-Drézéry Rouge 2018,France,Saint-Drézéry,Château Puech-Haut,4.2,120,16.85,12/08/2013,false
+Pinotage Reserve 2018,South Africa,Durbanville,Diemersdal,4.1,120,19.25,12/09/2014,true
+Cabernet Sauvignon - Merlot 2015,Slovenia,Podravje,Puklavec Family Wines,3.0,120,7.65,25/10/2000,false
+Merlot - Corvina 2018,Italy,Veneto,Corte Giara,3.4,120,6.44,26/02/2012,false
+Atrium Merlot 2018,Spain,Penedès,Torres,3.8,120,10.50,04/04/2013,true
+Cabernet Sauvignon (The Churchyard) 2018,South Africa,Franschhoek,Franschhoek Cellar,3.6,120,8.50,01/09/1999,true
+Rosso di Montepulciano 2016,Italy,Rosso di Montepulciano,Talosa,3.4,120,12.19,26/08/2012,false
+La Chenade Lalande de Pomerol 2015,France,Lalande-de-Pomerol,Denis Durantou,4.0,120,28.83,18/06/2017,true
+Appellation Syrah 2017,Argentina,Pedernal Valley,Pyros,3.8,120,13.95,04/06/2008,false
+Sot Nebbiolo d'Alba 2015,Italy,Nebbiolo d'Alba,Pelassa,3.7,120,15.99,15/11/2002,false
+Rosso di Montalcino 2017,Italy,Rosso di Montalcino,Villa Poggio Salvi,3.7,120,13.99,03/11/2007,false
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2016,France,Saint-Émilion Grand Cru,Château Beau-Sejour Becot,4.1,120,85.00,12/08/2011,false
+Anaperenna 2017,Australia,Barossa Valley,Glaetzer,4.2,120,44.99,21/06/2008,false
+1270 A Vuit Red 2013,Spain,Priorat,Hidalgo Albert,3.7,120,29.25,31/03/2003,true
+La Garnacha Olvidada de Aragón 2017,Spain,Aragón,Proyecto Garnachas de España,3.7,120,13.95,06/09/1999,false
+Dolcetto d'Alba 2017,Italy,Dolcetto d'Alba,Borgogno,3.8,120,13.95,29/07/2016,false
+Médoc 2005,France,Médoc,Château d'Escurac,3.7,120,25.95,19/07/2003,false
+Montepulciano d'Abruzzo 2018,Italy,Montepulciano d'Abruzzo,Nobile delle Rocche,3.6,120,4.95,25/08/2016,false
+Les Hauts de Naudon Bordeaux Supérieur 2016,France,Bordeaux Supérieur,Château Pierrail,3.8,120,8.95,26/07/1999,false
+Winemaker's Selection Tinto 2018,Portugal,Lisboa,Portada,3.7,1202,5.74,25/06/2003,false
+Salmos 2016,Spain,Priorat,Torres,4.2,1203,23.49,02/05/2013,false
+Capitel San Rocco Valpolicella Ripasso Superiore 2016,Italy,Valpolicella Ripasso,Tedeschi,3.8,1205,14.20,20/12/2017,false
+Crianza Rioja 2016,Spain,Rioja,Ramón Bilbao,3.9,12079,8.60,11/08/2004,false
+Saint-Estèphe (Grand Cru Classé) 2012,France,Saint-Estèphe,Château Montrose,4.2,1208,106.25,26/07/2019,true
+Pinotage 2016,South Africa,Stellenbosch,Kanonkop,4.2,1208,39.19,06/10/2007,true
+Sorì dei Mori Barbera d'Asti 2018,Italy,Barbera d'Asti,Vinchio - Vaglio Serra,3.1,121,8.90,18/05/2019,false
+Margaux (Grand Cru Classé) 2016,France,Margaux,Château Marquis d'Alesme,4.1,121,53.61,23/06/1999,true
+Pinotage 2018,South Africa,Stellenbosch,Stellenrust,3.6,121,8.72,03/04/2015,true
+I Bastioni Chianti Classico 2017,Italy,Chianti Classico,Collazzi,3.8,121,15.42,13/12/2015,false
+4 20 Montepulciano d'Abruzzo 2018,Italy,Montepulciano d'Abruzzo,Torri,3.8,121,8.90,07/04/2018,true
+Pinotage 2016,South Africa,Stellenbosch,Anura,3.8,121,12.60,22/07/2019,false
+Cabernet Sauvignon Grande Reserva 2014,Portugal,Lisboa,Casa do Lago,4.1,121,5.99,16/01/2002,true
+Reserva 2012,Spain,Rioja,Viña Olabarri,3.7,121,13.70,03/02/2015,true
+Special Reserve Cabernet Sauvignon 2013,Chile,Colchagua Valley,Siegel,3.7,121,12.62,01/07/2000,true
+Tenuta Santedame Chianti Classico 2015,Italy,Chianti Classico,Ruffino,3.8,121,19.42,22/07/2009,true
+Caladessa Tinto 2016,Portugal,Alentejo,Herdade da Calada,4.0,121,9.90,01/03/2015,false
+Spätburgunder 2017,Germany,Ahr,Hand in Hand - Meyer-Näkel & Klumpp,3.9,121,12.50,13/05/2001,false
+Pietra Susumaniello 2018,Italy,Salento,Menhir,3.8,121,12.90,28/05/2017,true
+Savigny Premier Cru 'Aux Clous' 2014,France,Savigny-lès-Beaune 1er Cru 'Aux Clous',Ardhuy,3.8,121,23.59,27/03/2010,true
+Cabernet Sauvignon - Syrah 2018,France,Pays d'Oc,Anciens Temps,3.6,121,5.70,06/04/2000,true
+Roches d'Hillac 2015,France,Buzet,Les Vignerons de Buzet,3.4,121,6.20,25/01/2002,false
+La Cumbre Syrah 2015,Chile,Aconcagua Valley,Errazuriz,4.3,121,63.27,16/06/2015,false
+Argile Rouge 2017,France,Vins des Allobroges,Domaine des Ardoisieres,3.9,121,29.15,01/11/1999,true
+Brunello di Montalcino Riserva 2010,Italy,Brunello di Montalcino,Conti Costanti,4.5,121,144.53,01/10/2018,true
+One Red Blend 2016,South Africa,Western Cape,Capaia,3.9,121,19.05,29/04/2001,false
+Circle of Life Red 2015,South Africa,Stellenbosch,Waterkloof,3.7,121,16.90,09/12/2016,false
+Barolo 2013,Italy,Barolo,Ceretto,4.0,1211,48.40,18/12/2005,true
+Grand Cru Apalta 2014,Chile,Colchagua Valley,Caballo Loco,4.4,1211,27.20,31/12/2008,false
+Marquis de Calon Saint-Estèphe 2014,France,Saint-Estèphe,Château Calon-Ségur,3.9,1212,24.90,12/04/2014,true
+Légende (R) Bordeaux Rouge 2016,France,Bordeaux,Barons de Rothschild (Lafite),3.5,1213,12.14,22/09/2004,true
+Barbera d'Alba 2017,Italy,Barbera d'Alba,Fontanafredda,3.6,1213,8.59,20/02/2014,false
+Estate Shiraz 2017,Australia,Clare Valley,Taylors / Wakefield,3.8,1215,9.50,11/05/2009,false
+Da Vinci Chianti 2017,Italy,Chianti,Cantine Leonardo da Vinci,3.5,1218,7.50,07/07/2006,false
+Terroir du Trias Bandol Rouge 2015,France,Bandol,Domaine de Terrebrune,4.1,122,30.90,15/11/2013,false
+Chiaramonte Nero d'Avola 2017,Italy,Terre Siciliane,Firriato,3.7,122,8.49,25/08/2004,false
+Pinot Noir Te Muna Road Vineyard 2017,New Zealand,Marlborough,Craggy Range,4.1,122,39.48,11/01/2000,true
+Titolo 2016,Italy,Aglianico del Vulture,Elena Fucci,3.8,122,31.48,24/08/2006,false
+Johanneshöhe Blaufränkisch 2012,Austria,Burgenland,Prieler,3.7,122,11.09,15/11/2015,true
+Sorì San Lorenzo 2013,Italy,Langhe,Gaja,4.4,122,445.00,20/09/2012,true
+Moncagua Malbec 2017,Argentina,Mendoza,Belasco de Baquedano,3.7,122,8.83,22/06/2002,false
+Passiata 2017,Italy,Sicilia,Stemmari,3.9,122,6.68,07/10/2009,false
+Montagne-Saint-Émilion 2015,France,Montagne-Saint-Émilion,Château Tour Calon,3.6,122,14.36,08/05/2016,true
+Médoc 2010,France,Médoc,Château Cardus,3.7,122,14.90,16/06/2004,false
+Sidereus 2016,Italy,Toscana,Cantine del Borgo Reale,3.8,122,26.81,08/03/2003,false
+Haut-Médoc 2014,France,Haut-Médoc,Château Saint-Ahon,3.9,122,18.42,11/06/2017,false
+Caudium Aglianico 2018,Italy,Campania,Masseria Frattasi,3.8,122,10.57,12/07/2002,true
+Barthélémy 2010,France,Francs - Côtes de Bordeaux,Château le Puy,4.2,122,149.00,12/08/2008,false
+Aenigma Red 2014,South Africa,Elgin,Neil Ellis,3.5,122,9.90,07/11/2004,false
+Toscana Rosso 2015,Italy,Toscana,La Madonnina,4.1,122,26.00,04/02/2002,false
+Crozes-Hermitage Domaine de Thalabert 1996,France,Crozes-Hermitage,Paul Jaboulet Aîné,3.8,122,54.25,29/04/2004,false
+Finca Biniagual Gran Verán 2015,Spain,Binissalem-Mallorca,Biniagual,4.0,122,46.79,04/04/2011,true
+Martin Melck Cabernet Sauvignon 2015,South Africa,Stellenbosch,Muratie,4.1,122,13.99,21/07/2013,true
+Vitral Reserva Carmenère 2018,Chile,Rapel Valley,Viña Maipo,3.6,122,7.50,14/10/1999,true
+Chianti Classico 2014,Italy,Chianti Classico,Cinciole,3.8,122,14.57,27/05/2018,false
+Bordeaux Rouge 2015,France,Bordeaux,Château Vircoulon,3.2,122,8.95,09/09/2001,true
+Terroir Series Cabernet Sauvignon 2016,Argentina,Mendoza,Kaiken,3.7,122,10.24,04/06/2005,true
+Barbera d'Alba Maria Gioana 2015,Italy,Barbera d'Alba,Giacosa Fratelli,4.0,122,14.62,06/12/2015,true
+Blauer Spätburgunder 2013,Germany,Baden,Ziereisen,3.4,122,11.31,08/04/2000,true
+Châteauneuf-du-Pape (Tradition) Rouge 2010,France,Châteauneuf-du-Pape,Domaine de la Janasse,4.1,122,49.95,02/01/2009,true
+Rosso di Montepulciano 2018,Italy,Rosso di Montepulciano,Tenuta di Gracciano della Seta,3.9,122,8.53,26/08/2010,true
+Monti Garbi Valpolicella Ripasso Superiore 2017,Italy,Valpolicella Ripasso,Tenuta Sant'Antonio,3.9,1220,9.95,04/07/2009,true
+Cabernet Sauvignon (Cs) 2016,United States,Columbia Valley,Substance,3.8,1221,21.80,13/02/1999,true
+Rocca Rubia Riserva Carignano del Sulcis 2016,Italy,Carignano del Sulcis,Santadi,4.1,1222,15.08,29/12/2005,false
+Rioja Gran Reserva 2011,Spain,Rioja,Marqués de Cáceres,4.0,1225,17.69,10/08/2011,true
+Crianza 2014,Spain,Rioja,Rioja Vega,3.5,1226,7.99,14/01/2011,true
+Saint-Julien (Grand Cru Classé) 2007,France,Saint-Julien,Château Léoville Barton,4.1,1227,76.00,02/04/2009,true
+Moulis-en-Médoc 2012,France,Moulis-en-Médoc,Château Poujeaux,3.9,1227,31.19,17/04/2003,false
+Saint-Julien (Grand Cru Classé) 2008,France,Saint-Julien,Château Léoville Barton,4.2,1228,76.95,22/07/2017,false
+Poggio ai Ginepri Bolgheri 2017,Italy,Bolgheri,Tenuta Argentiera,3.9,1228,11.90,21/05/2003,true
+Selección Especial (Reserva) 2015,Spain,Rioja,Muga,4.3,1229,26.32,16/12/2013,true
+Dragone Rosso 2016,Italy,Calabria,Lento,3.8,123,13.42,31/12/2014,true
+Lily's Garden Shiraz 2017,Australia,McLaren Vale,Two Hands,4.2,123,49.00,10/07/2002,false
+LZ Rioja 2018,Spain,Rioja,Telmo Rodriguez,3.5,123,8.75,13/03/2006,true
+Estate Selection Cabernet Sauvignon - Merlot 2017,Slovenia,Podravje,Puklavec Family Wines,3.6,123,8.99,28/05/2008,true
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2011,France,Saint-Émilion Grand Cru,Château Belair-Monange,4.2,123,109.00,18/09/2000,false
+Garnatxa 2018,Spain,Catalunya,Segura Viudas,3.1,123,6.25,25/12/2017,true
+Reserve Spéciale Cabernet - Merlot 2017,France,Pays d'Oc,Philibert du Charme,4.0,123,6.61,10/10/2012,false
+Reserva Tinto 1999,Portugal,Alentejo,Marquês de Borba,4.5,123,50.20,29/01/2017,false
+Châteauneuf-du-Pape Chaupin 2010,France,Châteauneuf-du-Pape,Domaine de la Janasse,4.4,123,98.00,23/07/2008,true
+Margaux 2016,France,Margaux,Château Rauzan-Gassies,4.0,123,88.00,17/06/2004,true
+Tempranillo Valencia 2018,Spain,Valencia,Radio Boca,3.4,123,5.15,16/01/2019,true
+Pézenas 2017,France,Pézenas,Mas des Mas,3.7,123,16.79,30/08/2003,true
+Les Vieilles Vignes Volnay 2015,France,Volnay,Vincent Girardin,3.9,123,48.10,21/02/2003,false
+Conteisa Langhe 2011,Italy,Langhe,Gaja,4.2,123,219.00,23/08/2005,false
+Kanai Riserva Carignano del Sulcis 2015,Italy,Carignano del Sulcis,Sardus Pater,3.8,123,16.57,10/01/2003,true
+Paxxo 2017,Italy,Veneto,Stefano Accordini,4.1,123,19.40,21/10/2008,true
+Petit Jaug Margaux 2012,France,Margaux,Clos du Jaugueyron,3.9,123,25.00,25/03/2007,true
+Alentejano Reserva Tinto 2016,Portugal,Alentejano,Herdade dos Grous,4.3,123,37.90,25/06/1999,true
+Haut-Médoc 2005,France,Haut-Médoc,Château Tour du Haut Moulin,3.7,123,27.95,20/03/2014,true
+Odé d'Aydie Madiran 2016,France,Madiran,Château d'Aydie,3.7,123,12.90,11/02/2014,true
+Instinct Parcellaire Côtes de Provence 2015,France,Côtes de Provence,Château des Bormettes,3.7,123,21.93,17/01/2012,false
+Rosso di Montalcino Banditella 2016,Italy,Rosso di Montalcino,Col d'Orcia,3.8,123,18.50,11/06/2019,false
+Eremo San Quirico 2016,Italy,Irpinia Campi Taurasini,Nativ,4.2,1232,17.45,16/09/2000,true
+Rioja Reserva 2009,Spain,Rioja,Luis Cañas,3.9,1233,34.99,28/09/2010,true
+De Chiripa 2017,Spain,Ribera del Duero,Valderiz,3.6,124,15.27,11/09/2006,true
+Colección Crianza 2013,Spain,Navarra,Castillo de Enériz,4.1,124,12.30,05/01/2004,true
+Leradici Barbera d'Asti 2018,Italy,Barbera d'Asti,Mauro Molino,4.0,124,15.47,20/02/2018,true
+Merlot 2017,Israel,Galilee,Gamla,3.9,124,15.05,12/12/1999,true
+Barolo Pajana 2011,Italy,Barolo,Domenico Clerico,4.2,124,63.92,16/03/2007,true
+Al-Muvedre Tinto Monastrell 2018,Spain,Alicante,Telmo Rodriguez,3.6,124,6.95,15/12/2005,true
+Geremia Toscana 2013,Italy,Toscana,Rocca di Montegrossi,4.1,124,29.95,23/04/2014,false
+Margaux (Grand Cru Classé) 2017,France,Margaux,Château Giscours,3.8,124,70.19,16/06/2005,false
+Saint-Estèphe 2016,France,Saint-Estèphe,Château Le Crock,4.0,124,38.25,16/12/2018,false
+Monopole 'Clos des Langres' Rouge 2014,France,Côte de Nuits Villages,Ardhuy,4.2,124,35.50,25/03/1999,true
+Barolo Brunate 2011,Italy,Barolo,Vietti,4.4,124,144.53,04/06/2002,false
+The Long Walk Shiraz 2018,South Africa,Western Cape,Footprint,3.5,124,6.50,12/08/2002,true
+Cabernet Sauvignon 2015,South Africa,Stellenbosch,Zevenwacht,3.8,124,13.82,10/04/2011,true
+País 2015,Chile,Itata Valley,Viña La Causa,3.8,124,11.55,16/09/2008,true
+Rouge 2015,France,Gard,Roc d'Anglade,3.9,124,36.46,28/12/2010,true
+La Napoleon Beaujolais Villages 2017,France,Beaujolais-Villages,Clotaire Michal,3.8,124,35.00,08/06/2017,true
+Vi de Vila Gratallops 2017,Spain,Priorat,Álvaro Palacios,4.3,124,47.95,16/08/2013,true
+Shiraz 2017,Australia,McLaren Vale,Jim Jim,3.4,124,11.60,24/11/2014,false
+Domaine De Cigalus Red 2018,France,Vin de Pays,Gérard Bertrand,4.1,124,32.75,24/07/2017,true
+Reserva Malbec 2017,Argentina,Patagonia,Bodega del Fin del Mundo,3.8,1242,13.69,17/05/2019,false
+Haut-Médoc 2012,France,Haut-Médoc,Château Sociando-Mallet,4.0,1243,52.35,05/04/2009,true
+Tempranillo 2018,Spain,Rioja,Dinastía Manzanos,3.7,1246,5.43,21/06/2008,true
+Primitivo Salento Pilùna 2018,Italy,Salento,Castello Monaci,4.0,1247,6.90,18/10/2005,false
+Koonunga Hill Shiraz - Cabernet 2018,Australia,South Australia,Penfolds,3.7,1249,10.60,19/01/2000,true
+Adénzia Rosso 2016,Italy,Sicilia,Baglio del Cristo di Campobello,4.0,125,13.40,22/10/2006,false
+Chianti Classico 2017,Italy,Chianti Classico,Dievole,3.6,125,16.90,14/07/2017,true
+Memorious Pinot Noir 2016,United States,Sta. Rita Hills,Domaine de la Côte,4.0,125,54.00,22/07/2010,true
+Batonnage (Red Scorpion) 2016,Austria,Niederösterreich,Scheiblhofer,4.4,125,149.00,10/04/2002,true
+l'Equilibre 2016,France,Languedoc-Roussillon,Villa Symposia,3.7,125,8.72,26/03/2003,true
+Rouge (Estate Reserve) 2011,South Africa,Stellenbosch,Morgenster Estate,4.2,125,36.50,24/06/2013,false
+Alàuda 2015,Italy,Toscana,Ruffino,4.5,125,106.89,02/11/2001,true
+Parcela 12 Graciano 2016,Spain,Castilla,Finca Constancia,3.8,125,8.99,22/08/2014,true
+Copertino 2016,Italy,Copertino,Doppio Passo,4.1,125,8.77,01/10/2018,true
+Le Different de Chateau de Ferrand Saint Emilion Grand Cru 2015,France,Saint-Émilion Grand Cru,Château de Ferrand,4.1,125,21.00,03/09/2010,false
+Haut-Médoc 2015,France,Haut-Médoc,Château d'Aurilhac,3.6,125,13.50,19/05/2005,true
+Caroso Montepulciano d'Abruzzo Riserva 2015,Italy,Montepulciano d'Abruzzo,Citra,3.9,125,13.55,02/10/2012,true
+Ermitage Le Pavillon 2000,France,Hermitage,M. Chapoutier,4.6,125,419.95,01/12/2017,false
+Matallana 2010,Spain,Ribera del Duero,Telmo Rodriguez,4.0,125,81.95,17/06/2010,false
+Alfredo Dried Grape Shiraz 2016,Australia,South Australia,Nugan,3.8,125,22.59,16/02/2008,false
+Rocche di Castiglione Barolo 2011,Italy,Barolo,Brovia,4.2,125,66.45,07/09/2015,true
+Toscano Rosso 2016,Italy,Toscana,Famiglia Castellani,4.0,125,5.43,12/02/1999,false
+Annonce Saint-Émilion Grand Cru 2014,France,Saint-Émilion Grand Cru,Château Belair-Monange,4.1,125,53.61,22/06/2007,true
+Messiio Maremma Toscana 2015,Italy,Maremma Toscana,Fertuna,4.1,125,21.24,05/11/2003,false
+Tempranillo 2017,Spain,Castilla,Conde Pinel,3.4,125,4.86,28/07/2018,false
+Ventoux Artemia 2015,France,Ventoux,Château Pesquie,4.0,125,32.90,22/09/2019,true
+Cabernet Sauvignon 2017,United States,California,Wines from Hahn Estate,3.7,1250,19.20,24/08/2008,false
+Bourgogne Pinot Noir 2015,France,Bourgogne,Bouchard Père & Fils,3.5,1252,44.59,16/04/2011,true
+Tupungato Passo Doble Malbec - Corvina 2009,Argentina,Tupungato,Masi,3.5,1252,13.69,02/08/2019,false
+Reserva de Propiedad 2016,Chile,Maipo Valley,Haras de Pirque,3.5,1253,9.99,03/03/2008,false
+Saint-Julien (Grand Cru Classé) 2005,France,Saint-Julien,Château Léoville Poyferré,4.4,1254,139.95,27/04/2006,true
+Bordeaux Supérieur 2015,France,Bordeaux Supérieur,Château Croix Mouton,3.7,1254,14.57,16/03/2007,true
+Chianti Classico 2015,Italy,Chianti Classico,Tenuta Perano,3.8,1255,16.08,13/04/2017,true
+Alandra Tinto 2018,Portugal,Alentejo,Esporão,3.3,1258,4.75,04/04/2015,true
+Gran Sangre de Toro Reserva 2015,Spain,Catalunya,Torres,3.7,1258,9.90,25/11/2005,false
+Rubesco Rosso di Torgiano 2013,Italy,Torgiano,Lungarotti,3.5,1259,11.65,28/06/2002,true
+Reserve Cabernet Sauvignon 2014,South Africa,Stellenbosch,Anura,3.9,126,16.60,15/02/2002,false
+Les Terroirs Vieux Carignan 2017,France,Hérault,Calmel & Joseph,3.7,126,9.90,19/07/2004,false
+Chianti Superiore 2018,Italy,Chianti,Castello del Trebbio,3.8,126,13.33,11/06/2016,true
+Casalferro Toscana 2016,Italy,Toscana,Ricasoli,4.0,126,39.90,29/09/2006,false
+Barbera d'Alba Trevigne 2009,Italy,Barbera d'Alba,Domenico Clerico,3.7,126,16.39,25/04/2012,true
+Pelagrilli Brunello di Montalcino 2014,Italy,Brunello di Montalcino,Siro Pacenti,4.2,126,51.90,24/12/2009,true
+50 & 50 2014,Italy,Toscana,Capannelle,4.3,126,95.70,03/06/1999,false
+Wiener Trilogie 2016,Austria,Wien,Wieninger,3.7,126,12.87,24/09/2012,false
+Gattinara Tre Vigne 2014,Italy,Gattinara,Travaglini,4.1,126,38.70,26/09/2010,true
+Ocra Bolgheri Rosso 2017,Italy,Bolgheri,Tenute Guicciardini Strozzi,3.9,126,21.95,09/04/2016,false
+Message in a Bottle Rosso 2018,Italy,Toscana,Tenuta Il Palagio,3.7,126,14.55,11/09/2002,true
+Bricco Dei Merli Barbera d'Alba 2015,Italy,Barbera d'Alba,Elvio Cogno,3.8,126,13.95,27/03/2013,true
+Lacrima di Morro d'Alba 2018,Italy,Lacrima di Morro d'Alba,Conti di Buscareto,3.4,126,7.58,17/11/2005,true
+Coevo Toscana 2013,Italy,Toscana,Cecchi,4.2,126,59.02,02/02/2006,true
+Amarone della Valpolicella Case Vecie 2013,Italy,Amarone della Valpolicella Classico,Brigaldara,4.0,126,36.75,22/01/2009,false
+Syrah Sicilia 2018,Italy,Sicilia,Feudo Arancio,3.8,126,6.75,07/04/2017,true
+Cabernet Sauvignon 2017,Australia,Riverina,Richland,3.5,126,9.78,08/09/2007,false
+Collezione di Famiglia Syrah Terre Siciliane 2018,Italy,Terre Siciliane,Barone Montalto,4.1,126,8.32,09/10/2017,true
+Tre 2017,Italy,Toscana,Brancaia,3.6,126,11.50,07/11/2014,false
+Haut-Médoc 2010,France,Haut-Médoc,Château Sénéjac,3.7,1262,35.95,21/01/2004,false
+Saint-Julien (Grand Cru Classé) 2011,France,Saint-Julien,Château Léoville Poyferré,4.2,1264,109.00,26/04/2017,false
+Plumbago Nero d'Avola Sicilia 2017,Italy,Sicilia,Planeta,3.7,1264,10.50,15/03/2006,false
+Chianti Classico Vigneto Gran Selezione San Lorenzo 2013,Italy,Chianti Classico,Castello di Ama,3.9,1265,31.53,14/08/2018,false
+Foradori - Teroldego 2015,Italy,Vigneti delle Dolomiti,Foradori,3.8,1269,19.50,19/10/2002,true
+Haut-Médoc 2015,France,Haut-Médoc,Château Arnauld,4.1,127,43.39,11/12/2008,false
+Réserve Royale Saperavi 2015,Georgia,Kakheti,Mukhrani,4.4,127,32.90,09/09/2004,false
+Tinto Reserva 2016,Portugal,Dão,Fonte do Ouro,4.0,127,11.75,29/01/2012,true
+Petit Albet Penedès Rouge 2018,Spain,Penedès,Albet i Noya,3.2,127,7.95,01/09/2003,false
+Camelot 2014,Italy,Terre Siciliane,Firriato,4.1,127,29.99,24/02/2012,true
+Kaleidoscope 2018,South Africa,Stellenbosch,Kaapzicht,3.3,127,7.90,13/11/2011,false
+Syrah 2015,South Africa,Cape Agulhas,Lands End,3.6,127,9.90,31/08/2017,false
+Edición Limitada M 2016,Chile,Colchagua Valley,Caliterra,4.1,127,14.57,02/01/2002,false
+Kennedy Grenache - Shiraz - Mourvedre 2017,Australia,Barossa Valley,Sons of Eden,3.9,127,26.81,27/04/2005,true
+Collio Cabernet Sauvignon 2017,Italy,Collio,Marco Felluga,3.7,127,15.99,16/12/2005,false
+Envero Carmenère Gran Reserva 2017,Chile,Colchagua Valley,Apaltagua,3.8,1270,14.50,07/08/2002,true
+Casamatta Toscana Rosso 2016,Italy,Toscana,Bibi Graetz,3.5,1270,8.14,25/06/2013,false
+Brunello di Montalcino 2012,Italy,Brunello di Montalcino,Fanti,4.2,1270,30.71,20/07/2003,true
+Saint-Estèphe (Grand Cru Classé) 2010,France,Saint-Estèphe,Château Lafon-Rochet,4.1,1272,55.00,29/01/2018,true
+The Butcher Cuvée 2017,Austria,Neusiedlersee,Schwarz,3.8,1273,25.50,07/02/2009,true
+Saint-Estèphe 2009,France,Saint-Estèphe,Château Haut-Marbuzet,4.3,1274,62.39,13/05/2000,true
+The Banished Dark Red 2018,Australia,South Eastern Australia,19 Crimes,4.0,1274,11.49,01/01/2017,true
+Rosso di Montepulciano 2015,Italy,Rosso di Montepulciano,Poliziano,3.7,1274,9.95,03/06/2017,true
+Nero d'Avola Terre Siciliane 2017,Italy,Terre Siciliane,Tenuta Rapitalà,3.4,1275,6.75,11/02/2011,false
+Cabernet Sauvignon 2016,Chile,Aconcagua Valley,Arboleda,3.9,1275,15.50,18/02/1999,true
+Crianza Rioja 2015,Spain,Rioja,Ramón Bilbao,3.8,12778,8.95,01/12/2014,true
+Primitivo 2018,Italy,Puglia,Terre di Montelusa,3.8,128,4.90,27/09/2012,true
+Reserva Merlot 2016,Chile,Maipo Valley,Santa Rita,3.3,128,9.65,16/07/2009,true
+Bricco della Bigotta Barbera d'Asti 2013,Italy,Barbera d'Asti,Braida,4.2,128,45.00,08/06/2000,false
+Cantus Primus Cabernet Sauvignon 2015,Romania,Dealu Mare,Vitis Metamorfosis,3.8,128,18.90,09/10/2001,false
+Sassorosso Grumello Valtellina Superiore 2016,Italy,Valtellina Superiore,Nino Negri,3.8,128,16.51,25/06/2006,true
+Agneau Rouge Bordeaux 2018,France,Bordeaux,Baron Philippe de Rothschild,3.5,128,6.05,02/03/2005,false
+Selkirk Shiraz 2016,Australia,Langhorne Creek,Bremerton,3.9,128,18.03,07/07/2001,false
+Finca San Martín Crianza 2016,Spain,Rioja,La Rioja Alta,3.6,128,10.91,24/04/2005,false
+Edición Limitada A 2016,Chile,Colchagua Valley,Caliterra,4.1,128,16.50,26/06/2006,true
+Crianza 2014,Spain,Toro,Muruve,3.6,128,10.93,31/03/2017,true
+Chianti 2015,Italy,Chianti,Principe Strozzi,3.4,128,17.40,20/10/2015,true
+Chianti 2018,Italy,Chianti,Castello di Gabbiano,3.5,128,8.25,23/04/2001,false
+Spätburgunder 2017,Germany,Pfalz,Rings,3.6,128,11.50,15/08/2013,true
+Prados Fusión Garnacha - Syrah 2018,Spain,Campo de Borja,Pagos del Moncayo,3.7,128,9.49,13/06/2000,false
+Estate Red (Cabernet Sauvignon - Shiraz) 2016,South Africa,Stellenbosch,Kaapzicht,3.9,128,10.45,10/01/2007,false
+Barrel Selection Merlot 2017,Argentina,Uco Valley,Salentein,4.0,128,13.43,02/10/2017,false
+Tempranillo 2018,Spain,Castilla y León,Venta Morales,3.5,128,7.40,17/10/2005,false
+Pinot Nero 2017,Italy,Südtirol - Alto Adige,Castel Sallegg,3.5,128,13.95,21/12/2009,false
+Dedicato Tannat 2013,Brazil,Serra Gaúcha,Monte Paschoal,3.9,128,15.55,12/04/2004,true
+Tortoniano Barolo 2006,Italy,Barolo,Michele Chiarlo,3.9,128,29.19,22/01/2003,true
+Iirrésistible Côtes de Provence 2015,France,Côtes de Provence,Domaine de la Croix,3.8,128,29.00,18/10/2011,false
+Diamond Collection/Selection Shiraz 2019,Australia,South Eastern Australia,Rosemount,3.7,128,5.95,14/08/2014,false
+Malleolus 2017,Spain,Ribera del Duero,Emilio Moro,4.3,1281,27.05,07/11/2011,false
+No Name 2015,Italy,Piemonte,Borgogno,4.0,1285,25.55,24/11/2000,false
+Blacksmith Cabernet Sauvignon 2017,Australia,Barossa,Langmeil,3.9,129,16.90,28/10/2002,true
+Ocho y Medio Malbec 2018,Spain,La Mancha,Finca La Estacada,3.6,129,5.49,17/11/2005,true
+Riscal Roble Tempranillo 2013,Spain,Castilla y León,Marqués de Riscal,3.4,129,6.39,23/10/2007,true
+Pannobile Red 2015,Austria,Burgenland,Paul Achs,3.8,129,29.90,25/02/2018,true
+Terra d'Eclano Aglianico Irpinia 2013,Italy,Irpinia,Quintodecimo,4.2,129,43.65,19/01/1999,false
+Unico 2010,Spain,Ribera del Duero,Vega Sicilia,4.7,129,320.00,30/05/2012,false
+Allnatt Rouge Souplesse 2018,France,Languedoc,Paul Mas,3.8,129,7.49,29/07/2016,false
+Due Rosso 2017,Italy,Veneto,Giannitessari,4.0,129,9.50,25/12/2011,false
+Saint-Émilion Grand Cru 2011,France,Saint-Émilion Grand Cru,Château Guinot,3.4,129,15.90,18/11/2006,false
+Graves 2016,France,Graves,Château Haura,3.5,129,17.95,06/12/2002,false
+Le Stanze Toscana 2011,Italy,Toscana,Poliziano,4.1,129,33.95,09/06/2008,true
+Carmignano Riserva Trefiano 2012,Italy,Carmignano,Capezzana,4.0,129,34.58,12/05/2013,true
+Pessac-Léognan (Grand Cru Classé de Graves) 2013,France,Pessac-Léognan,Château La Mission Haut-Brion,4.3,129,261.25,22/12/2012,false
+Bordeaux Supérieur 2011,France,Bordeaux Supérieur,Château Lafite Monteil,3.5,129,9.95,09/05/2001,false
+Coto Real Reserva 2005,Spain,Rioja,El Coto,3.8,129,29.19,28/07/2009,false
+Liala Negroamaro 2018,Italy,Salento,Masseria Borgo dei Trulli,4.3,129,19.95,15/05/2012,false
+Syrah 2017,South Africa,Franschhoek,La Motte Wine Estate,3.9,129,16.95,30/01/2019,false
+Fetească Neagră 2017,Romania,Dealu Mare,Vitis Metamorfosis,3.8,129,7.50,09/06/2013,true
+Conde de Valdemar Tempranillo 2018,Spain,Rioja,Bodegas Valdemar,3.5,129,5.99,24/03/2003,false
+Lou Coucardié Rouge 2014,France,Costières-de-Nîmes,Michel Gassier,4.0,129,24.09,09/10/2006,true
+Zweigelt 2016,Austria,Niederösterreich,Weingut Bründlmayer,3.5,129,10.95,29/03/2015,true
+Cabernet Sauvignon 2016,South Africa,Stellenbosch,Neil Ellis,3.8,129,12.90,25/06/2002,false
+Pinotage 2014,South Africa,Stellenbosch,Welmoed,3.2,129,8.32,31/08/2019,false
+Campogiovanni Brunello di Montalcino 2012,Italy,Brunello di Montalcino,San Felice,4.2,1293,33.85,24/12/2014,true
+Barolo 2014,Italy,Barolo,Borgogno,3.9,1295,50.85,16/02/1999,false
+V Reserva 2014,Spain,Rioja,Bodegas Faustino,3.7,1296,9.70,19/01/2010,true
+Chianti 2017,Italy,Chianti,Ricasoli,3.5,1297,7.85,25/10/2004,true
+Terra Romana Fetească Neagră 2016,Romania,Dealu Mare,Serve,3.5,130,10.50,02/02/2013,true
+Foundation Pinotage 2018,South Africa,Coastal Region,Nederburg,3.6,130,5.81,08/12/2015,false
+Riserva Ducale Oro Chianti Classico (Gran Selezione Gold) 2015,Italy,Chianti Classico,Ruffino,3.9,130,34.99,06/10/2014,true
+Langhe Nebbiolo 2017,Italy,Langhe,La Spinetta,3.9,130,18.03,08/03/2002,true
+Cellar Selection Carmenère 2018,Chile,Central Valley,Santa Carolina,3.6,130,5.95,14/04/2012,true
+Kallista 2013,South Africa,Stellenbosch,Vriesenhof,4.1,130,29.19,02/02/2006,true
+4 Meses Red 2017,Spain,La Mancha,Volver,3.7,130,8.38,21/02/2011,true
+Cabernet Sauvignon 2016,South Africa,Coastal Region,Fleur du Cap,3.6,130,12.03,07/04/2009,false
+Cabernet Sauvignon (1685 series) 2016,South Africa,Stellenbosch,Boschendal,3.7,130,16.99,04/01/2011,false
+Cabernet Sauvignon 2015,United States,Sonoma Valley,Schug,4.0,130,38.94,19/12/1999,false
+Amarone della Valpolicella Monte Lodoletta 2012,Italy,Amarone della Valpolicella,Dal Forno Romano,4.7,130,270.63,15/06/1999,true
+Clos Baltasar 2015,Spain,Calatayud,San Alejandro,3.9,130,13.54,18/03/2002,false
+El Viejo 2017,Spain,Toro,Matsu,4.1,130,28.30,12/09/2006,true
+Barolo La Serra 2014,Italy,Barolo,Mauro Molino,4.2,130,48.64,14/11/2009,false
+The Montelena Estate Cabernet Sauvignon 2001,United States,Calistoga,Chateau Montelena,4.4,130,153.90,09/04/2017,false
+Seven Flags Pinot Noir 2016,South Africa,Elgin,Paul Cluver,4.3,130,56.74,10/08/2007,true
+Arborina Barolo 2013,Italy,Barolo,Elio Altare,4.3,130,77.12,03/09/2008,false
+Reserva Special Blend 2016,Argentina,Patagonia,Bodega del Fin del Mundo,4.3,1302,35.89,02/01/2005,false
+Carmenère Reserva 2017,Chile,Colchagua Valley,Apaltagua,3.6,1303,10.50,15/05/2019,false
+Rioja La Vendimia 2017,Spain,Rioja,Palacios Remondo,3.7,1305,8.87,08/07/2000,false
+The Footbolt Shiraz 2016,Australia,McLaren Vale,d'Arenberg,3.6,1307,14.09,16/02/2008,false
+Bicicleta Cabernet Sauvignon 2017,Chile,Central Valley,Cono Sur,3.5,1308,6.90,28/06/2013,true
+Rosso di Montalcino 2017,Italy,Rosso di Montalcino,Gianni Brunelli,4.0,131,35.58,15/07/2019,false
+La Cumbre Syrah 2014,Chile,Aconcagua Valley,Errazuriz,4.3,131,57.42,30/11/2014,true
+Grand Reserve 2015,South Africa,Stellenbosch,Delheim,4.0,131,25.70,06/12/2006,true
+Rosso Piceno 2018,Italy,Rosso Piceno,Azienda Santa Barbara - Stefano Antonucci,3.5,131,7.50,18/12/2001,true
+Saint-Joseph Les Capelets 2015,France,Saint-Joseph,Pierre Amadieu,4.0,131,17.45,28/07/2003,false
+Brunello Di Montalcino Riserva 2009,Italy,Brunello di Montalcino,Caparzo,4.3,131,48.02,25/12/2015,true
+Eight Songs Shiraz 2013,Australia,Barossa,Peter Lehmann,3.8,131,35.09,02/06/2018,false
+Villa Cordevigo Rosso 2012,Italy,Rosso Veronese,Villabella,4.3,131,23.91,17/05/2007,true
+Les Terroirs Côtes du Roussillon Villages 2015,France,Côtes du Roussillon Villages,Calmel & Joseph,3.7,131,7.75,23/07/2011,true
+Pian delle Mole Langhe Nebbiolo 2016,Italy,Langhe,Giulia Negri,3.8,131,15.50,14/04/2010,false
+Blauer Spätburgunder Trocken 2016,Germany,Pfalz,Knipser,3.9,131,11.20,17/01/2009,true
+Liaison Pinot Noir 2017,Germany,Baden,Enderle & Moll,3.8,131,19.72,07/04/2013,true
+Teroldego Rotaliano Vigilius 2015,Italy,Teroldego Rotaliano,De Vescovi Ulzbach,4.1,131,24.27,20/03/2003,false
+Evaluna 2016,Italy,Garda,Sansonina,4.0,131,16.44,11/07/2006,true
+Clancy's Red Blend 2016,Australia,Barossa,Peter Lehmann,3.5,131,12.12,21/01/2011,false
+Syrah Pago Garduña 2014,Spain,Castilla y León,Abadia Retuerta,4.2,131,73.11,18/06/2015,true
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 2011,France,Saint-Émilion Grand Cru,Château Trotte Vieille,4.1,131,70.19,28/07/2002,false
+Aquilae Nero d'Avola 2014,Italy,Sicilia,CVA Canicatti,3.6,131,8.60,24/02/2018,true
+Sorì Tildìn (Barbaresco) Langhe 2014,Italy,Langhe,Gaja,4.6,131,470.00,15/11/2003,true
+Cervidoni Rosso Piceno 2016,Italy,Rosso Piceno,Tenuta di Tavignano,3.8,131,7.70,28/07/2005,true
+Château d'Ampuis Côte-Rôtie 2016,France,Côte-Rôtie,E. Guigal,3.9,131,99.00,15/02/2003,true
+Single Valley Lot Gran Reserva Syrah 2014,Chile,Colchagua Valley,Valdivieso,3.7,131,14.57,05/01/2002,true
+Saperavi - Cabernet 2015,Georgia,Kakheti,Mukhrani,3.9,131,14.90,31/10/2006,false
+Châteauneuf-du-Pape 2014,France,Châteauneuf-du-Pape,Château de Beaucastel,4.3,1310,67.26,09/03/2007,true
+Douro Tinto 2018,Portugal,Douro,Casal Garcia,3.7,1311,4.89,21/10/2000,false
+Pauillac (Grand Cru Classé) 2012,France,Pauillac,Château Lynch-Bages,4.3,1311,106.25,16/05/2000,false
+Red Blend N.V.,Chile,Lontue Valley,Caballo Loco,4.4,13136,34.07,17/08/2017,true
+Rara Neagra de Purcari 2018,Moldova,South Eastern,Château Purcari,4.1,1314,10.98,23/06/2019,false
+Malbec Argentino 2017,Argentina,Mendoza,Catena Zapata,4.6,1314,77.01,15/05/2005,false
+Saint-Julien (Grand Cru Classé) 2005,France,Saint-Julien,Château Gruaud Larose,4.3,1317,94.95,09/02/2002,true
+Ebbio Nebbiolo Langhe 2018,Italy,Langhe,Fontanafredda,3.5,1318,14.21,18/06/2019,false
+120 Cabernet Sauvignon 2017,Chile,Central Valley,Santa Rita,3.4,1318,7.80,07/10/2017,false
+Château Trocard Bordeaux Supérieur 2012,France,Bordeaux Supérieur,Jean-Louis Trocard,3.2,132,9.26,14/10/2007,false
+Saint-Émilion Grand Cru 2010,France,Saint-Émilion Grand Cru,Le Dome,4.6,132,399.95,17/03/2015,false
+Barolo Riserva Monfortino 2013,Italy,Barolo,Giacomo Conterno,4.8,132,1115.50,29/09/2010,true
+Tavkveri 2016,Georgia,Kakheti,Mukhrani,4.1,132,16.90,01/03/2012,true
+The Glass Collection Syrah 2014,South Africa,Stellenbosch,Glenelly,3.5,132,11.95,01/02/2012,true
+Rouge (Estate Reserve) 2013,South Africa,Stellenbosch,Morgenster Estate,4.1,132,36.50,01/04/2014,true
+Primocolle Chianti Classico 2016,Italy,Chianti Classico,Villa Cerna,3.7,132,14.73,08/03/2012,true
+Saint-Émilion Grand Cru 2013,France,Saint-Émilion Grand Cru,Château Grand Barrail Lamarzelle Figeac,3.8,132,29.50,19/03/2017,true
+Les Crus Terrasses du Larzac 2016,France,Terrasses du Larzac,Calmel & Joseph,3.9,132,12.62,15/11/2002,true
+Galantas Gran Reserva Cabernet Franc 2016,Chile,Maipo Valley,Haras de Pirque,3.8,132,28.83,19/04/2006,false
+Cabernet Sauvignon 2017,South Africa,Western Cape,Protea,3.3,132,8.95,13/07/2013,false
+Preta Cuvée Grande Reserva 2008,Portugal,Alentejano,Fitapreta,4.3,132,35.09,26/11/2013,true
+Pinot Fin Bourgogne 2014,France,Bourgogne,Domaine Arnoux-Lachaux,3.6,132,39.69,22/03/2009,true
+Musar Jeune Rouge 2016,Lebanon,Bekaa Valley,Château Musar,3.8,1323,10.84,04/05/2007,true
+Reserva 2015,Spain,Rioja,Hacienda López de Haro,3.7,1323,9.95,18/02/2008,true
+Bolgheri Superiore 2014,Italy,Bolgheri Superiore,Grattamacco,4.1,1325,51.36,24/03/2010,true
+Barolo 2015,Italy,Barolo,Elio Altare,4.2,133,62.57,29/01/2015,false
+Brunello di Montalcino 2015,Italy,Brunello di Montalcino,Fattoria dei Barbi,4.1,133,32.88,18/09/1999,false
+Futures Shiraz 2015,Australia,Barossa,Peter Lehmann,3.8,133,15.03,10/11/2003,true
+'Rosso & Bianco' Shiraz 2016,United States,California,Francis Ford Coppola,3.8,133,13.25,27/01/2016,false
+Quinta Da Gricha Douro 2009,Portugal,Douro,Churchill's,4.6,133,56.84,06/09/2002,true
+Barolo Prapò 2010,Italy,Barolo,Ettore Germano,4.2,133,48.40,04/09/2014,false
+Rosso di Montepulciano Prugnolo 2018,Italy,Rosso di Montepulciano,Boscarelli,3.7,133,12.90,23/04/2015,false
+Zephyrus Shiraz 2017,Australia,Barossa,Sons of Eden,4.0,133,31.19,13/05/2014,false
+Teroldego Rotaliano 2016,Italy,Teroldego Rotaliano,De Vescovi Ulzbach,3.9,133,11.45,04/10/2004,false
+Grand Grenache Gigondas 2012,France,Gigondas,Domaine Santa Duc,4.0,133,45.00,29/10/2017,false
+12 e Mezzo Negroamaro del Salento 2017,Italy,Salento,Varvaglione,3.8,133,7.31,15/01/2010,false
+La Bella Addormentata Terre di Chieti Sangiovese 2018,Italy,Terre di Chieti,Gran Sasso,3.6,133,7.32,06/09/2013,true
+Twin Oaks Cabernet Sauvignon 2018,United States,California,Robert Mondavi,3.2,133,7.69,04/02/2007,false
+Cuvée du Chaos Fleurie 2018,France,Fleurie,Les Bertrand,4.2,133,22.62,08/07/2019,true
+Limited Release Cabernet Sauvignon 2014,United States,Napa Valley,Black Stallion,4.0,133,106.89,19/01/2005,false
+Gries Lagrein Riserva 2017,Italy,Südtirol - Alto Adige,Nals Margreid,4.1,133,19.90,24/01/2004,false
+Saint-Émilion Grand Cru (Premier Grand Cru Classé) 1998,France,Saint-Émilion Grand Cru,Château Belair-Monange,4.1,133,96.85,29/03/1999,false
+Cortevecchia Riserva Chianti Classico 2015,Italy,Chianti Classico,Principe Corsini,3.9,133,16.99,24/07/2017,true
+Le Redini 2015,Italy,Toscana,Tenuta Degli Dei,4.0,133,20.09,21/05/2000,true
+Sangre de Toro Original 2018,Spain,Catalunya,Torres,3.5,1331,6.73,24/06/2017,true
+Haut-Médoc 2005,France,Haut-Médoc,Château Sociando-Mallet,4.2,1331,59.95,19/07/2014,false
+The Guv’nor 2019,Spain,Valdepeñas,Félix Solís,4.0,1333,6.20,24/08/2003,false
+Gran Reserva Rioja (Tempranillo) 2011,Spain,Rioja,Ramón Bilbao,3.9,1334,18.23,31/12/2006,true
+Pinot Noir 2014,New Zealand,Marlborough,Brancott Estate,3.6,1335,9.99,21/06/2009,true
+Pauillac (Grand Cru Classé) 2000,France,Pauillac,Château Pichon Baron,4.5,1339,309.90,09/07/2018,true
+Selected Vines Malbec (Barrancas Vineyards) 2017,Argentina,Mendoza,Pascual Toso,4.0,134,15.16,10/09/2002,true
+Terralis Shiraz - Malbec 2015,Argentina,Mendoza,Trivento,3.4,134,6.99,10/04/2012,true
+Testamatta Toscana 2016,Italy,Toscana,Bibi Graetz,4.2,134,105.00,08/04/1999,true
+Mencia 2014,Spain,Valdeorras,A Portela,3.6,134,11.90,09/04/2005,true
+Compleo Cuvée Noire 2018,Switzerland,Zürich,Staatskellerei Zürich,3.9,134,17.06,13/10/2005,false
+Pommard 2015,France,Pommard,Bouchard Père & Fils,4.0,134,48.54,13/03/2011,true
+Merlot 2017,South Africa,Stellenbosch,Zonnebloem,3.8,134,8.29,12/04/2007,true
+Bordeaux Supérieur 2017,France,Bordeaux Supérieur,Château Le Gardera,3.8,134,8.78,02/11/2000,false
+Bandol Rouge 2016,France,Bandol,Gros' Noré,4.1,134,31.90,12/06/2000,false

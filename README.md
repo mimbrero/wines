@@ -11,7 +11,7 @@ Este proyecto trata y manipula información sobre vinos, como la adjuntada en la
   * **wines_test.py**: Test de cada una de las funciones del módulo wines, explicado arriba.
 
   * **util/**: Paquete con módulos útiles:
-    * **parsing_utils-py**: Módulo con funciones para parsear tipos que no se incluyen en builtins.
+    * **parsing_utils.py**: Módulo con funciones para parsear tipos que no se incluyen en builtins.
 
 * **data/**: Contiene el dataset o datasets del proyecto
     * **wine_data.csv**: Datos de 999 vinos distintos, desde su nombre, país o bodega hasta su precio, fecha o si tiene denominación de origen.
@@ -36,20 +36,14 @@ El dataset está compuesto por 9 columnas, con la siguiente descripción:
 * **Wine**: tipo básico de un vino. Contiene toda la información explicada arriba (name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation)
 
 ## Funciones implementadas
-### \<modulo 1\>
+### wines.py
 
-* **<funcion 1>**: Descripción de la función 1.
-* **<funcion 2>**: Descripción de la función 2.
-* ...
+* **parse_file(str)**: Abre el archivo que se sitúa en la ruta dada como parámetro y lo parsea en una lista de tuplas de tipo Wine.
 
-### \<test modulo 1\>
+### wines_test.py
 
-* **<test funcion 1>**: Descripción de las pruebas realizadas a la función 1.
-* **<test funcion 2>**: Descripción de las pruebas realizadas a la función 2.
-* ...
-* 
-### \<modulo 2\>
+* **test_parse_file(str)**: Test para la función <code>parse_file(str)</code> del módulo <code>wines.py</code>. Requiere como parámetro la ruta de un archivo csv para hacer el test sobre él. Escribe en la consola el número de datos leídos, 3 objetos Wine que corresponden a los 3 primeros del archivo, y los 3 últimos.
 
-* **<funcion 1>**: Descripción de la función 1.
-* **<funcion 2>**: Descripción de la función 2.
-* ...
+### parsing_utils.py
+
+* **parse_date(str)**: Parsea una date dada en str en formato <code>%d/%m/%Y</code> (dd/mm/aaaa).

@@ -1,8 +1,3 @@
-'''
-Created on 29 oct 2021
-
-@author: alberto
-'''
 from datetime import datetime, date
 
 

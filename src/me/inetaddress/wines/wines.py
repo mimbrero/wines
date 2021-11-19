@@ -1,8 +1,3 @@
-'''
-Created on 29 oct 2021
-
-@author: alberto
-'''
 import csv
 from collections import namedtuple
 from typing import List
@@ -12,7 +7,6 @@ from me.inetaddress.wines.util.parsing_utils import parse_date
 # --------------------------------------
 # ENTREGA 1
 # --------------------------------------
-
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
 
 

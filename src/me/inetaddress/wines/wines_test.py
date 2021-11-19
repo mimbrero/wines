@@ -1,10 +1,5 @@
 from me.inetaddress.wines import wines
-
-
-def print_test_header(test_name):
-    print("\n\n--------------------------------------")
-    print(test_name, "test")
-    print("--------------------------------------")
+from me.inetaddress.wines.util.test_utils import *
 
 
 # --------------------------------------

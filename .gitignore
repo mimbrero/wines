@@ -1,4 +1,9 @@
+# Python cache
+__pycache__/
+
+# Eclipse/PyDev
 .project
 .pydevproject
 
-__pycache__/
+# IDEA/PyCharm
+.idea/

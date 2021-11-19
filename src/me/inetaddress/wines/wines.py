@@ -6,6 +6,7 @@ Created on 29 oct 2021
 from collections import namedtuple
 from datetime import date
 import csv
+from typing import List
 from me.inetaddress.wines.util.parsing_utils import parse_date
 
 # --------------------------------------
@@ -14,7 +15,7 @@ from me.inetaddress.wines.util.parsing_utils import parse_date
 
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
 
-def parse_file(path:str) -> [Wine(str, str, str, str, float, int, float, date, bool)]:
+def parse_file(path:str) -> List[Wine]:
     '''
     Abre el archivo que se sitúa en la ruta dada como parámetro y lo parsea en una lista de tuplas de tipo Wine.
     El archivo debe estar codificado en utf-8.

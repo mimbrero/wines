@@ -116,7 +116,19 @@ def sort_by_age(wines: Iterable[Wine],
     return filtered
 
 
+# Se pide: Función que devuelva un diccionario que permita agrupar por una propiedad, en el que los valores sean una
+# lista o un conjunto con las tuplas que tienen el mismo valor de esa propiedad.
 def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[float, List[Wine]]:
+    """
+    Agrupa los Wines contenidos en el Iterable pasado como parámetro en un diccionario por valoración como clave y
+    una lista con los vinos que tienen esa valoración como valor.
+
+    @param wines: vinos a agrupar por valoración
+    @param just_ints: True si solo se quiere agrupar en valoraciones sin decimales. Un vino con valoración 3.6 se
+    agrupará con los de valoración 3
+
+    @return: un diccionario agrupando los vinos por valoración
+    """
     grouped: Dict[float, List[Wine]] = defaultdict(list)
 
     for wine in wines:

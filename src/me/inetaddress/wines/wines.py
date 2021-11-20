@@ -94,3 +94,23 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     """
     oldest_date = min(wine.since for wine in wines)
     return [wine for wine in wines if wine.since == oldest_date]
+
+
+# Se pide: Función que obtenga una lista con n tuplas ordenadas de mayor a menor (o de menor a mayor) por una
+# propiedad determinada de entre las que cumplan una condición.
+def sort_by_age(wines: Iterable[Wine],
+                descendant: bool = False,
+                min_age: float = 0,
+                from_date: date = today) -> List[Wine]:
+    """
+    Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
+
+    @param wines: Iterable de Wines a obtener la lista ordenada
+    @param descendant: True si se deben ordenar de más nuevo a más viejo (por defecto False)
+    @param min_age: edad mínima que deben tener los vinos
+    @param from_date: fecha para calcular la edad (por defecto hoy)
+    @return: una lista de vinos ordenada por edad
+    """
+    filtered = [wine for wine in wines if calculate_age(wine, from_date) >= min_age]
+    filtered.sort(key=lambda wine: wine.since, reverse=descendant)
+    return filtered

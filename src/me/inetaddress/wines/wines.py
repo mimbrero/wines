@@ -27,7 +27,7 @@ def parse_file(path: str) -> List[Wine]:
         to_return = []
         for name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation in reader:
             wine = Wine(name, country, region, winery, float(rating), int(number_of_ratings), float(price),
-                        parse_date(since), bool(origin_appellation))
+                        parse_date(since), eval(origin_appellation.capitalize()))
             to_return.append(wine)
 
         return to_return

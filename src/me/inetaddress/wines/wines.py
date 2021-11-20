@@ -1,6 +1,7 @@
 import csv
 from collections import namedtuple
-from typing import List
+from datetime import date
+from typing import List, Iterable, Callable
 
 from me.inetaddress.wines.util.parsing_utils import parse_date
 
@@ -29,3 +30,33 @@ def parse_file(path: str) -> List[Wine]:
             to_return.append(wine)
 
         return to_return
+
+
+# --------------------------------------
+# ENTREGA 2
+# --------------------------------------
+
+# Bloque I
+today: date = date.today()  # Constant to prevent constructing every time
+
+
+def calculate_age(wine: Wine) -> float:
+    """
+    Calcula la edad del vino dado, en años, con decimales (dados por los meses) redondeados a 2 cifras.
+
+    @param wine: vino a calcular la edad
+    @return: la edad del vino en años
+    """
+    to_years: Callable[[date], float] = lambda d: d.year + d.month / 12
+    return round(to_years(today) - to_years(wine.since), 2)
+
+
+def filter_by_age(wines: Iterable[Wine], min_age: float) -> List[Wine]:
+    """
+    Filtra por edad mínima el Iterable de Wines pasado como argumento.
+
+    @param wines: Iterable de Wines a filtrar
+    @param min_age: edad mínima que deben tener los vinos
+    @return: un Iterable de Wines ya filtrado por edad mínima
+    """
+    return list(filter(lambda wine: calculate_age(wine) >= min_age, wines))

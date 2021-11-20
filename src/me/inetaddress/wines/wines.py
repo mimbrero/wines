@@ -41,33 +41,36 @@ def parse_file(path: str) -> List[Wine]:
 today: date = date.today()  # Constant to prevent constructing every time
 
 
-def calculate_age(wine: Wine) -> float:
+def calculate_age(wine: Wine, from_date: date = today) -> float:
     """
     Calcula la edad del vino dado, en años, con decimales (dados por los meses) redondeados a 2 cifras.
 
     @param wine: vino a calcular la edad
+    @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la edad del vino en años
     """
     to_years: Callable[[date], float] = lambda d: d.year + d.month / 12
-    return round(to_years(today) - to_years(wine.since), 2)
+    return round(to_years(from_date) - to_years(wine.since), 2)
 
 
-def filter_by_age(wines: Iterable[Wine], min_age: float) -> List[Wine]:
+def filter_by_age(wines: Iterable[Wine], min_age: float, from_date: date = today) -> List[Wine]:
     """
     Filtra por edad mínima el Iterable de Wines pasado como argumento.
 
     @param wines: Iterable de Wines a filtrar
     @param min_age: edad mínima que deben tener los vinos
+    @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: un Iterable de Wines ya filtrado por edad mínima
     """
-    return list(filter(lambda wine: calculate_age(wine) >= min_age, wines))
+    return list(filter(lambda wine: calculate_age(wine, from_date) >= min_age, wines))
 
 
-def calculate_mean_age(wines: Iterable[Wine]) -> float:
+def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
     Calcula la media de edad de los vinos que contiene el Iterable pasado como argumento.
 
     @param wines: Iterable de Wines a calcular la media
+    @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la media de edad de los vinos
     """
-    return mean(calculate_age(wine) for wine in wines)
+    return mean(calculate_age(wine, from_date) for wine in wines)

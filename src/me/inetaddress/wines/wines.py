@@ -43,14 +43,13 @@ today: date = date.today()  # Constant to prevent constructing every time
 
 def calculate_age(wine: Wine, from_date: date = today) -> float:
     """
-    Calcula la edad del vino dado, en años, con decimales (dados por los meses) redondeados a 2 cifras.
+    Calcula la edad del vino dado, en años, con decimales redondeados a 2 cifras.
 
     @param wine: vino a calcular la edad
     @param from_date: fecha para calcular la edad (por defecto hoy)
-    @return: la edad del vino en años
+    @return: la edad del vino, en años
     """
-    to_years: Callable[[date], float] = lambda d: d.year + d.month / 12
-    return round(to_years(from_date) - to_years(wine.since), 2)
+    return round((from_date - wine.since).days / 365, 2)
 
 
 def filter_by_age(wines: Iterable[Wine], min_age: float, from_date: date = today) -> List[Wine]:

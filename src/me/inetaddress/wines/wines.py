@@ -1,6 +1,7 @@
 import csv
 from collections import namedtuple
 from datetime import date
+from statistics import mean
 from typing import List, Iterable, Callable
 
 from me.inetaddress.wines.util.parsing_utils import parse_date
@@ -60,3 +61,7 @@ def filter_by_age(wines: Iterable[Wine], min_age: float) -> List[Wine]:
     @return: un Iterable de Wines ya filtrado por edad mínima
     """
     return list(filter(lambda wine: calculate_age(wine) >= min_age, wines))
+
+
+def calculate_mean_age(wines: Iterable[Wine]) -> float:
+    return mean(calculate_age(wine) for wine in wines)

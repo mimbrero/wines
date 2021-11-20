@@ -64,4 +64,10 @@ def filter_by_age(wines: Iterable[Wine], min_age: float) -> List[Wine]:
 
 
 def calculate_mean_age(wines: Iterable[Wine]) -> float:
+    """
+    Calcula la media de edad de los vinos que contiene el Iterable pasado como argumento.
+
+    @param wines: Iterable de Wines a calcular la media
+    @return: la media de edad de los vinos
+    """
     return mean(calculate_age(wine) for wine in wines)

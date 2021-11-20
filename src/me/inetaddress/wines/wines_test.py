@@ -38,6 +38,11 @@ def filter_by_age_and_print(data: Iterable[Wine], min_age: float) -> None:
     print_sequence(wines.filter_by_age(data, min_age))
 
 
+def test_calculate_mean_age(data: Iterable[Wine]) -> None:
+    print_test_header("calculate_mean_age")
+    print("La edad media de los vinos dados es de", wines.calculate_mean_age(data), "años")
+
+
 # Bloque II
 # TODO
 
@@ -48,6 +53,7 @@ def main():
 
     data = wines.parse_file(dataset_path)
     test_filter_by_age(data)
+    test_calculate_mean_age(data)
 
 
 if __name__ == "__main__":

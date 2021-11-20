@@ -1,3 +1,5 @@
+from typing import Callable
+
 from me.inetaddress.wines import wines
 from me.inetaddress.wines.util.test_utils import *
 from me.inetaddress.wines.wines import Wine
@@ -17,6 +19,7 @@ def main():
     test_calculate_mean_age(data)
     test_get_oldest_wines(data)
     test_sort_by_age(data)
+    test_group_by_ratings(data)
 
 
 # --------------------------------------
@@ -81,6 +84,24 @@ def test_sort_by_age(data: Sequence[Wine]) -> None:
 
     print("\nY los más 2 más nuevos con al menos 5 años son:")
     print_sequence(wines.sort_by_age(data, min_age=5, descendant=True)[:2])
+
+
+def test_group_by_ratings(data: Sequence[Wine]) -> None:
+    print_test_header("group_by_ratings")
+
+    print("\nPara puntuaciones con decimales:")
+    grouped = wines.group_by_ratings(data)
+    print_rated(grouped, 4.6)
+    print_rated(grouped, 4.8)
+
+    print("\n\nPara puntuaciones del 0-5 sin decimales:")
+    grouped = wines.group_by_ratings(data, just_ints=True)
+    print_rated(grouped, 2)
+
+
+def print_rated(grouped: dict[float, list[Wine]], rate: float) -> None:
+    print("\nLos vinos con una puntuación de", rate, "son:")
+    print_iterable(grouped[rate])
 
 
 if __name__ == "__main__":

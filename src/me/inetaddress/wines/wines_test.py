@@ -3,6 +3,19 @@ from me.inetaddress.wines.util.test_utils import *
 from me.inetaddress.wines.wines import Wine
 
 
+def main():
+    dataset_path = "../../../../data/wine_data.csv"
+
+    # Entrega 1
+    test_parse_file(dataset_path)
+
+    data = wines.parse_file(dataset_path)
+
+    # Entrega 2
+    test_filter_by_country(data)
+    test_calculate_mean_age(data)
+
+
 # --------------------------------------
 # ENTREGA 1
 # --------------------------------------
@@ -25,35 +38,26 @@ def test_parse_file(path: str) -> None:
 # ENTREGA 2
 # --------------------------------------
 
-# Bloque I
-def test_filter_by_age(data: Iterable[Wine]) -> None:
-    print_test_header("filter_by_age")
-    filter_by_age_and_print(data, 22)
-    filter_by_age_and_print(data, 22.8)
-    filter_by_age_and_print(data, 800)
+# ----------
+# BLOQUE I
+# ----------
+def test_filter_by_country(data: Sequence[Wine]) -> None:
+    print_test_header("filter_by_country")
+    filter_by_country_and_print(data, "Portugal")
+    filter_by_country_and_print(data, "Israel")
+    filter_by_country_and_print(data, "ThisCountryDoesNotExist")
 
 
-def filter_by_age_and_print(data: Iterable[Wine], min_age: float) -> None:
-    print("\nVinos con más de", min_age, "años")
-    print_sequence(wines.filter_by_age(data, min_age))
+def filter_by_country_and_print(data: Sequence[Wine], country: str) -> None:
+    print(f"\nVinos de {country}:")
+    print_iterable(wines.filter_by_country(data, country))
 
 
-def test_calculate_mean_age(data: Iterable[Wine]) -> None:
+def test_calculate_mean_age(data: Sequence[Wine]) -> None:
     print_test_header("calculate_mean_age")
     print("La edad media de los vinos dados es de", wines.calculate_mean_age(data), "años")
 
 
-# Bloque II
-# TODO
-
-
-def main():
-    dataset_path = "../../../../data/wine_data.csv"
-    test_parse_file(dataset_path)
-
-    data = wines.parse_file(dataset_path)
-    test_filter_by_age(data)
-    test_calculate_mean_age(data)
 
 
 if __name__ == "__main__":

@@ -14,6 +14,7 @@ def main():
     # Entrega 2
     test_filter_by_country(data)
     test_calculate_mean_age(data)
+    test_get_oldest_wines(data)
 
 
 # --------------------------------------
@@ -58,6 +59,13 @@ def test_calculate_mean_age(data: Sequence[Wine]) -> None:
     print("La edad media de los vinos dados es de", wines.calculate_mean_age(data), "años")
 
 
+# ----------
+# BLOQUE II
+# ----------
+def test_get_oldest_wines(data: Sequence[Wine]) -> None:
+    print_test_header("get_oldest_wines")
+    print("El/los vino/s más antiguos es/son:")
+    print_iterable(wines.get_oldest_wines(data))
 
 
 if __name__ == "__main__":

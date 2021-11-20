@@ -2,7 +2,7 @@ import csv
 from collections import namedtuple
 from datetime import date
 from statistics import mean
-from typing import List, Iterable, Callable
+from typing import List, Iterable
 
 from me.inetaddress.wines.util.parsing_utils import parse_date
 
@@ -37,10 +37,25 @@ def parse_file(path: str) -> List[Wine]:
 # ENTREGA 2
 # --------------------------------------
 
-# Bloque I
+# ----------
+# BLOQUE I
+# ----------
 today: date = date.today()  # Constant to prevent constructing every time
 
 
+# Se pide: Función que filtre y/o seleccione una serie de filas y/o columnas del dataset
+def filter_by_country(wines: Iterable[Wine], country: str):
+    """
+    Filtra por país el Iterable de Wines dado como parámetro.
+
+    @param wines: Iterable de Wines a filtrar
+    @param country: país para filtrar el Iterable
+    @return: una lista ya filtrada con los vinos que pertenecen al país dado
+    """
+    return [wine for wine in wines if wine.country == country]
+
+
+# !) Función útil para calcular la edad de un vino. No forma parte del bloque ni de la entrega realmente.
 def calculate_age(wine: Wine, from_date: date = today) -> float:
     """
     Calcula la edad del vino dado, en años, con decimales redondeados a 2 cifras.
@@ -52,24 +67,30 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     return round((from_date - wine.since).days / 365, 2)
 
 
-def filter_by_age(wines: Iterable[Wine], min_age: float, from_date: date = today) -> List[Wine]:
-    """
-    Filtra por edad mínima el Iterable de Wines pasado como argumento.
-
-    @param wines: Iterable de Wines a filtrar
-    @param min_age: edad mínima que deben tener los vinos
-    @param from_date: fecha para calcular la edad (por defecto hoy)
-    @return: un Iterable de Wines ya filtrado por edad mínima
-    """
-    return list(filter(lambda wine: calculate_age(wine, from_date) >= min_age, wines))
-
-
+# Se pide: Función que calcule la suma, el total o la media de una propiedad numérica.
 def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
-    Calcula la media de edad de los vinos que contiene el Iterable pasado como argumento.
+    Calcula la media de edad de los Wines que contiene el Iterable pasado como argumento.
 
     @param wines: Iterable de Wines a calcular la media
     @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la media de edad de los vinos
     """
     return mean(calculate_age(wine, from_date) for wine in wines)
+
+
+# ----------
+# BLOQUE II
+# ----------
+# Se pide: Función que obtenga una lista con las tuplas cuyo valor de una propiedad concreta es igual al máximo o mínimo
+# valor de esa propiedad.
+def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
+    """
+    Obtiene una lista con el vino más antiguo del Iterable de Wines pasado como argumento. Si hay más de 1 vino con
+    la misma antigüedad, la lista los contendrá a ambos.
+
+    @param wines: Iterable de Wines a obtener el más viejo
+    @return: una lista con los vinos más antiguos del Iterable
+    """
+    max_years_old = max(calculate_age(wine) for wine in wines)
+    return [wine for wine in wines if calculate_age(wine) == max_years_old]

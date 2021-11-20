@@ -92,5 +92,5 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     @param wines: Iterable de Wines a obtener el más viejo
     @return: una lista con los vinos más antiguos del Iterable
     """
-    max_years_old = max(calculate_age(wine) for wine in wines)
-    return [wine for wine in wines if calculate_age(wine) == max_years_old]
+    oldest_date = min(wine.since for wine in wines)
+    return [wine for wine in wines if wine.since == oldest_date]

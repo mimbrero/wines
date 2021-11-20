@@ -1,5 +1,3 @@
-from typing import Callable
-
 from me.inetaddress.wines import wines
 from me.inetaddress.wines.util.test_utils import *
 from me.inetaddress.wines.wines import Wine

@@ -1,8 +1,8 @@
 import csv
-from collections import namedtuple
+from collections import namedtuple, defaultdict
 from datetime import date
 from statistics import mean
-from typing import List, Iterable
+from typing import List, Iterable, Dict
 
 from me.inetaddress.wines.util.parsing_utils import parse_date
 
@@ -114,3 +114,17 @@ def sort_by_age(wines: Iterable[Wine],
     filtered = [wine for wine in wines if calculate_age(wine, from_date) >= min_age]
     filtered.sort(key=lambda wine: wine.since, reverse=descendant)
     return filtered
+
+
+def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[float, List[Wine]]:
+    grouped: Dict[float, List[Wine]] = defaultdict(list)
+
+    for wine in wines:
+        rating: float = wine.rating
+
+        if just_ints:
+            rating = int(rating)
+
+        grouped[rating].append(wine)
+
+    return grouped

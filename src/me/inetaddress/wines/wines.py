@@ -132,11 +132,7 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
     grouped: Dict[float, List[Wine]] = defaultdict(list)
 
     for wine in wines:
-        rating: float = wine.rating
-
-        if just_ints:
-            rating = int(rating)
-
+        rating: float = int(wine.rating) if just_ints else wine.rating
         grouped[rating].append(wine)
 
     return grouped

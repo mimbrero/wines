@@ -7,7 +7,7 @@ def print_test_header(test_name: str) -> None:
     print("--------------------------------------")
 
 
-def print_iterable(iterable: Iterable, before: str = " ", after: str = "") -> None:
+def print_iterable(iterable: Iterable[object], before: str = " ", after: str = "") -> None:
     """
     Prints one by one the elements of the given iterable.
     """
@@ -19,7 +19,7 @@ def print_iterable(iterable: Iterable, before: str = " ", after: str = "") -> No
         print(f"{before}- {item}{after}")
 
 
-def print_sequence(sequence: Sequence, before: str = " ", after: str = "") -> None:
+def print_sequence(sequence: Sequence[object], before: str = " ", after: str = "") -> None:
     """
     Prints one by one the elements of the given sequence (an ORDERED (tuple, list...) iterable).
     """

@@ -109,6 +109,7 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
 def sort_by_age(wines: Iterable[Wine],
                 descendant: bool = False,
                 min_age: float = 0,
+                limit: int = -1,
                 from_date: date = today) -> List[Wine]:
     """
     Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
@@ -119,11 +120,16 @@ def sort_by_age(wines: Iterable[Wine],
     @param wines: Iterable de Wines a obtener la lista ordenada
     @param descendant: True si se deben ordenar de más nuevo a más viejo (por defecto False)
     @param min_age: edad mínima que deben tener los vinos
+    @param limit: límite para la lista devuelta. Si es menor que 1, no tendrá límite.
     @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: una lista de vinos ordenada por edad
     """
     filtered = [wine for wine in wines if calculate_age(wine, from_date) >= min_age]
     filtered.sort(key=lambda wine: wine.since, reverse=descendant)
+
+    if limit > 0:
+        filtered = filtered[:limit]
+
     return filtered
 
 

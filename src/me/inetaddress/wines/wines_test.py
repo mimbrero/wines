@@ -75,13 +75,13 @@ def test_sort_by_age(data: Sequence[Wine]) -> None:
     print_test_header("sort_by_age")
 
     print("Los 5 vinos más antiguos son:")
-    print_sequence(wines.sort_by_age(data)[:5])
+    print_sequence(wines.sort_by_age(data, limit=5))
 
     print("\nMientras que los más 5 más nuevos son:")
-    print_sequence(wines.sort_by_age(data, descendant=True)[:5])
+    print_sequence(wines.sort_by_age(data, descendant=True, limit=5))
 
     print("\nY los más 2 más nuevos con al menos 5 años son:")
-    print_sequence(wines.sort_by_age(data, min_age=5, descendant=True)[:2])
+    print_sequence(wines.sort_by_age(data, min_age=5, descendant=True, limit=2))
 
 
 def test_group_by_ratings(data: Sequence[Wine]) -> None:

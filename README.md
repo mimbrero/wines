@@ -1,5 +1,5 @@
 # Proyecto del Primer Cuatrimestre Fundamentos de Programación (Curso 2021/2022)
-Autor/a: Alberto Mimbrero   uvus: albsanmim
+Autor/a: Alberto Sánchez Mimbrero   uvus: albsanmim
 
 Este proyecto trata y manipula información sobre vinos, como la adjuntada en la carpeta del proyecto <code>data/</code>, <code>wine_data.csv</code>.
 
@@ -9,7 +9,6 @@ Este proyecto trata y manipula información sobre vinos, como la adjuntada en la
 * **src/me/inetaddress/wines/**: Contiene los diferentes módulos de Python que conforman el proyecto.
   * **wines.py**: Módulo principal donde están las funciones para tratar los datos de vinos.
   * **wines_test.py**: Test de cada una de las funciones del módulo wines, explicado arriba.
-
   * **util/**: Paquete con módulos útiles:
     * **parsing_utils.py**: Módulo con funciones para parsear tipos que no se incluyen en builtins.
     * **test_utils.py**: Módulo con funciones útiles (su uso es muy repetido) para los tests.
@@ -52,12 +51,12 @@ El dataset está compuesto por 9 columnas, con la siguiente descripción:
     * ***calculate_age(wine: Wine, from_date: date = today)***: Función de ayuda. Dado un <code>Wine</code>, retorna su edad en años con decimales (estos decimales proceden del día y mes en el año de la fecha del vino). Si se proporciona una fecha en el parámetro from_date, la edad del vino será calculada a partir de esa fecha. En caso contrario, la fecha será la del momento de ejecución del código (HOY/today).
 Primero calcula el timedelta entre el parámetro from_date y la fecha del vino. Luego convierte a días ese timedelta, y lo divide entre 365. La salida está redondeada a 2 decimales.
 
-    * **calculate_mean_age(wines: Iterable[Wine], from_date: date = today)**: Dado un Iterable que contiene una serie de <code>Wine</code>s, devuelve la media de edad de todos esos vinos. La edad se calcula con la función <code>calculate_age</code>. Al igual que en esa función, si se pasa como parámetro from_date una fecha, la edad de los vinos será calculada con esa fecha. Si no es proporcionada, será la del momento de ejecución del código (HOY/today). 
+    * **calculate_mean_age(wines: Iterable[Wine], from_date: date = today)**: Dado un Iterable que contiene una serie de <code>Wine</code>s, devuelve la media de edad de todos esos vinos. La edad se calcula con la función <code>calculate_age</code>. Al igual que en esa función, si se pasa por el parámetro from_date una fecha, la edad de los vinos será calculada con esa fecha. Si no es proporcionada, será la del momento de ejecución del código (HOY/today). 
 Primero crea un Iterable con la edad de cada vino y posteriormente hace la media de ese Iterable.
 
   * Bloque II
 
-    * **get_oldest_wines(wines: Iterable[Wine])**: Dado un Iterable que contiene una serie de <code>Wine</code>s, retorna una lista con los <code>Wine</code>s que tengan la fecha más antigua del Iterable wines. 
+    * **get_oldest_wines(wines: Iterable[Wine])**: Dado un Iterable que contiene una serie de <code>Wine</code>s, retorna una lista con los <code>Wine</code>s que tengan la fecha más antigua de ese Iterable. 
 Primero calcula la fecha más antigua entre todos los vinos del Iterable pasado como argumento. Posteriormente, retorna una lista con los vinos que tengan esa fecha. Probablemente sea solo uno.
 
     * **sort_by_age(wines: Iterable[Wine], descendant: bool = False, min_age: float = 0, limit: int = -1, from_date: date = today)**: Dado un Iterable que contiene una serie de <code>Wine</code>s,  retorna una lista que contiene los vinos del Iterable wines con edad superior o igual a la especificada en el parámetro min_age, ordenada por fecha de los vinos, de manera ascendente o descendente, especificado por el parámetro descendant. 
@@ -91,6 +90,6 @@ En el módulo también se han definido 2 funciones auxiliares:
 
 * **print_test_header(test_name: str)**: Imprime un mensaje que informa sobre el test que se va a ejecutar (pasado por el parámetro test_name) que también sirve de separador.
 
-* **print_iterable(iterable: Iterable[object], before: str = " ", after: str = "")**: Imprime un iterable de forma muy visible o, si está vacío, "The given iterator is empty!". Se puede personalizar la identación de la impresión con el parámetro before, y los caracteres posteriores con el parámetro after.
+* **print_iterable(iterable: Iterable[object], before: str = " ", after: str = "")**: Imprime un iterable de forma muy visible o, si está vacío, <code>The given iterator is empty!</code>. Se puede personalizar la identación de la impresión con el parámetro before, y los caracteres posteriores con el parámetro after.
 
-* **print_sequence(sequence: Sequence[object], before: str = " ", after: str = "")**: Imprime una secuencia (lista, tupla...) en orden de forma muy visible (incluyendo la posición de cada elemento) o, si está vacía, "The given sequence is empty!". Se puede personalizar la identación de la impresión con el parámetro before, y los caracteres posteriores con el parámetro after.
+* **print_sequence(sequence: Sequence[object], before: str = " ", after: str = "")**: Imprime una secuencia (lista, tupla...) en orden de forma muy visible (incluyendo la posición de cada elemento) o, si está vacía, <code>The given sequence is empty!</code>. Se puede personalizar la identación de la impresión con el parámetro before, y los caracteres posteriores con el parámetro after.

@@ -137,8 +137,10 @@ def sort_by_age(wines: Iterable[Wine],
 # lista o un conjunto con las tuplas que tienen el mismo valor de esa propiedad.
 def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[float, List[Wine]]:
     """
-    Agrupa los Wines contenidos en el Iterable pasado como parámetro en un diccionario por valoración como clave y
-    una lista con los vinos que tienen esa valoración como valor.
+    Dado un Iterable que contiene una serie de Wines, devuelve un diccionario en el que las claves representan una
+    valoración (y si el parámetro just_ints es True, las claves solo serán números enteros), y el valor es una lista
+    con los vinos que tienen esa valoración (o si el parámetro just_ints es True, la lista contendrá los vinos cuya
+    valoración sin decimales sea esa valoración).
 
     Primero crea un defaultdict cuya factory es la función list. Luego, añade cada vino del Iterable pasado como
     argumento a la lista del diccionario cuya clave es la valoración del vino. La clave será su valoración

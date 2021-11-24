@@ -9,7 +9,7 @@ def main():
     # Entrega 1
     test_parse_file(dataset_path)
 
-    # Ahora que hemos probado el parse_file, podemos usarlo para no parsear múltiples veces.
+    # Ahora que hemos probado la función parse_file, podemos guardar su resultado para no parsear múltiples veces.
     data = wines.parse_file(dataset_path)
 
     # Entrega 2

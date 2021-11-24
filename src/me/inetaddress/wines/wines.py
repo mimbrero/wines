@@ -18,7 +18,7 @@ def parse_file(path: str) -> List[Wine]:
     El archivo debe estar codificado en utf-8.
 
     @param path: la ruta del archivo a parsear
-    @return una lista de tuplas de tipo Wine con los valores del archivo
+    @return: una lista con los valores del archivo ya parseados a objetos Wine.
     """
     with open(path, encoding="utf-8") as file:
         reader = csv.reader(file)
@@ -44,7 +44,7 @@ today: date = date.today()  # Constant to prevent constructing every time
 
 
 # Se pide: Función que filtre y/o seleccione una serie de filas y/o columnas del dataset
-def filter_by_country(wines: Iterable[Wine], country: str):
+def filter_by_country(wines: Iterable[Wine], country: str) -> List[Wine]:
     """
     Filtra por país el Iterable de Wines dado como parámetro.
 
@@ -60,6 +60,9 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     """
     Calcula la edad del vino dado, en años, con decimales redondeados a 2 cifras.
 
+    Primero calcula el timedelta entre el parámetro from_date y la fecha del vino. Luego convierte a días ese
+    timedelta, y lo divide entre 365. La salida está redondeada a 2 decimales.
+
     @param wine: vino a calcular la edad
     @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la edad del vino, en años
@@ -71,6 +74,9 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
 def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
     Calcula la media de edad de los Wines que contiene el Iterable pasado como argumento.
+
+    Primero crea un Iterable con la edad de cada vino y posteriormente hace la media de ese Iterable.
+    · Mirar #calculate_age para más información sobre el cálculo de edad.
 
     @param wines: Iterable de Wines a calcular la media
     @param from_date: fecha para calcular la edad (por defecto hoy)
@@ -86,8 +92,10 @@ def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
 # valor de esa propiedad.
 def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     """
-    Obtiene una lista con el vino más antiguo del Iterable de Wines pasado como argumento. Si hay más de 1 vino con
-    la misma antigüedad, la lista los contendrá a ambos.
+    Obtiene una lista con los vinos que tengan la fecha más antigua del Iterable de Wines pasado como argumento.
+
+    Primero calcula la fecha más antigua entre todos los vinos del Iterable pasado como argumento.
+    Posteriormente, retorna una lista con los vinos que tengan esa fecha. Probablemente sea solo uno.
 
     @param wines: Iterable de Wines a obtener el más viejo
     @return: una lista con los vinos más antiguos del Iterable
@@ -104,6 +112,9 @@ def sort_by_age(wines: Iterable[Wine],
                 from_date: date = today) -> List[Wine]:
     """
     Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
+
+    Primero crea una lista a partir del Iterable pasado como argumento solo con los vinos cuya edad sea mayor al
+    parámetro min_age. Posteriormente, ordena la lista por fecha en orden descendente, y la retorna.
 
     @param wines: Iterable de Wines a obtener la lista ordenada
     @param descendant: True si se deben ordenar de más nuevo a más viejo (por defecto False)
@@ -122,6 +133,10 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
     """
     Agrupa los Wines contenidos en el Iterable pasado como parámetro en un diccionario por valoración como clave y
     una lista con los vinos que tienen esa valoración como valor.
+
+    Primero crea un defaultdict cuya factory es la función list. Luego, añade cada vino del Iterable pasado como
+    argumento a la lista del diccionario cuya clave es la valoración del vino. La clave será su valoración
+    exacta si el parámetro just_ints es False, o su valoración truncada si just_ints es True.
 
     @param wines: vinos a agrupar por valoración
     @param just_ints: True si solo se quiere agrupar en valoraciones sin decimales. Un vino con valoración 3.6 se

@@ -1,3 +1,5 @@
+from typing import Dict, List
+
 from me.inetaddress.wines import wines
 from me.inetaddress.wines.util.test_utils import *
 from me.inetaddress.wines.wines import Wine
@@ -97,7 +99,7 @@ def test_group_by_ratings(data: Sequence[Wine]) -> None:
     print_rated(grouped, 2)
 
 
-def print_rated(grouped: dict[float, list[Wine]], rate: float) -> None:
+def print_rated(grouped: Dict[float, List[Wine]], rate: float) -> None:
     print("\nLos vinos con una puntuación de", rate, "son:")
     print_iterable(grouped[rate])
 

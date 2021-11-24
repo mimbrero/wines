@@ -71,6 +71,8 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
 
 
 # Se pide: Función que calcule la suma, el total o la media de una propiedad numérica.
+# La propiedad numérica está calculada en este caso. Como el dataset no tiene una columna de "edad", la calculamos con
+# la función #calculate_age, que lo hace por el atributo "since" del vino, de tipo date.
 def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
     Calcula la media de edad de los Wines que contiene el Iterable pasado como argumento.

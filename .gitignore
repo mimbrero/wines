@@ -4,6 +4,3 @@ __pycache__/
 # Eclipse/PyDev
 .project
 .pydevproject
-
-# IDEA/PyCharm
-.idea/

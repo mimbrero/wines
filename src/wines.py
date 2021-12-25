@@ -12,7 +12,7 @@ from util.parsing_utils import parse_date
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
 
 
-def parse_file(path: str) -> List[Wine]:
+def parse_csv_file(path: str) -> List[Wine]:
     """
     Abre el archivo que se sitúa en la ruta dada como parámetro y lo parsea en una lista de tuplas de tipo Wine.
     El archivo debe estar codificado en utf-8.

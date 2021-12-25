@@ -188,3 +188,21 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
 
     return frequency.most_common(1)[0]
 
+
+# Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el porcentaje de alguna propiedad
+# de las tuplas que contienen dicha clave respecto al total de tuplas
+def get_percentage_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
+    total_origin_appellations = 0
+    counter = defaultdict(int)
+    for wine in wines:
+        if not wine.origin_appellation:
+            continue
+
+        total_origin_appellations += 1
+        counter[wine.country] += 1
+
+    percentages = defaultdict(float)
+    for entry in counter.items():
+        percentages[entry[0]] = entry[1] / total_origin_appellations
+
+    return percentages

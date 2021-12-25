@@ -1,12 +1,12 @@
 from typing import Dict, List
 
-from me.inetaddress.wines import wines
-from me.inetaddress.wines.util.test_utils import *
-from me.inetaddress.wines.wines import Wine
+import wines
+from wines import Wine
+from util.test_utils import *
 
 
 def main():
-    dataset_path = "../../../../data/wine_data.csv"
+    dataset_path = "../data/wine_data.csv"
 
     # Entrega 1
     test_parse_file(dataset_path)

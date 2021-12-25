@@ -23,6 +23,8 @@ def main():
 
     # Entrega 3
     test_count_wines_per_country(data)
+    test_get_most_wine_producing_country(data)
+
 
 # --------------------------------------
 # ENTREGA 1
@@ -119,6 +121,12 @@ def test_count_wines_per_country(data: Sequence[Wine]):
     print("Italia produce", count["Italy"], "vinos")
     print("Eslovenia produce", count["Slovenia"], "vinos")
     print("Eslovaquia produce", count["Slovakia"], "vinos")
+
+
+def test_get_most_wine_producing_country(data: Sequence[Wine]):
+    print_test_header("get_most_wine_producing_country")
+    most_producing_country = wines.get_most_wine_producing_country(wines.count_wines_per_country(data))
+    print("El país que más vinos produce es", most_producing_country[0], "con", most_producing_country[1], "vinos.")
 
 
 if __name__ == "__main__":

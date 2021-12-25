@@ -2,7 +2,7 @@ import csv
 from collections import namedtuple, defaultdict, Counter
 from datetime import date
 from statistics import mean
-from typing import List, Iterable, Dict
+from typing import List, Iterable, Dict, Tuple
 
 from util.parsing_utils import parse_date
 
@@ -178,4 +178,13 @@ def count_wines_per_country(
         min_price: float = -1
 ) -> Counter[str, int]:
     return Counter(wine.country for wine in wines if wine.rating >= min_rating and wine.price >= min_price)
+
+
+# Se pide: Función que devuelva un máximo o mínimo a partir de un diccionario que hace corresponder a cada clave el
+# número de tuplas que contienen dicha clave.
+def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int]:
+    if not isinstance(frequency, Counter):
+        frequency = Counter(frequency)
+
+    return frequency.most_common(1)[0]
 

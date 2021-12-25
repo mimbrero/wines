@@ -56,7 +56,7 @@ def test_filter_by_country(data: Sequence[Wine]) -> None:
 
 def filter_by_country_and_print(data: Sequence[Wine], country: str) -> None:
     print(f"\nVinos de {country}:")
-    print_iterable(wines.filter_by_country(data, country))
+    print_sequence(wines.filter_by_country(data, country))
 
 
 def test_calculate_mean_age(data: Sequence[Wine]) -> None:

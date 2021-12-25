@@ -11,10 +11,6 @@ def print_iterable(iterable: Iterable[object], before: str = " ", after: str = "
     """
     Prints one by one the elements of the given iterable.
     """
-    if not any(iterable):  # If it's empty
-        print(f"{before}The given iterator is empty!")
-        return
-
     for item in iterable:
         print(f"{before}- {item}{after}")
 

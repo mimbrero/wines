@@ -1,5 +1,5 @@
 import csv
-from collections import namedtuple, defaultdict
+from collections import namedtuple, defaultdict, Counter
 from datetime import date
 from statistics import mean
 from typing import List, Iterable, Dict
@@ -108,11 +108,13 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
 
 # Se pide: Función que obtenga una lista con n tuplas ordenadas de mayor a menor (o de menor a mayor) por una
 # propiedad determinada de entre las que cumplan una condición.
-def sort_by_age(wines: Iterable[Wine],
-                descendant: bool = False,
-                min_age: float = 0,
-                limit: int = -1,
-                from_date: date = today) -> List[Wine]:
+def sort_by_age(
+        wines: Iterable[Wine],
+        descendant: bool = False,
+        min_age: float = 0,
+        limit: int = -1,
+        from_date: date = today
+) -> List[Wine]:
     """
     Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
 
@@ -159,3 +161,21 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
         grouped[rating].append(wine)
 
     return grouped
+
+
+# --------------------------------------
+# ENTREGA 3
+# --------------------------------------
+
+# ----------
+# BLOQUE III
+# ----------
+# Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el número de tuplas que contienen
+# dicha clave.
+def count_wines_per_country(
+        wines: Iterable[Wine],
+        min_rating: float = -1,
+        min_price: float = -1
+) -> Counter[str, int]:
+    return Counter(wine.country for wine in wines if wine.rating >= min_rating and wine.price >= min_price)
+

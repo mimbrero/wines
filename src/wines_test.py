@@ -21,6 +21,8 @@ def main():
     test_sort_by_age(data)
     test_group_by_ratings(data)
 
+    # Entrega 3
+    test_count_wines_per_country(data)
 
 # --------------------------------------
 # ENTREGA 1
@@ -102,6 +104,21 @@ def test_group_by_ratings(data: Sequence[Wine]) -> None:
 def print_rated(grouped: Dict[float, List[Wine]], rate: float) -> None:
     print("\nLos vinos con una puntuación de", rate, "son:")
     print_iterable(grouped[rate])
+
+
+# --------------------------------------
+# ENTREGA 3
+# --------------------------------------
+
+# ----------
+# BLOQUE III
+# ----------
+def test_count_wines_per_country(data: Sequence[Wine]):
+    print_test_header("count_wines_per_country")
+    count = wines.count_wines_per_country(data)
+    print("Italia produce", count["Italy"], "vinos")
+    print("Eslovenia produce", count["Slovenia"], "vinos")
+    print("Eslovaquia produce", count["Slovakia"], "vinos")
 
 
 if __name__ == "__main__":

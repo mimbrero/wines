@@ -217,11 +217,16 @@ def get_percentage_of_origin_appellations_by_country(wines: Iterable[Wine]) -> D
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son el porcentaje de
     vinos producidos en ese país que tienen denominación de origen frente al total de vinos con denominación de origen.
 
+    Funcionamiento: primero recorre el Iterable de Wines para contar el total de vinos que tienen la propiedad
+    origin_appellation como True, y los agrupa en un diccionario cuyas claves son países y los valores son el número
+    de vinos de ese país que tienen la propiedad origin_appellation como True. Posteriormente recorre los items de
+    ese diccionario y genera otro calculando el porcentaje explicado anteriormente.
+
     @param wines: vinos a calcular los porcentajes
     @return: un diccionario con claves str y valores float, explicado anteriormente
     """
     # NOTE: Not reusing the #count_wines_per_country function because this implementation manages to iterate just
-    # 2 times through data. If we reuse that function, we would need to iterate at least 3 times.
+    # 2 times the data.
 
     total_origin_appellations = 0
     counter = defaultdict(int)

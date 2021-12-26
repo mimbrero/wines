@@ -6,11 +6,13 @@ from typing import List, Iterable, Dict, Tuple
 
 from util.parsing_utils import parse_date
 
-# --------------------------------------
-# ENTREGA 1
-# --------------------------------------
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
+today = date.today()  # Constant to prevent constructing every time
 
+
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 1
+# ----------------------------------------------------------------------------------------------------------------------
 
 def parse_csv_file(path: str) -> List[Wine]:
     """
@@ -33,15 +35,12 @@ def parse_csv_file(path: str) -> List[Wine]:
         return to_return
 
 
-# --------------------------------------
-# ENTREGA 2
-# --------------------------------------
-
-# ----------
-# BLOQUE I
-# ----------
-today: date = date.today()  # Constant to prevent constructing every time
-
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 2
+# ----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     BLOQUE I
+# ----------------------------------------------------------------------------------------------------------------------
 
 # Se pide: Función que filtre y/o seleccione una serie de filas y/o columnas del dataset
 def filter_by_country(wines: Iterable[Wine], country: str) -> List[Wine]:
@@ -60,8 +59,8 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     """
     Calcula la edad del vino dado, en años, con decimales redondeados a 2 cifras.
 
-    Primero calcula el timedelta entre el parámetro from_date y la fecha del vino. Luego convierte a días ese
-    timedelta, y lo divide entre 365. La salida está redondeada a 2 decimales.
+    Funcionamiento: primero calcula el timedelta entre el parámetro from_date y la fecha del vino. Luego convierte a
+    días ese timedelta, y lo divide entre 365. La salida está redondeada a 2 decimales.
 
     @param wine: vino a calcular la edad
     @param from_date: fecha para calcular la edad (por defecto hoy)
@@ -71,13 +70,14 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
 
 
 # Se pide: Función que calcule la suma, el total o la media de una propiedad numérica.
+#
 # La propiedad numérica está calculada en este caso. Como el dataset no tiene una columna de "edad", la calculamos con
 # la función #calculate_age, que lo hace por el atributo "since" del vino, de tipo date.
 def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
     Calcula la media de edad de los Wines que contiene el Iterable pasado como argumento.
 
-    Primero crea un Iterable con la edad de cada vino y posteriormente hace la media de ese Iterable.
+    Funcionamiento: primero crea un Iterable con la edad de cada vino y posteriormente hace la media de ese Iterable.
     · Mirar #calculate_age para más información sobre el cálculo de edad.
 
     @param wines: Iterable de Wines a calcular la media
@@ -87,16 +87,17 @@ def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     return mean(calculate_age(wine, from_date) for wine in wines)
 
 
-# ----------
-# BLOQUE II
-# ----------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                    BLOQUE II
+# ----------------------------------------------------------------------------------------------------------------------
+
 # Se pide: Función que obtenga una lista con las tuplas cuyo valor de una propiedad concreta es igual al máximo o mínimo
 # valor de esa propiedad.
 def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     """
     Obtiene una lista con los vinos que tengan la fecha más antigua del Iterable de Wines pasado como argumento.
 
-    Primero calcula la fecha más antigua entre todos los vinos del Iterable pasado como argumento.
+    Funcionamiento: primero calcula la fecha más antigua entre todos los vinos del Iterable pasado como argumento.
     Posteriormente, retorna una lista con los vinos que tengan esa fecha. Probablemente sea solo uno.
 
     @param wines: Iterable de Wines a obtener el más viejo
@@ -118,8 +119,8 @@ def sort_by_age(
     """
     Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
 
-    Primero crea una lista a partir del Iterable pasado como argumento solo con los vinos cuya edad sea mayor al
-    parámetro min_age. Posteriormente, ordena la lista por fecha en orden descendente, y la retorna.
+    Funcionamiento: primero crea una lista a partir del Iterable pasado como argumento solo con los vinos cuya edad
+    sea mayor al parámetro min_age. Posteriormente, ordena la lista por fecha en orden descendente, y la retorna.
 
     @param wines: Iterable de Wines a obtener la lista ordenada
     @param descendant: True si se deben ordenar de más nuevo a más viejo (por defecto False)
@@ -144,15 +145,14 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
     Dado un Iterable de Wines, devuelve un diccionario en el que las claves representan una valoración, y el valor es
     una lista con los vinos que tienen esa valoración.
 
-    Primero crea un defaultdict cuya factory es la función list. Luego, añade cada vino del Iterable pasado como
-    argumento a la lista del diccionario cuya clave es la valoración del vino. La clave será su valoración
-    exacta si el parámetro just_ints es False, o su valoración truncada si just_ints es True.
+    Funcionamiento: primero crea un defaultdict cuya factory es la función list. Luego, añade cada vino del Iterable
+    pasado como argumento a la lista del diccionario cuya clave es la valoración del vino. La clave será su
+    valoración exacta si el parámetro just_ints es False, o su valoración truncada si just_ints es True.
 
     @param wines: vinos a agrupar por valoración
     @param just_ints: True si solo se quiere agrupar en valoraciones sin decimales. Un vino con valoración 3.6 se
     agrupará con los de valoración 3
-
-    @return: un diccionario agrupando los vinos por valoración
+    @return: un diccionario con clave float y valor List[Wine], ya explicado anteriormente
     """
     grouped: Dict[float, List[Wine]] = defaultdict(list)
 
@@ -163,22 +163,47 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
     return grouped
 
 
-# --------------------------------------
-# ENTREGA 3
-# --------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 3
+# ----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                    BLOQUE III
+# ----------------------------------------------------------------------------------------------------------------------
 
-# ----------
-# BLOQUE III
-# ----------
 # Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el número de tuplas que contienen
 # dicha clave.
 def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_price: float = -1) -> Counter[str, int]:
+    """
+    Dado un Iterable de Wines, devuelve un Diccionario (Counter específicamente) cuyas clave son países y los valores
+    son el número de vinos de ese país, que tienen como mínimo una valoración min_rating y precio min_price (parámetros
+    que por defecto son -1).
+
+    Funcionamiento: crea un Counter a partir de un Iterable por comprensión que contiene los países del Iterable pasado
+    como argumento, cada vez que el elemento tenga valoración y precio mayor o igual a los parámetros min_rating y
+    min_price.
+
+    @param wines: vinos a obtener los valores del Counter
+    @param min_rating: valoración mínima que debe tener un vino para ser contado
+    @param min_price: precio mínimo que debe tener un vino para ser contado
+    @return: un Counter con claves str y valores int, ya explicado anteriormente
+    """
     return Counter(wine.country for wine in wines if wine.rating >= min_rating and wine.price >= min_price)
 
 
 # Se pide: Función que devuelva un máximo o mínimo a partir de un diccionario que hace corresponder a cada clave el
 # número de tuplas que contienen dicha clave.
 def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int]:
+    """
+    Dado un diccionario donde las claves son países y los valores son el número de vinos de ese país, devuelve una
+    tupla con el país que más vinos produce y el número de vinos que produce en ese orden.
+
+    Funcionamiento: si el diccionario dado como parámetro no es de tipo Counter, instancia uno a partir del diccionario.
+    Si lo es, continúa. Luego, mediante Counter#most_common, obtiene la primera tupla clave-valor.
+
+    @param frequency: diccionario, preferiblemente un Counter, donde las claves son países y los valores son el
+    número de vinos de ese país
+    @return: una tupla con una str y un int en ese orden, explicado anteriormente
+    """
     if not isinstance(frequency, Counter):
         frequency = Counter(frequency)
 
@@ -188,6 +213,13 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
 # Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el porcentaje de alguna propiedad
 # de las tuplas que contienen dicha clave respecto al total de tuplas
 def get_percentage_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
+    """
+    Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son el porcentaje de
+    vinos producidos en ese país que tienen denominación de origen frente al total de vinos con denominación de origen.
+
+    @param wines: vinos a calcular los porcentajes
+    @return: un diccionario con claves str y valores float, explicado anteriormente
+    """
     # NOTE: Not reusing the #count_wines_per_country function because this implementation manages to iterate just
     # 2 times through data. If we reuse that function, we would need to iterate at least 3 times.
 

@@ -172,11 +172,7 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
 # ----------
 # Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el número de tuplas que contienen
 # dicha clave.
-def count_wines_per_country(
-        wines: Iterable[Wine],
-        min_rating: float = -1,
-        min_price: float = -1
-) -> Counter[str, int]:
+def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_price: float = -1) -> Counter[str, int]:
     return Counter(wine.country for wine in wines if wine.rating >= min_rating and wine.price >= min_price)
 
 
@@ -192,14 +188,20 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
 # Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el porcentaje de alguna propiedad
 # de las tuplas que contienen dicha clave respecto al total de tuplas
 def get_percentage_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
+    # NOTE: Not reusing the #count_wines_per_country function because this implementation manages to iterate just
+    # 2 times through data. If we reuse that function, we would need to iterate at least 3 times.
+
     total_origin_appellations = 0
     counter = defaultdict(int)
+
     for wine in wines:
         if not wine.origin_appellation:
             continue
 
         total_origin_appellations += 1
         counter[wine.country] += 1
+
+    # Now that we have collected all the needed data, we calculate the percentages.
 
     percentages = defaultdict(float)
     for entry in counter.items():

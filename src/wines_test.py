@@ -1,8 +1,8 @@
 from typing import Dict, List
 
 import wines
-from wines import Wine
 from util.test_utils import *
+from wines import Wine
 
 
 def main():
@@ -12,7 +12,7 @@ def main():
     test_parse_file(dataset_path)
 
     # Ahora que hemos probado la función parse_file, podemos guardar su resultado para no parsear múltiples veces.
-    data = wines.parse_file(dataset_path)
+    data = wines.parse_csv_file(dataset_path)
 
     # Entrega 2
     test_filter_by_country(data)
@@ -33,7 +33,7 @@ def main():
 
 def test_parse_file(path: str) -> None:
     print_test_header("parse_file")
-    wine_list = wines.parse_file(path)
+    wine_list = wines.parse_csv_file(path)
     print("Leídos", len(wine_list), "vinos")
 
     print("3 primeros vinos leídos:")
@@ -135,11 +135,11 @@ def test_get_percentage_of_origin_appellations_by_country(data: Sequence[Wine]):
     percentages = wines.get_percentage_of_origin_appellations_by_country(data)
 
     print(f"El porcentaje de vinos con denominación de origen de Italia sobre el total es de "
-          f"{percentages['Italy']*100}%")
+          f"{percentages['Italy'] * 100}%")
     print(f"El porcentaje de vinos con denominación de origen de Eslovenia sobre el total es de "
-          f"{percentages['Slovenia']*100}%")
+          f"{percentages['Slovenia'] * 100}%")
     print(f"El porcentaje de vinos con denominación de origen de Eslovaquia sobre el total es de "
-          f"{percentages['Slovakia']*100}%")
+          f"{percentages['Slovakia'] * 100}%")
 
 
 if __name__ == "__main__":

@@ -246,3 +246,32 @@ def get_percentages_of_origin_appellations_by_country(wines: Iterable[Wine]) -> 
         percentages[entry[0]] = entry[1] / total_origin_appellations
 
     return percentages
+
+
+# 7) Función que devuelva un diccionario que hace corresponder a cada clave una lista ordenada con los n mayores o
+# menores elementos que contienen dicha clave.
+def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
+                                      descendant: bool = False) -> Dict[str, List[Wine]]:
+    """
+    Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son una lista de n vinos
+    de ese país ordenada de menor a mayor (o de mayor a menor si descendant es True) valoración.
+
+    Funcionamiento: primero crea un diccionario que agrupa los vinos por país, y posteriormente ordena los valores de
+    ese diccionario por valoración del vino (en orden descendente si lo pide el parámetro descendant), haciendo slice
+    a n elementos.
+
+    @param wines: vinos a agrupar por país ordenados por valoración
+    @param n: número máximo de vinos que contendrán los valores del diccionario
+    @param descendant: True si se deben ordenar de mejor a menor valoración (por defecto False)
+    @return: un diccionario con claves str y valores List[Wine], explicado anteriormente
+    """
+    assert n > 0, "n parameter must be > 0"
+
+    grouped = defaultdict(list)
+    for wine in wines:
+        grouped[wine.country].append(wine)
+
+    for country, wine_list in grouped.items():
+        grouped[country] = sorted(wine_list, key=lambda wine: wine.rating, reverse=descendant)[:n]
+
+    return grouped

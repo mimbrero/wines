@@ -25,6 +25,7 @@ def main():
     test_count_wines_per_country(data)
     test_get_most_wine_producing_country(data)
     test_get_percentages_of_origin_appellations_by_country(data)
+    test_group_by_country_sorted_by_rating(data)
 
 
 # --------------------------------------
@@ -140,6 +141,18 @@ def test_get_percentages_of_origin_appellations_by_country(data: Sequence[Wine])
           f"{percentages['Slovenia'] * 100}%")
     print(f"El porcentaje de vinos con denominación de origen de Eslovaquia sobre el total es de "
           f"{percentages['Slovakia'] * 100}%")
+
+
+def test_group_by_country_sorted_by_rating(data: Sequence[Wine]):
+    print_test_header("group_by_country_sorted_by_rating")
+    best = wines.group_by_country_sorted_by_rating(data, n=5, descendant=True)
+    worst = wines.group_by_country_sorted_by_rating(data, n=5)
+
+    print(f"Los 5 mejores vinos de Italia son:")
+    print_sequence(best["Italy"][:5])
+
+    print(f"Mientras que los 5 peores vinos de Italia son:")
+    print_sequence(worst["Italy"][:5])
 
 
 if __name__ == "__main__":

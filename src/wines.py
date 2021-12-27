@@ -4,7 +4,7 @@ from datetime import date
 from statistics import mean
 from typing import List, Iterable, Dict, Tuple
 
-from util.parsing_utils import parse_date
+from util.parsing_utils import parse_date, parse_bool
 
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
 today = date.today()  # Constant to prevent constructing every time
@@ -28,8 +28,13 @@ def parse_csv_file(path: str) -> List[Wine]:
 
         to_return = []
         for name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation in reader:
-            wine = Wine(name, country, region, winery, float(rating), int(number_of_ratings), float(price),
-                        parse_date(since), eval(origin_appellation.capitalize()))
+            wine = Wine(name, country, region, winery,
+                        float(rating),
+                        int(number_of_ratings),
+                        float(price),
+                        parse_date(since),
+                        parse_bool(origin_appellation)
+                        )
             to_return.append(wine)
 
         return to_return

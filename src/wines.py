@@ -66,6 +66,7 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la edad del vino, en años
     """
+    assert from_date <= today, "The from_date parameter must be before or the same as date.today()"
     return round((from_date - wine.since).days / 365, 2)
 
 
@@ -109,13 +110,8 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
 
 # 6) Función que obtenga una lista con n tuplas ordenadas de mayor a menor (o de menor a mayor) por una
 # propiedad determinada de entre las que cumplan una condición.
-def sort_by_age(
-        wines: Iterable[Wine],
-        descendant: bool = False,
-        min_age: float = 0,
-        limit: int = -1,
-        from_date: date = today
-) -> List[Wine]:
+def sort_by_age(wines: Iterable[Wine], descendant: bool = False, min_age: float = -1, limit: int = -1,
+                from_date: date = today) -> List[Wine]:
     """
     Obtiene una lista ordenada por edad a partir del Iterable de Wines dado como parámetro.
 

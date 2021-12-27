@@ -42,7 +42,7 @@ def parse_csv_file(path: str) -> List[Wine]:
 #                                                     BLOQUE I
 # ----------------------------------------------------------------------------------------------------------------------
 
-# Se pide: Función que filtre y/o seleccione una serie de filas y/o columnas del dataset
+# 1) Función que filtre y/o seleccione una serie de filas y/o columnas del dataset
 def filter_by_country(wines: Iterable[Wine], country: str) -> List[Wine]:
     """
     Filtra por país el Iterable de Wines dado como parámetro.
@@ -69,10 +69,10 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     return round((from_date - wine.since).days / 365, 2)
 
 
-# Se pide: Función que calcule la suma, el total o la media de una propiedad numérica.
+# 3) Función que calcule la suma, el total o la media de una propiedad numérica.
 #
-# La propiedad numérica está calculada en este caso. Como el dataset no tiene una columna de "edad", la calculamos con
-# la función #calculate_age, que lo hace por el atributo "since" del vino, de tipo date.
+# NOTA: La propiedad numérica está calculada en este caso. Como el dataset no tiene una columna de "edad",
+# la calculamos con la función #calculate_age, que lo hace por el atributo "since" del vino, de tipo date.
 def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
     """
     Calcula la media de edad de los Wines que contiene el Iterable pasado como argumento.
@@ -91,7 +91,7 @@ def calculate_mean_age(wines: Iterable[Wine], from_date: date = today) -> float:
 #                                                    BLOQUE II
 # ----------------------------------------------------------------------------------------------------------------------
 
-# Se pide: Función que obtenga una lista con las tuplas cuyo valor de una propiedad concreta es igual al máximo o mínimo
+# 5) Función que obtenga una lista con las tuplas cuyo valor de una propiedad concreta es igual al máximo o mínimo
 # valor de esa propiedad.
 def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     """
@@ -107,7 +107,7 @@ def get_oldest_wines(wines: Iterable[Wine]) -> List[Wine]:
     return [wine for wine in wines if wine.since == oldest_date]
 
 
-# Se pide: Función que obtenga una lista con n tuplas ordenadas de mayor a menor (o de menor a mayor) por una
+# 6) Función que obtenga una lista con n tuplas ordenadas de mayor a menor (o de menor a mayor) por una
 # propiedad determinada de entre las que cumplan una condición.
 def sort_by_age(
         wines: Iterable[Wine],
@@ -138,7 +138,7 @@ def sort_by_age(
     return filtered
 
 
-# Se pide: Función que devuelva un diccionario que permita agrupar por una propiedad, en el que los valores sean una
+# 7) Función que devuelva un diccionario que permita agrupar por una propiedad, en el que los valores sean una
 # lista o un conjunto con las tuplas que tienen el mismo valor de esa propiedad.
 def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[float, List[Wine]]:
     """
@@ -170,7 +170,7 @@ def group_by_ratings(wines: Iterable[Wine], just_ints: bool = False) -> Dict[flo
 #                                                    BLOQUE III
 # ----------------------------------------------------------------------------------------------------------------------
 
-# Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el número de tuplas que contienen
+# 1) Función que devuelva un diccionario que hace corresponder a cada clave el número de tuplas que contienen
 # dicha clave.
 def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_price: float = -1) -> Counter[str, int]:
     """
@@ -190,8 +190,8 @@ def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_p
     return Counter(wine.country for wine in wines if wine.rating >= min_rating and wine.price >= min_price)
 
 
-# Se pide: Función que devuelva un máximo o mínimo a partir de un diccionario que hace corresponder a cada clave el
-# número de tuplas que contienen dicha clave.
+# 3) Función que devuelva un máximo o mínimo a partir de un diccionario que hace corresponder a cada clave el número
+# de tuplas que contienen dicha clave.
 def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int]:
     """
     Dado un diccionario donde las claves son países y los valores son el número de vinos de ese país, devuelve una
@@ -210,9 +210,9 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
     return frequency.most_common(1)[0]
 
 
-# Se pide: Función que devuelva un diccionario que hace corresponder a cada clave el porcentaje de alguna propiedad
-# de las tuplas que contienen dicha clave respecto al total de tuplas
-def get_percentage_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
+# 6) Función que devuelva un diccionario que hace corresponder a cada clave el porcentaje de alguna propiedad de las
+# tuplas que contienen dicha clave respecto al total de tuplas
+def get_percentages_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
     """
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son el porcentaje de
     vinos producidos en ese país que tienen denominación de origen frente al total de vinos con denominación de origen.

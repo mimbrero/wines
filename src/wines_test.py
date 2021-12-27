@@ -24,7 +24,7 @@ def main():
     # Entrega 3
     test_count_wines_per_country(data)
     test_get_most_wine_producing_country(data)
-    test_get_percentage_of_origin_appellations_by_country(data)
+    test_get_percentages_of_origin_appellations_by_country(data)
 
 
 # --------------------------------------
@@ -130,9 +130,9 @@ def test_get_most_wine_producing_country(data: Sequence[Wine]):
     print("El país que más vinos produce es", most_producing_country[0], "con", most_producing_country[1], "vinos.")
 
 
-def test_get_percentage_of_origin_appellations_by_country(data: Sequence[Wine]):
-    print_test_header("get_percentage_of_origin_appellations_by_country")
-    percentages = wines.get_percentage_of_origin_appellations_by_country(data)
+def test_get_percentages_of_origin_appellations_by_country(data: Sequence[Wine]):
+    print_test_header("get_percentages_of_origin_appellations_by_country")
+    percentages = wines.get_percentages_of_origin_appellations_by_country(data)
 
     print(f"El porcentaje de vinos con denominación de origen de Italia sobre el total es de "
           f"{percentages['Italy'] * 100}%")

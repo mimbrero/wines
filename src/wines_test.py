@@ -139,8 +139,8 @@ def test_get_percentages_of_origin_appellations_by_country(data: Sequence[Wine])
           f"{percentages['Italy'] * 100}%")
     print(f"El porcentaje de vinos con denominación de origen de Eslovenia sobre el total es de "
           f"{percentages['Slovenia'] * 100}%")
-    print(f"El porcentaje de vinos con denominación de origen de Eslovaquia sobre el total es de "
-          f"{percentages['Slovakia'] * 100}%")
+    print(f"El porcentaje de vinos con denominación de origen de Portugal sobre el total es de "
+          f"{percentages['Portugal'] * 100}%")
 
 
 def test_group_by_country_sorted_by_rating(data: Sequence[Wine]):

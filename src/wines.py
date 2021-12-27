@@ -240,13 +240,9 @@ def get_percentages_of_origin_appellations_by_country(wines: Iterable[Wine]) -> 
         total_origin_appellations += 1
         counter[wine.country] += 1
 
-    # Now that we have collected all the needed data, we calculate the percentages.
+    # Now that we have collected the needed data, return the percentages instead of the count.
 
-    percentages = defaultdict(float)
-    for entry in counter.items():
-        percentages[entry[0]] = entry[1] / total_origin_appellations
-
-    return percentages
+    return {country: count / total_origin_appellations for country, count in counter.items()}
 
 
 # 7) Función que devuelva un diccionario que hace corresponder a cada clave una lista ordenada con los n mayores o
@@ -272,7 +268,9 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
     for wine in wines:
         grouped[wine.country].append(wine)
 
-    for country, wine_list in grouped.items():
-        grouped[country] = sorted(wine_list, key=lambda wine: wine.rating, reverse=descendant)[:n]
+    return {
+        country: sorted(wine_list, key=lambda wine: wine.rating, reverse=descendant)[:n]
+        for country, wine_list in grouped.items()
+    }
 
     return grouped

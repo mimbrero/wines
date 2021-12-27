@@ -4,6 +4,7 @@ from datetime import date
 from statistics import mean
 from typing import List, Iterable, Dict, Tuple
 
+from util import preconditions
 from util.parsing_utils import parse_date, parse_bool
 
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
@@ -71,7 +72,7 @@ def calculate_age(wine: Wine, from_date: date = today) -> float:
     @param from_date: fecha para calcular la edad (por defecto hoy)
     @return: la edad del vino, en años
     """
-    assert from_date <= today, "The from_date parameter must be before or the same as date.today()"
+    preconditions.check_value(from_date <= today, "The from_date parameter must be before or the same as date.today()")
     return round((from_date - wine.since).days / 365, 2)
 
 
@@ -265,7 +266,7 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
     @param descendant: True si se deben ordenar de mejor a menor valoración (por defecto False)
     @return: un diccionario con claves str y valores List[Wine], explicado anteriormente
     """
-    assert n > 0, "n parameter must be > 0"
+    preconditions.check_value(n > 0, "n parameter must be > 0")
 
     grouped = defaultdict(list)
     for wine in wines:

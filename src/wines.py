@@ -16,13 +16,13 @@ today = date.today()  # Constant to prevent constructing every time
 
 def parse_csv_file(path: str) -> List[Wine]:
     """
-    Abre el archivo que se sitúa en la ruta dada como parámetro y lo parsea en una lista de tuplas de tipo Wine.
+    Abre el archivo que se sitúa en la ruta dada como parámetro y lo parsea en una lista de Wines.
     El archivo debe estar codificado en utf-8.
 
     @param path: la ruta del archivo a parsear
     @return: una lista con los valores del archivo ya parseados a objetos Wine.
     """
-    with open(path, encoding="utf-8") as file:
+    with open(path, mode="rt", encoding="utf-8") as file:
         reader = csv.reader(file)
         next(reader)  # Pasamos la línea 0, que solo es la cabecera con la descripción de las columnas
 

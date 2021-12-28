@@ -217,24 +217,25 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
 def get_percentages_of_origin_appellations_by_country(wines: Iterable[Wine]) -> Dict[str, float]:
     """
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son el porcentaje de
-    vinos producidos en ese país que tienen denominación de origen frente al total de vinos con denominación de origen.
+    vinos con denominación de origen que tiene ese país con respecto a todos los países. Es decir, si hay 100 vinos
+    con denominación de origen entre todos los países e Italia tiene 50, Italia tendrá como valor 0.5 (un 50 %).
 
     Funcionamiento: primero recorre el Iterable de Wines para contar el total de vinos que tienen la propiedad
     origin_appellation como True, y los agrupa en un diccionario cuyas claves son países y los valores son el número
-    de vinos de ese país que tienen la propiedad origin_appellation como True. Posteriormente recorre los items de
-    ese diccionario y genera otro calculando el porcentaje explicado anteriormente.
+    de vinos de ese país que tienen la propiedad origin_appellation como True. Posteriormente genera otro diccionario,
+    por comprensión, calculando los porcentajes con base en el anterior y el total de vinos con denominación de origen.
 
     @param wines: vinos a calcular los porcentajes
     @return: un diccionario con claves str y valores float, explicado anteriormente
     """
-    # NOTE: Not reusing the #count_wines_per_country function because this implementation manages to iterate just
-    # 2 times the data.
+    # NOTE: Not reusing the #count_wines_per_country function because this implementation manages to iterate the data
+    # just twice.
 
     total_origin_appellations = 0
     counter = defaultdict(int)
 
     for wine in wines:
-        if not wine.origin_appellation:
+        if not wine.origin_appellation:  # In this function we don't care about wines with no origin appellation.
             continue
 
         total_origin_appellations += 1
@@ -251,7 +252,7 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
                                       descendant: bool = False) -> Dict[str, List[Wine]]:
     """
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son una lista de n vinos
-    de ese país ordenada de menor a mayor (o de mayor a menor si descendant es True) valoración.
+    de ese país ordenada de menor a mayor valoración (o de mayor a menor si descendant es True).
 
     Funcionamiento: primero crea un diccionario que agrupa los vinos por país, y posteriormente ordena los valores de
     ese diccionario por valoración del vino (en orden descendente si lo pide el parámetro descendant), haciendo slice
@@ -269,8 +270,7 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
         grouped[wine.country].append(wine)
 
     return {
-        country: sorted(wine_list, key=lambda wine: wine.rating, reverse=descendant)[:n]
-        for country, wine_list in grouped.items()
+        country: sorted(country_wines, key=lambda wine: wine.rating, reverse=descendant)[:n]
+        for country, country_wines in grouped.items()
     }
 
-    return grouped

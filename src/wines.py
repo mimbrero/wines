@@ -4,7 +4,7 @@ from datetime import date
 from statistics import mean
 from typing import List, Iterable, Dict, Tuple
 
-from util import preconditions
+from util import preconditions, matplotlib_utils
 from util.parsing_utils import parse_date, parse_bool
 
 Wine = namedtuple("Wine", "name, country, region, winery, rating, number_of_ratings, price, since, origin_appellation")
@@ -274,3 +274,11 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
         for country, country_wines in grouped.items()
     }
 
+
+def generate_wines_per_country_pie_chart(wines: Iterable[Wine], title: str = "Wines per country") -> None:
+    data = sorted(count_wines_per_country(wines).items(), key=lambda item: item[1], reverse=True)
+
+    matplotlib_utils.generate_pie_chart(title,
+                                        [item[1] for item in data],
+                                        labels=[item[0] for item in data],
+                                        inner_label=lambda percentage: f"{round(percentage, 2)} %")

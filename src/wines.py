@@ -275,6 +275,21 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
     }
 
 
-def generate_wines_per_country_pie_chart(wines: Iterable[Wine], title: str = "Wines per country") -> None:
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     BLOQUE IV
+# ----------------------------------------------------------------------------------------------------------------------
+def generate_wines_per_country_pie_chart(wines: Iterable[Wine],
+                                         title: str = "Wines per country",
+                                         others_label: str = "Others") -> None:
+    """
+    Genera un gráfico circular o de pastel que representa el porcentaje que tiene cada país del total de los vinos.
+    Los países que tenga un número de vinos inferior al 3 % del total serán agrupados en "Otros". Usa la función
+    matplotlib_utils#generate_pie_chart para generarla, sobre los datos que aporta #count_wines_per_country.
+
+    @param wines: vinos a obtener los datos para generar el gráfico
+    @param title: título que obtendrá el gráfico
+    @param others_label: etiqueta que obtendrá el valor "Otros", por defecto "Others", explicado anteriormente
+    """
     matplotlib_utils.generate_pie_chart(title, count_wines_per_country(wines),
-                                        inner_label=lambda percentage: f"{round(percentage, 2)} %")
+                                        inner_label=lambda percentage: f"{round(percentage, 2)} %",
+                                        others_label=others_label)

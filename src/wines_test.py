@@ -27,10 +27,13 @@ def main():
     test_get_percentages_of_origin_appellations_by_country(data)
     test_group_by_country_sorted_by_rating(data)
 
+    # Entrega 4
+    test_generate_wines_per_country_pie_chart(data)
 
-# --------------------------------------
-# ENTREGA 1
-# --------------------------------------
+
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 1
+# ----------------------------------------------------------------------------------------------------------------------
 
 def test_parse_file(path: str) -> None:
     print_test_header("parse_file")
@@ -46,13 +49,12 @@ def test_parse_file(path: str) -> None:
         print(" -", wine)
 
 
-# --------------------------------------
-# ENTREGA 2
-# --------------------------------------
-
-# ----------
-# BLOQUE I
-# ----------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 2
+# ----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     BLOQUE I
+# ----------------------------------------------------------------------------------------------------------------------
 def test_filter_by_country(data: Sequence[Wine]) -> None:
     print_test_header("filter_by_country")
     filter_by_country_and_print(data, "Portugal")
@@ -70,9 +72,9 @@ def test_calculate_mean_age(data: Sequence[Wine]) -> None:
     print("La edad media de los vinos dados es de", wines.calculate_mean_age(data), "años")
 
 
-# ----------
-# BLOQUE II
-# ----------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     BLOQUE II
+# ----------------------------------------------------------------------------------------------------------------------
 def test_get_oldest_wines(data: Sequence[Wine]) -> None:
     print_test_header("get_oldest_wines")
     print("El vino más antiguo es:")
@@ -110,13 +112,12 @@ def print_rated(grouped: Dict[float, List[Wine]], rate: float) -> None:
     print_iterable(grouped[rate])
 
 
-# --------------------------------------
-# ENTREGA 3
-# --------------------------------------
-
-# ----------
-# BLOQUE III
-# ----------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     ENTREGA 3
+# ----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                    BLOQUE III
+# ----------------------------------------------------------------------------------------------------------------------
 def test_count_wines_per_country(data: Sequence[Wine]):
     print_test_header("count_wines_per_country")
     count = wines.count_wines_per_country(data)
@@ -153,6 +154,15 @@ def test_group_by_country_sorted_by_rating(data: Sequence[Wine]):
 
     print(f"Mientras que los 5 peores vinos de Italia son:")
     print_sequence(worst["Italy"][:5])
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+#                                                     BLOQUE IV
+# ----------------------------------------------------------------------------------------------------------------------
+def test_generate_wines_per_country_pie_chart(data: Sequence[Wine]):
+    print_test_header("generate_wines_per_country_pie_chart")
+    print("Generando un gráfico circular que representa el porcentaje que tiene cada país del total de los vinos...")
+    wines.generate_wines_per_country_pie_chart(data)
 
 
 if __name__ == "__main__":

@@ -276,9 +276,5 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
 
 
 def generate_wines_per_country_pie_chart(wines: Iterable[Wine], title: str = "Wines per country") -> None:
-    data = sorted(count_wines_per_country(wines).items(), key=lambda item: item[1], reverse=True)
-
-    matplotlib_utils.generate_pie_chart(title,
-                                        [item[1] for item in data],
-                                        labels=[item[0] for item in data],
+    matplotlib_utils.generate_pie_chart(title, count_wines_per_country(wines),
                                         inner_label=lambda percentage: f"{round(percentage, 2)} %")

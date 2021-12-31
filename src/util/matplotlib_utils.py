@@ -9,8 +9,8 @@ def generate_pie_chart(title: str,
                        others_percentage: float = 0.03,
                        others_label: str = "Others") -> None:
 
-    _group_others(data, others_percentage, others_label)
-    labels, values = _order_and_unzip_labels_and_values(data, others_label)
+    data = _group_others(data, others_percentage, others_label)
+    labels, values = _sort_and_unzip_labels_and_values(data, others_label)
 
     plt.title(title)
     plt.pie(values, labels=labels, shadow=True, autopct=inner_label)
@@ -18,7 +18,8 @@ def generate_pie_chart(title: str,
     plt.show()
 
 
-def _group_others(data: Dict[str, int], percentage, others_label: str) -> None:
+def _group_others(data: Dict[str, int], percentage, others_label: str) -> Dict[str, int]:
+    data = dict(data)  # Don't mutate the given dictionary
     total = sum(data.values())
     max_allowed = total * percentage
 
@@ -27,10 +28,12 @@ def _group_others(data: Dict[str, int], percentage, others_label: str) -> None:
             del data[label]
             data[others_label] = data.get(others_label, 0) + value
 
+    return data
 
-def _order_and_unzip_labels_and_values(data: Dict[str, int], others_label) -> Tuple[str, int]:
+
+def _sort_and_unzip_labels_and_values(data: Dict[str, int], others_label) -> Tuple[str, int]:
     items = sorted(data.items(), key=lambda item: item[1], reverse=True)
-    labels, values = [list(generator) for generator in zip(*items)]  # Unzip, reverse zip operation [1]
+    labels, values = [list(generator_item) for generator_item in zip(*items)]  # Unzip, reverse zip operation [1]
 
     # Make "others" be at the end
     if others_label in data:

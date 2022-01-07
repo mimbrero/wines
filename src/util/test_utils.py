@@ -15,7 +15,7 @@ def print_iterable(iterable: Iterable[object], before: str = " ", after: str = "
         print(f"{before}- {item}{after}")
 
 
-def print_sequence(sequence: Sequence[object], before: str = " ", after: str = "") -> None:
+def print_sequence(sequence: Sequence[object], before: str = " ", after: str = "", offset: int = 0) -> None:
     """
     Prints one by one the elements of the given sequence (an ORDERED (tuple, list...) iterable).
     """
@@ -24,4 +24,4 @@ def print_sequence(sequence: Sequence[object], before: str = " ", after: str = "
         return
 
     for i, item in enumerate(sequence):
-        print(f"{before}[{i}] {item}{after}")
+        print(f"{before}[{i + offset}] {item}{after}")

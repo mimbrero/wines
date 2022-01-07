@@ -292,4 +292,5 @@ def generate_wines_per_country_pie_chart(wines: Iterable[Wine],
     """
     matplotlib_utils.generate_pie_chart(title, count_wines_per_country(wines),
                                         inner_label=lambda percentage: f"{round(percentage, 2)} %",
+                                        others_percentage=0.03,
                                         others_label=others_label)

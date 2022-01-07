@@ -11,7 +11,7 @@ def main():
     # Entrega 1
     test_parse_file(dataset_path)
 
-    # Ahora que hemos probado la función parse_file, podemos guardar su resultado para no parsear múltiples veces.
+    # Now that we just tested the parse_file function, we can use it and save the data to not parse every time.
     data = wines.parse_csv_file(dataset_path)
 
     # Entrega 2
@@ -85,13 +85,13 @@ def test_sort_by_age(data: Sequence[Wine]) -> None:
     print_test_header("sort_by_age")
 
     print("Los 5 vinos más antiguos son:")
-    print_sequence(wines.sort_by_age(data, limit=5))
+    print_sequence(wines.sort_by_age(data, limit=5), offset=1)
 
     print("\nMientras que los más 5 más nuevos son:")
-    print_sequence(wines.sort_by_age(data, descendant=True, limit=5))
+    print_sequence(wines.sort_by_age(data, descendant=True, limit=5), offset=1)
 
     print("\nY los más 2 más nuevos con al menos 5 años son:")
-    print_sequence(wines.sort_by_age(data, min_age=5, descendant=True, limit=2))
+    print_sequence(wines.sort_by_age(data, min_age=5, descendant=True, limit=2), offset=1)
 
 
 def test_group_by_ratings(data: Sequence[Wine]) -> None:
@@ -121,15 +121,20 @@ def print_rated(grouped: Dict[float, List[Wine]], rate: float) -> None:
 def test_count_wines_per_country(data: Sequence[Wine]):
     print_test_header("count_wines_per_country")
     count = wines.count_wines_per_country(data)
-    print("Italia produce", count["Italy"], "vinos")
     print("Eslovenia produce", count["Slovenia"], "vinos")
     print("Eslovaquia produce", count["Slovakia"], "vinos")
+
+    print("Italia produce", wines.count_wines_per_country(data, min_rating=3.5)["Italy"],
+          "vinos con una valoración mayor o igual a 3.5.")
+
+    print("Italia produce", wines.count_wines_per_country(data, min_rating=4.5)["Italy"],
+          "vinos con una valoración mayor o igual a 4.5.")
 
 
 def test_get_most_wine_producing_country(data: Sequence[Wine]):
     print_test_header("get_most_wine_producing_country")
-    most_producing_country = wines.get_most_wine_producing_country(wines.count_wines_per_country(data))
-    print("El país que más vinos produce es", most_producing_country[0], "con", most_producing_country[1], "vinos.")
+    country, count = wines.get_most_wine_producing_country(wines.count_wines_per_country(data))
+    print("El país que más vinos produce es", country, "con", count, "vinos.")
 
 
 def test_get_percentages_of_origin_appellations_by_country(data: Sequence[Wine]):
@@ -150,10 +155,10 @@ def test_group_by_country_sorted_by_rating(data: Sequence[Wine]):
     worst = wines.group_by_country_sorted_by_rating(data, n=5)
 
     print(f"Los 5 mejores vinos de Italia son:")
-    print_sequence(best["Italy"][:5])
+    print_sequence(best["Italy"], offset=1)
 
     print(f"Mientras que los 5 peores vinos de Italia son:")
-    print_sequence(worst["Italy"][:5])
+    print_sequence(worst["Italy"], offset=1)
 
 
 # ----------------------------------------------------------------------------------------------------------------------

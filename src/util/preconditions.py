@@ -1,6 +1,6 @@
 def check_value(condition, message):
     """
-    Raises a ValueError with the given message if the given condition is not True.
+    Levanta un ValueError con el mensaje especificado en el parámetro message si condition no es True.
 
     @param condition: condition to check if it's True
     @param message: message to raise the ValueError

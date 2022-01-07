@@ -193,7 +193,8 @@ def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_p
 def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int]:
     """
     Dado un diccionario donde las claves son países y los valores son el número de vinos de ese país, devuelve una
-    tupla con el país que más vinos produce y el número de vinos que produce en ese orden.
+    tupla con el país que más vinos produce y el número de vinos que produce en ese orden. (Se recomienda usar la
+    función anterior para obtener el diccionario que pide el parámetro de esta función).
 
     @param frequency: diccionario, preferiblemente un Counter, donde las claves son países y los valores son el
     número de vinos de ese país
@@ -266,9 +267,10 @@ def generate_wines_per_country_pie_chart(wines: Iterable[Wine],
                                          title: str = "Wines per country",
                                          others_label: str = "Others") -> None:
     """
-    Genera un gráfico circular o de pastel que representa el porcentaje que tiene cada país del total de los vinos.
-    Los países que tengan un número de vinos inferior al 3 % del total serán agrupados en "Otros". Usa la función
-    matplotlib_utils#generate_pie_chart para generarla, sobre los datos que aporta #count_wines_per_country.
+    Genera un gráfico circular o de pastel con el título especificado en el parámetro title, por defecto "Wines per
+    country" que representa el porcentaje que tiene cada país del total de los vinos. Los países que tengan un número
+    de vinos inferior al 3 % del total serán agrupados en un solo porcentaje con el nombre de others_label,
+    por defecto "Others". Usa los datos que aporta #count_wines_per_country.
 
     @param wines: vinos a obtener los datos para generar el gráfico
     @param title: título que obtendrá el gráfico

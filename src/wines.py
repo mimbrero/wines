@@ -180,10 +180,6 @@ def count_wines_per_country(wines: Iterable[Wine], min_rating: float = -1, min_p
     son el número de vinos de ese país, que tienen como mínimo una valoración min_rating y precio min_price (parámetros
     que por defecto son -1).
 
-    Funcionamiento: crea un Counter a partir de un Iterable por comprensión que contiene los países del Iterable pasado
-    como argumento, cada vez que el elemento tenga valoración y precio mayor o igual a los parámetros min_rating y
-    min_price.
-
     @param wines: vinos a obtener los valores del Counter
     @param min_rating: valoración mínima que debe tener un vino para ser contado
     @param min_price: precio mínimo que debe tener un vino para ser contado
@@ -198,9 +194,6 @@ def get_most_wine_producing_country(frequency: Dict[str, int]) -> Tuple[str, int
     """
     Dado un diccionario donde las claves son países y los valores son el número de vinos de ese país, devuelve una
     tupla con el país que más vinos produce y el número de vinos que produce en ese orden.
-
-    Funcionamiento: si el diccionario dado como parámetro no es de tipo Counter, instancia uno a partir del diccionario.
-    Si lo es, continúa. Luego, mediante Counter#most_common, obtiene la primera tupla clave-valor.
 
     @param frequency: diccionario, preferiblemente un Counter, donde las claves son países y los valores son el
     número de vinos de ese país
@@ -219,11 +212,6 @@ def get_percentages_of_origin_appellations_by_country(wines: Iterable[Wine]) -> 
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son el porcentaje de
     vinos con denominación de origen que tiene ese país con respecto a todos los países. Es decir, si hay 100 vinos
     con denominación de origen entre todos los países e Italia tiene 50, Italia tendrá como valor 0.5 (un 50 %).
-
-    Funcionamiento: primero recorre el Iterable de Wines para contar el total de vinos que tienen la propiedad
-    origin_appellation como True, y los agrupa en un diccionario cuyas claves son países y los valores son el número
-    de vinos de ese país que tienen la propiedad origin_appellation como True. Posteriormente genera otro diccionario,
-    por comprensión, calculando los porcentajes con base en el anterior y el total de vinos con denominación de origen.
 
     @param wines: vinos a calcular los porcentajes
     @return: un diccionario con claves str y valores float, explicado anteriormente
@@ -253,10 +241,6 @@ def group_by_country_sorted_by_rating(wines: Iterable[Wine], n: int = 10,
     """
     Dado un Iterable de Wines, devuelve un diccionario cuyas claves son países y los valores son una lista de n vinos
     de ese país ordenada de menor a mayor valoración (o de mayor a menor si descendant es True).
-
-    Funcionamiento: primero crea un diccionario que agrupa los vinos por país, y posteriormente ordena los valores de
-    ese diccionario por valoración del vino (en orden descendente si lo pide el parámetro descendant), haciendo slice
-    a n elementos.
 
     @param wines: vinos a agrupar por país ordenados por valoración
     @param n: número máximo de vinos que contendrán los valores del diccionario
